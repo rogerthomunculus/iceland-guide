@@ -20,7 +20,7 @@ const hotels = {
     rating: "4.8", reviews: "461", price: "$2,120 total (3 nights)",
     dates: "Jul 20–23 · 3 nights",
     highlight: "4.8 stars — highest-rated hotel on the Ring Road",
-    why: "Closest hotel to the lagoon. Outdoor hot tubs, sauna with glacier views, on-site restaurant. Reviewers consistently call it their favourite stay in all of Iceland. Policy check: email sent to confirm room type accommodates family of 4.",
+    why: "Closest hotel to the lagoon. Outdoor hot tubs, sauna with glacier views, on-site restaurant. Reviewers consistently call it their favourite stay in all of Iceland. Hotel confirmed the booked room accommodates your family of 4 — no upgrade needed.",
     phone: "+354 449 7000",
     bookUrl: "https://www.booking.com/hotel/is/glacier-lagoon.html",
     directUrl: "https://hoteljokulsarlon.is/",
@@ -52,43 +52,62 @@ const camps = [
     name: "Reykjavik",
     days: [
       {
-        n: 1, date: "Wed Jul 16", title: "Arrival — easy day",
+        n: 1, date: "Thu Jul 16", title: "Arrival — take it easy",
         drive: "Keflavik to Reykjavik: 49 km · 45 min",
         plan: [
-          "Land 6:25 AM — you have been traveling since yesterday. Take it slow.",
-          "Collect rental SUV — confirm child seats, gravel + SAAP insurance",
-          "Drive to Reykjavik, check in, drop bags (request early check-in)",
+          "Land 6:25am — you have been traveling since yesterday. Pace yourself.",
+          "Collect rental SUV — confirm child seats, gravel + SAAP insurance, automatic",
+          "Drive to Reykjavik, check in at Reykjavik Residence (request early check-in)",
           "Big grocery run at Bonus supermarket — stock up for the whole trip",
-          "Short walk to Old Harbour, easy dinner nearby",
+          "Short walk to Old Harbour, early dinner, get the kids to sleep at a normal Iceland bedtime",
         ],
         creatures: [],
-        tip: "Do not try the Golden Circle today. Grocery run + rest is the right call. Bonus is Iceland's cheapest supermarket — spend $150 now and save $600+ over the trip.",
+        tip: "Resist the urge to 'make the most' of day one — jet lag from a 13-hr overnight flight with kids is brutal. Bonus is Iceland's cheapest supermarket. Pick up skyr, bread, snacks, easy breakfast, and kid-friendly dinner for the apartment kitchen. Spending $150 here saves $600+ over the trip.",
       },
       {
-        n: 2, date: "Thu Jul 17", title: "Whales + Puffins",
-        drive: "No driving — full day in Reykjavik",
+        n: 2, date: "Fri Jul 17", title: "Whales + Puffins + Harbor",
+        drive: "No driving — full day walking Reykjavik",
         plan: [
-          "Morning: Whales of Iceland Museum — life-size models kids can touch",
+          "Breakfast at apartment (kitchen saves time and money all week)",
+          "Morning: Whales of Iceland museum — life-size models kids can touch",
           "Late morning: Puffin Express from Old Harbour — 1 hr, 10,000+ puffins at Lundey island",
-          "Packed lunch back in the city",
+          "Lunch: Baejarins Beztu hot dog stand (legendary, $5/each) — order 'ein með öllu' = 'one with everything'",
           "Afternoon: Classic Whale Watching tour — 3 to 3.5 hrs in Faxafloi Bay",
-          "Evening: Baejarmins Beztu hot dog stand — legendary, $3, kids will approve",
+          "Dinner at apartment or grab fish and chips at Reykjavik Fish Restaurant",
         ],
         creatures: ["🐋 Humpback and Minke whales in Faxafloi Bay", "🦜 10,000+ puffins at Lundey island", "🐬 White-beaked dolphins (common in July)"],
-        tip: "Book whale watching with Elding (elding.is) — departs Old Harbour, 5 min from hotel. Pack Sea-Bands for the 6-year-old. Morning departures have the calmest seas.",
+        tip: "Book Elding whale watching (elding.is) — departs Old Harbour, 5 min walk from apartment. Morning departures have the calmest seas. Pack Sea-Bands for the 6-year-old before boarding. Bring layers — it's cold on the water even in July.",
       },
       {
-        n: 3, date: "Fri Jul 18", title: "Golden Circle Day Trip",
+        n: 3, date: "Sat Jul 18", title: "Golden Circle Day Trip",
         drive: "Reykjavik loop ~240 km · ~3.5 hrs spread across the day",
         plan: [
+          "Leave Reykjavik by 9am",
           "Thingvellir National Park — walk the rift between tectonic plates",
           "Geysir — Strokkur erupts every 5 to 8 minutes, kids will lose it",
+          "Lunch stop: Fridheimar tomato farm restaurant — family lunches inside a greenhouse with tomato plants everywhere, famous tomato soup (book ahead)",
           "Gullfoss — double-tiered waterfall, walk right to the edge",
-          "Secret Lagoon in Fludir — quieter and cheaper than Blue Lagoon, $28/adult",
+          "Secret Lagoon in Fludir — quieter and cheaper than Blue Lagoon, $28/adult, kid-friendly",
           "Back to Reykjavik hotel by evening",
         ],
         creatures: ["🦢 Arctic terns at Thingvellir lake", "🐑 Icelandic sheep everywhere on the drive"],
-        tip: "Go to Geysir late afternoon — tour buses gone by 6pm. With 24-hr daylight you can visit at 8pm in brilliant sunshine. The tectonic plate walk at Thingvellir is 100 metres long and geologically mind-bending for kids.",
+        tip: "Fridheimar is a genuine highlight — a working tomato greenhouse with a restaurant literally among the plants. Kids love it. Book a table at fridheimar.is ahead of time. Order the tomato soup with unlimited refills.",
+      },
+      {
+        n: 4, date: "Sun Jul 19", title: "Reykjavik Full Day",
+        drive: "No driving — downtown walk",
+        plan: [
+          "Slow breakfast at apartment",
+          "Morning: Hallgrimskirkja church + elevator to the top for city views",
+          "Mid-morning coffee and pastries at Braud & Co (rainbow-painted bakery, legendary kleina)",
+          "Walk Laugavegur main shopping street — lopapeysa shopping at the Handknitting Association",
+          "Lunch at Icelandic Street Food — unlimited lamb soup refills, complimentary waffles with jam",
+          "Afternoon: Perlan museum — inside a real ice cave, northern lights planetarium",
+          "Sun Voyager sculpture + Harpa Concert Hall at golden hour (but it never sets)",
+          "Dinner: Messinn harbor location — big fish skillets for sharing ($30-35 feeds 2-3 kids)",
+        ],
+        creatures: [],
+        tip: "Hallgrimskirkja elevator is $12/adult, kids cheap. Skip the line by going right after it opens at 10am. Perlan is built inside an old hot water tank with a real 100m ice cave you can walk through — genuine wow factor for kids.",
       },
     ],
   },
@@ -96,88 +115,89 @@ const camps = [
     name: "Glacier Zone",
     days: [
       {
-        n: 4, date: "Sat Jul 19", title: "South Coast Drive",
-        drive: "Reykjavik to Glacier Zone: ~330 km · 4.5 hrs spread with stops",
+        n: 5, date: "Mon Jul 20", title: "South Coast Drive → Glacier Zone",
+        drive: "Reykjavik to Glacier Zone: ~370 km · plan 8+ hrs with all the stops",
         plan: [
-          "Leave Reykjavik by 8am",
-          "Seljalandsfoss — walk BEHIND the waterfall. Full raincoat required.",
-          "Gljufrabui — secret waterfall hidden in a cave, 10 min walk from road",
-          "Skogafoss — hike the staircase for rainbow views at the top",
-          "Reynisfjara black sand beach — basalt columns, sea stacks, crashing surf",
-          "Continue east to hotel, check in — home for 3 nights",
+          "Leave Reykjavik by 8am — major stop day",
+          "Seljalandsfoss — walk BEHIND the waterfall (full raincoat required)",
+          "Gljufrabui — secret waterfall hidden inside a cave, 10 min walk from road",
+          "Skogafoss — hike the 370-step staircase for rainbow views at the top",
+          "Lunch stop in Vik: Sudur-Vik (lamb leg, arctic char, kids menu) or Black Crust Pizzeria",
+          "Reynisfjara black sand beach — basalt columns, sea stacks, crashing surf (stay BACK from water)",
+          "Dyrholaey promontory if time — puffins nesting on cliffs until mid-August",
+          "Continue east. Optional Fjadrarglufur canyon pullover (10 min detour)",
+          "Arrive Hotel Jokulsarlon by evening, check in — home for 3 nights",
         ],
-        creatures: ["🦭 Seals sometimes spotted along Seljalandsa river", "⚠️ Sneaker waves at Reynisfjara are dangerous — stay 30m from the water"],
-        tip: "Stock up food in Vik before heading east — almost no shops for the next 2.5 hrs. Fill the tank in Vik too.",
+        creatures: ["🦭 Seals sometimes spotted along Seljalandsa river", "🦜 Puffins nesting at Dyrholaey cliffs (bring binoculars)", "⚠️ Sneaker waves at Reynisfjara are deadly — NEVER turn your back on the water, stay 30m up the beach"],
+        tip: "This is the longest and most packed driving day of the trip. Pack snacks, water, audiobooks. Stock up in Vik (last real grocery store) — it's 2 hrs east to Kirkjubaejarklaustur before the next options. The Reynisfjara warning is real, people die here every year.",
       },
       {
-        n: 5, date: "Sun Jul 20", title: "Glacier Lagoon + Diamond Beach",
+        n: 6, date: "Tue Jul 21", title: "Glacier Lagoon + Diamond Beach",
         drive: "Hotel to lagoon: ~10 min each way",
         plan: [
-          "Morning: Jokulsarlon amphibious boat tour among icebergs the size of buildings",
-          "Spend time watching seals play in the lagoon",
+          "Slow morning at hotel (kids need it after yesterday's drive)",
+          "Late morning: Jokulsarlon amphibious boat tour among icebergs the size of buildings",
+          "Watch seals play in the lagoon from the shore",
+          "Lunch at Fancy Sheep Truck right in the lagoon parking lot — lamb burgers, fish and chips, coffee",
           "Diamond Beach across the road — icebergs washing up on jet-black sand",
-          "Return to hotel for dinner",
+          "Afternoon back to hotel for hot tub + sauna + rest",
+          "Dinner at hotel restaurant (the isolated location means no other real options nearby)",
           "Back to the lagoon at 10pm — midnight sun, zero crowds, completely surreal",
         ],
-        creatures: ["🦭 Harbor seals among icebergs — almost guaranteed", "🕊️ Arctic terns near Diamond Beach", "🐦 Great skuas on the lagoon shore"],
+        creatures: ["🦭 Harbor seals among icebergs — almost guaranteed", "🕊️ Arctic terns near Diamond Beach (they will dive at you, wear a hat)", "🐦 Great skuas on the lagoon shore"],
         tip: "The lagoon at 10pm under the midnight sun is the single most surreal experience in Iceland. Go twice — afternoon for the boat tour, late evening for the light and quiet. Your kids will remember this forever.",
       },
       {
-        n: 6, date: "Mon Jul 21", title: "Glacier Walk at Skaftafell",
+        n: 7, date: "Wed Jul 22", title: "Glacier Walk at Skaftafell",
         drive: "Hotel to Skaftafell: ~45 min each way",
         plan: [
           "Skaftafell visitor centre — pick up your guided glacier walk (pre-booked)",
-          "3-hour walk on Vatnajokull — Europe's largest glacier, crampons and helmets provided",
-          "Svartifoss waterfall hike after — 45 min each way, stunning basalt column backdrop",
-          "Afternoon: relax at hotel hot tubs",
-          "Optional evening: Fjadrarglufur Canyon — stunning green gorge nearby",
+          "3-hour family glacier walk on Vatnajokull (Europe's largest glacier) — crampons and helmets provided",
+          "Lunch at Skaftafell Bistro — soup, sandwiches, coffee. The cafe in the visitor centre.",
+          "Svartifoss waterfall hike after lunch — 45 min each way, stunning basalt columns behind the falls",
+          "Afternoon drive back, relax at hotel hot tubs",
+          "Optional evening: Fjadrargljufur canyon — stunning green gorge on the way back",
+          "Dinner at hotel — their arctic char is excellent",
         ],
         creatures: ["🦅 White-tailed eagles occasionally near Skaftafell", "🐦 Ptarmigan on the glacier margins"],
-        tip: "Book with Icelandic Mountain Guides (icelandicmountainguides.is). Minimum age ~6 for beginner walks — confirm when booking. Dress in warm layers under waterproofs — noticeably colder on the ice.",
+        tip: "Book with Icelandic Mountain Guides (icelandicmountainguides.is). Minimum age ~6 for the Blue Ice Experience beginner walk — confirm when booking. Layer up under waterproofs. It's noticeably colder on the ice even in July.",
       },
     ],
   },
   {
-    name: "Akureyri / Mývatn",
+    name: "Akureyri + Mývatn",
     days: [
       {
-        n: 7, date: "Tue Jul 22", title: "East Fjords Drive",
-        drive: "Glacier Zone to Myvatn: ~430 km · take it slow, 5 to 6 hrs",
+        n: 8, date: "Thu Jul 23", title: "Glacier → East Fjords → Mývatn → Akureyri",
+        drive: "Glacier Zone to Akureyri via Mývatn: ~580 km · the biggest drive day, 9+ hrs with stops",
         plan: [
-          "Hvalnes Lighthouse — dramatic lava spit right off the Ring Road",
-          "East Fjords scenic drive — winding through fjords, pull over whenever",
-          "Seydisfjordur detour — 30 min off Ring Road, rainbow road and church",
-          "Hengifoss waterfall near Egilsstadir — 2.5km trail, red-striped rock faces",
-          "Arrive Myvatn, check in — home for 3 nights",
+          "Hard start — leave hotel by 7:30am",
+          "Hofn for fuel + a proper bathroom stop (10-15 min)",
+          "Optional breakfast at Kaffi Hornid in Hofn (famous langoustine soup if you want lunch for breakfast)",
+          "Drive the East Fjords — scenic but long. Pull over whenever kids need a break",
+          "Stop at Djupivogur — tiny village with colorful harbor",
+          "Mid-afternoon: arrive at Mývatn area (3-4 hr stop)",
+          "Hit Mývatn highlights: Dimmuborgir lava labyrinth, Skútustaðir pseudo-craters, Hverir geothermal area (boiling mud, sulfur steam — alien landscape)",
+          "Vogafjós farm restaurant for dinner — cowshed dining room with lake views, smoked lamb, fresh trout, Geysir bread baked underground (the kids will love watching the cows)",
+          "Drive 90 min west to Akureyri Log Cabin, arrive by 9-10pm (still light out)",
         ],
-        creatures: ["🦌 REINDEER — scan roadsides constantly in East Iceland", "🦅 White-tailed eagles near the fjords", "🦭 Harbor seals at Stodvarfjordur"],
-        tip: "Longest driving day — leave by 8am. Stock food in Hofn first. East Fjords have almost no services. Tell the kids their job is to spot reindeer. They will take this very seriously.",
+        creatures: ["🦌 REINDEER — scan roadsides constantly in East Iceland", "🦅 White-tailed eagles near the fjords", "🦭 Harbor seals at Djupivogur", "🦆 15+ duck species around Mývatn lake"],
+        tip: "This is THE drive day. Pre-download 3+ hours of audiobooks/shows for the kids. Ice pack in the cooler with skyr and fruit. Make reindeer-spotting a game — they're real and they're there. Vogafjós is the dining highlight of your trip — the restaurant is inside a converted working dairy cowshed with floor-to-ceiling windows into the barn.",
       },
       {
-        n: 8, date: "Wed Jul 23", title: "Husavik — Whale Capital of Europe",
-        drive: "Myvatn to Husavik and back: ~100 km · 1.5 hrs each way",
+        n: 9, date: "Fri Jul 24", title: "Akureyri — City Recovery Day",
+        drive: "Local only — under 15 min driving total",
         plan: [
-          "Drive to Husavik (1 hr from Myvatn)",
-          "Whale Museum — great primer before the boat trip",
-          "North Sailing whale and puffin combo — 3 hrs on traditional oak boat",
-          "Puffin Island first (100,000+ birds), then out for humpbacks and minkes",
-          "Lunch in Husavik, return to Myvatn base",
+          "Sleep in — everyone earned it",
+          "Late breakfast at Kaffi Ilmur (downtown Akureyri) — homemade pastries and the city's best coffee",
+          "Akureyri Botanical Garden — free entry, stunning roses and Arctic plants, great for kids to run around",
+          "Lunch at Bryggjan by the harbor — fresh fish, kid-friendly menu",
+          "Akureyri Swimming Pool (Sundlaug Akureyrar) — 2 hrs there, Icelanders' favorite pool in the country, slides + hot tubs + outdoor pool, family-priced",
+          "Ice cream at Brynja — legendary ice cream shop open since 1939, the soft-serve is the stuff of Icelandic childhood",
+          "Quiet evening back at the cabin — grill dinner or Akureyri Fish & Chips takeaway",
         ],
-        creatures: ["🐋 Humpback whales — highest sighting rate in Iceland", "🦜 100,000+ puffins at Puffin Island", "🐬 White-beaked dolphins in Skjalfandi Bay"],
-        tip: "Book North Sailing (northsailing.is) — combo tour ~$100/adult, ~$55/child. Book 2 to 3 months ahead for July. Visiting the Whale Museum before the boat makes the experience 10x richer for kids.",
-      },
-      {
-        n: 9, date: "Thu Jul 24", title: "Myvatn Geothermal + Birdlife",
-        drive: "All local — under 30 min driving total",
-        plan: [
-          "Dimmuborgir lava formations — labyrinth of twisted black towers kids can explore",
-          "Skutustadir pseudo-craters — walk the rim of alien-looking explosion craters",
-          "Krafla volcano and Leirhnjukur lava field — steaming vents, vivid orange and black",
-          "Afternoon bird walk around the lake shore with binoculars",
-          "Evening: Myvatn Nature Baths — go late for no crowds, kids under 12 free",
-        ],
-        creatures: ["🦆 15+ duck species on Lake Myvatn incl. rare Barrow's Goldeneye", "🐦 Gyrfalcon (Iceland's national bird) sometimes near Dimmuborgir"],
-        tip: "July brings midges (tiny flies) at Myvatn — they don't bite but swarm. Bug nets sold locally. Nature Baths at 9pm: $38/adult, free under 12, almost empty at that hour.",
+        creatures: ["🦢 Ducks in the botanical garden pond"],
+        tip: "This day is intentionally easy. After the east fjords + Mývatn marathon, the kids (and you) need recovery. The Akureyri pool is a local institution — Icelanders consider it the best public pool in the country, and at ~$12 for the whole family it's the best value activity of your trip. Brynja is a pilgrimage for Icelanders — do not leave without trying their soft-serve.",
       },
     ],
   },
@@ -185,30 +205,38 @@ const camps = [
     name: "Snaefellsnes",
     days: [
       {
-        n: 10, date: "Fri Jul 25", title: "Drive to Snaefellsnes",
-        drive: "Myvatn to Snaefellsnes: ~330 km · ~4 hrs",
+        n: 10, date: "Sat Jul 25", title: "Drive Akureyri → Snaefellsnes",
+        drive: "Akureyri to Olafsvik: ~430 km · ~5.5 hrs with stops",
         plan: [
-          "Drive west from Myvatn across north Iceland",
-          "Stop in Akureyri for lunch — Iceland's 'capital of the north'",
-          "Arrive Snaefellsnes mid-afternoon, check in — home for 2 nights",
-          "Afternoon: Kirkjufell mountain and waterfall — most photographed in Iceland",
-          "Evening: settle in, dinner at hotel",
+          "Breakfast at cabin, check out by 10am",
+          "Drive south and west across north Iceland",
+          "Stop in Varmahlid for fuel + snacks",
+          "Lunch in Blonduos at Vinberid — famous homemade ice cream cafe with real food too",
+          "Optional short detour to Hvammstangi (seal watching centre — Iceland's seal capital)",
+          "Continue west onto Snaefellsnes peninsula",
+          "Arrive Hotel Vest Mar in Olafsvik by late afternoon — home for 2 nights",
+          "Evening: Kirkjufell mountain and waterfall — 15 min drive east, most photographed mountain in Iceland",
+          "Dinner at Sker Restaurant (in your hotel)",
         ],
-        creatures: ["🐴 Icelandic horses on farms throughout the peninsula", "🦅 White-tailed eagles along the coastline"],
-        tip: "Hotel Stundarfridur is centrally located on the peninsula — perfect base for both north and south sides without backtracking. Dinner at the hotel is excellent.",
+        creatures: ["🐴 Icelandic horses on farms throughout the drive", "🦭 Seals at Hvammstangi if you detour"],
+        tip: "Kirkjufell at 9-10pm with golden hour light is magic — plenty of time to drive there after dinner since it stays light until past midnight. Arnarstapi village is 30 min south of your hotel, keep it in mind for tomorrow.",
       },
       {
-        n: 11, date: "Sat Jul 26", title: "Snaefellsnes Full Day",
-        drive: "Peninsula loop ~100 km · 2 hrs spread across the day",
+        n: 11, date: "Sun Jul 26", title: "Snaefellsnes Peninsula Full Day",
+        drive: "Peninsula loop ~120 km · 2-3 hrs spread across the day",
         plan: [
-          "Ytri-Tunga beach — Iceland's most reliable seal colony, walk right up to the rocks",
-          "Snaefellsjokull glacier volcano — Jules Verne's Journey to the Center of the Earth",
-          "Arnarstapi lava arch — puffin burrows visible right from the path",
+          "Breakfast at hotel",
+          "Morning: drive south to Ytri-Tunga beach — Iceland's most reliable seal colony, walk right up to the rocks (45 min drive)",
+          "Arnarstapi village + lava arch — puffin burrows visible right from the coastal path",
+          "Lunch: Fjöruhúsið cafe in Hellnar — literally on the beach, legendary fish soup (tiny and amazing)",
+          "Snaefellsjokull glacier volcano viewing — Jules Verne's Journey to the Center of the Earth",
           "Djupalonssandur black pebble beach and shipwreck remains",
-          "Horse riding at a local farm — book the day before through the hotel",
+          "Vatnshellir Cave tour — descend 35m into a lava tube (~$50/adult, book ahead, minimum age 5)",
+          "Return to hotel. Dinner at Sjávarpakkhúsið in Stykkishólmur (worth the drive for fresh fish)",
+          "Evening: Kirkjufell again at midnight sun golden hour if you have stamina",
         ],
-        creatures: ["🦭 10 to 30 seals lounging at Ytri-Tunga (almost guaranteed)", "🦜 Puffins nesting at Arnarstapi cliffs", "🐴 Icelandic horses — calm, small, perfect for a 6-year-old"],
-        tip: "Ytri-Tunga is a private farm beach with a small parking fee (~$5). The seals are completely habituated to visitors and will stare back at your kids from 3 metres away.",
+        creatures: ["🦭 10-30 seals at Ytri-Tunga (almost guaranteed)", "🦜 Puffins nesting at Arnarstapi cliffs", "🐴 Icelandic horses — ask hotel about a riding tour"],
+        tip: "Ytri-Tunga is a private farm beach with ~$5 parking fee. The seals are so habituated they'll stare back at your kids from 3 metres away. Fjöruhúsið cafe is hard to find (look for the tiny wooden building right on the beach in Hellnar) — the soup is considered one of the best in Iceland by locals. Stop in Bjarnarhöfn shark museum if you want to try hákarl (fermented shark) and terrify the kids.",
       },
     ],
   },
@@ -216,17 +244,19 @@ const camps = [
 
 const finalDay = {
   date: "Sun Jul 27",
-  drive: "Snaefellsnes to Blue Lagoon to Keflavik: ~170 km · ~2 hrs",
+  drive: "Snaefellsnes → Borgarnes → Keflavik: ~210 km · ~2.5 hrs",
   plan: [
-    "Leisurely morning — check out by 10am",
-    "Drive south toward the airport",
-    "Blue Lagoon Comfort package: arrive 12pm, soak until ~2:30pm",
-    "Return rental SUV at Keflavik — arrive 2+ hrs before 5:10pm flight",
+    "Leisurely morning — no rush, check out by 9-9:30am",
+    "Drive south through Snæfellsnes — the drive itself is beautiful, final views of the glacier",
+    "Stop: Borgarnes (~11:30am) — lunch at Englendingavík restaurant by the harbor",
+    "Dessert: Geirabakari Kaffihús bakery next door — chocolate cinnamon buns, featured in The Secret Life of Walter Mitty",
+    "Drive 1 hour south to Keflavík, return rental SUV by 2:30-3pm",
     "Fill tank before returning — companies charge 3x market rate to refuel",
-    "Fly home — arrive New Orleans 12:20am Jul 28",
+    "Check in, security, airport — relaxed with time to spare",
+    "Fly home 5:10pm — arrive New Orleans 12:20am Jul 28",
   ],
-  creatures: ["🌊 Blue Lagoon: milky-blue geothermal silica water at 38C / 100F"],
-  tip: "Comfort package (~$120/adult, ~$60/child) includes in-water drink, silica mask, and towel. Arrive at your exact booked time — they are strict. Book at bluelagoon.com only, never third-party sites.",
+  creatures: ["🦭 Last chance: Icelandic horses in fields along Route 54", "🐦 Seabirds at Borgarnes harbor"],
+  tip: "Englendingavík is in an 1885 building on a quiet bay — fish-focused, harbor views, family-friendly, consistently the best meal in Borgarnes. Blue Lagoon moved to a Reykjavik day trip (Jul 18 or 19 afternoon). Travel days with two small kids should be relaxed, not a race.",
 };
 
 const bookingPhases = [
@@ -235,7 +265,7 @@ const bookingPhases = [
     items: [
       { text: "Flights booked — MSY → KEF Jul 15 night, KEF → MSY Jul 27 5:10pm", note: "Confirmed", url: null },
       { text: "Reykjavik Residence Apartment Hotel — Jul 16-20 · $2,469", note: "Premium 2BR apartment with full kitchen", url: null },
-      { text: "Hotel Jokulsarlon Glacier Lagoon — Jul 20-23 · $2,120", note: "Policy email sent about family room", url: null },
+      { text: "Hotel Jokulsarlon Glacier Lagoon — Jul 20-23 · $2,120", note: "Family of 4 confirmed OK in booked room", url: null },
       { text: "Akureyri Log Cabin — Jul 23-25 · $878", note: "Replaced sold-out Mývatn options. Mývatn becomes a drive-day stop.", url: null },
       { text: "Hotel Vest Mar (Olafsvik, Snæfellsnes) — Jul 25-27 · $904", note: "Renovated 2025, 10 min from National Park entrance", url: null },
       { text: "T-Mobile confirmed for Iceland — data roaming included on your plan", note: "Enable data roaming before you leave", url: null },
@@ -246,21 +276,10 @@ const bookingPhases = [
     label: "🔴 This Week — Do Not Delay", urgent: true,
     items: [
       { text: "Travel insurance — family of 4, 12 days, adventure activities covered", note: "Buy within 14 days of first trip deposit for CFAR and pre-existing coverage", url: "https://www.squaremouth.com/travel-insurance-providers/tin-leg/gold" },
-      { text: "Blue Lagoon Comfort package — Jul 27 around 12pm slot", note: "Book direct only — third-party sites are scams", url: "https://www.bluelagoon.com/" },
+      { text: "Blue Lagoon Comfort package — Jul 18 or 19, afternoon slot (3-4pm)", note: "Reykjavik day trip, not departure day. Comfort package only. Book at bluelagoon.com directly.", url: "https://www.bluelagoon.com/" },
       { text: "North Sailing whale + puffin combo, Husavik (day trip from Akureyri Jul 24)", note: "~$100/adult, ~$55/child. Books out months ahead for July.", url: "https://www.northsailing.is/" },
       { text: "Order Wise card — takes 2 to 3 weeks to arrive", note: "Best exchange rate, no foreign transaction fees", url: "https://wise.com/us/card/" },
-      { text: "Rental SUV — MyCar or Lava Car Rental", note: "Large 4x4 SUV, gravel protection (GP), SAAP, 2 child seats, GPS, automatic", url: "https://www.mycar.is/" },
-      { text: "Follow up on glacier lagoon family room email", note: "Call +354 449 7000 if no reply within 48 hours", url: null },
-    ],
-  },
-  {
-    label: "🔴 This Week — Do Not Delay", urgent: true,
-    items: [
-      { text: "Travel insurance — family of 4, 12 days, adventure activities covered", note: "Buy within 14 days of first trip deposit for CFAR and pre-existing coverage", url: "https://www.squaremouth.com/travel-insurance-providers/tin-leg/gold" },
-      { text: "Blue Lagoon Comfort package — Jul 27 around 12pm slot", note: "Book direct only — third-party sites are scams", url: "https://www.bluelagoon.com/" },
-      { text: "North Sailing whale + puffin combo, Husavik", note: "~$100/adult, ~$55/child. Books out months ahead for July. Date follows Myvatn check-in.", url: "https://www.northsailing.is/" },
-      { text: "Order Wise card — takes 2 to 3 weeks to arrive", note: "Best exchange rate, no foreign transaction fees", url: "https://wise.com/us/card/" },
-      { text: "Rental SUV — MyCar or Lava Car Rental", note: "Large 4x4 SUV, gravel protection (GP), SAAP, 2 child seats, GPS, automatic", url: "https://www.mycar.is/" },
+      { text: "Rental SUV — MyCar or Lotus Car Rental", note: "Toyota RAV4 or Kia Sportage, automatic, 4x4/AWD. Platinum/Zero Excess insurance. 2 high-back boosters reserved. Additional driver added. Credit card in main driver's name. Measure kids' heights first.", url: "https://www.mycar.is/" },
     ],
   },
   {
@@ -318,7 +337,7 @@ const activities = [
   { name: "Jokulsarlon Amphibious Boat Tour", location: "Glacier Lagoon", price: "$65 adult / $35 child", duration: "45 min", book: "icelagoon.is", priority: true },
   { name: "Family Glacier Walk (Vatnajokull)", location: "Skaftafell", price: "$85 adult / $65 child", duration: "3 hrs", book: "icelandicmountainguides.is", priority: true },
   { name: "Icelandic Horse Riding", location: "Snaefellsnes", price: "$80 adult / $60 child", duration: "1 to 2 hrs", book: "Book through hotel", priority: true },
-  { name: "Blue Lagoon Comfort Package", location: "Grindavik / airport", price: "$120 adult / $60 child", duration: "2 to 3 hrs", book: "bluelagoon.com ONLY", priority: true },
+  { name: "Blue Lagoon Comfort Package", location: "Reykjavik day trip (Jul 18 or 19)", price: "$120 adult / $60 child", duration: "2 to 3 hrs", book: "bluelagoon.com ONLY — book afternoon slot 3pm or 4pm. Comfort package only, skip Lava Restaurant for family visit.", priority: true },
   { name: "Myvatn Nature Baths", location: "Lake Myvatn", price: "$38 adult / FREE under 12", duration: "2 hrs", book: "jardbadin.is", priority: false },
   { name: "Secret Lagoon", location: "Fludir, Golden Circle", price: "$28 adult / $15 child", duration: "1.5 hrs", book: "secretlagoon.is", priority: false },
   { name: "Whale Museum Husavik", location: "Husavik", price: "$22 adult / $10 child", duration: "1 hr", book: "Walk-in fine", priority: false },
@@ -382,30 +401,40 @@ const carCompanies = [
   {
     name: "MyCar Rental",
     rating: "9.6", reviews: "493",
-    tag: "Top Rated",
+    tag: "Top Pick",
     tagColor: "#4a9ab5",
     fleet: "2023–2025 vehicles",
-    notes: "Highest-rated company in Iceland. Free airport shuttle. Connected to Toyota's nationwide service network — reassuring on long drives.",
+    notes: "Highest-rated Icelandic company. Connected to Toyota's nationwide service network — if anything breaks on the Ring Road, you have backup. Free airport shuttle, smooth pickup.",
     url: "https://www.mycar.is/",
     priceRange: "$90–590/day",
   },
   {
+    name: "Lotus Car Rental",
+    rating: "9.6", reviews: "500+",
+    tag: "Best Value",
+    tagColor: "#4a8a68",
+    fleet: "2022–2025 vehicles",
+    notes: "Local family-owned. Platinum insurance includes FREE WIFI IN THE CAR — genuinely useful for road.is and maps. No deposit with a valid credit card. 24/7 office, self-service pickup available with Platinum.",
+    url: "https://www.lotuscarrental.is/",
+    priceRange: "$75–520/day",
+  },
+  {
     name: "Lava Car Rental",
     rating: "9.4", reviews: "2,000+",
-    tag: "Best for Families",
-    tagColor: "#4a8a68",
+    tag: "Family Favorite",
+    tagColor: "#c08030",
     fleet: "Brand new vehicles only",
-    notes: "Family-owned since 2016. No deposit at pickup. All insurance included as standard. Won Iceland's Leading Car Rental award 2023 and 2024. 5 min from Keflavik Airport with free shuttle.",
+    notes: "Family-owned since 2016. No deposit at pickup. All insurance included as standard. Won Iceland's Leading Car Rental award 2023 and 2024. 5 min from Keflavik with free shuttle.",
     url: "https://www.lavacarrental.is/",
     priceRange: "$80–400/day",
   },
   {
     name: "Blue Car Rental",
     rating: "8.8", reviews: "1,000+",
-    tag: "No Deposit",
+    tag: "Closest to Airport",
     tagColor: "#8a6aa8",
     fleet: "New fleet, no older models",
-    notes: "Transparent pricing, no hidden fees, no deposit. Discounted fuel at partner stations around Iceland. Consistently smooth pickup and dropoff experience.",
+    notes: "300m from KEF terminal. Transparent pricing, no hidden fees, no deposit. Discounted fuel at partner stations. Consistently smooth operations.",
     url: "https://www.bluecarrental.is/",
     priceRange: "$75–520/day",
   },
@@ -417,42 +446,70 @@ const insuranceItems = [
     included: true,
     verdict: "Included — verify at booking",
     color: "#4a8a68",
-    detail: "Covers collision damage to the car body. Usually included as standard. Confirm it is included before signing.",
+    detail: "Covers collision damage to the car body with a deductible. Third-Party Liability (legally required) is also included automatically. Both baseline coverages come with every rental.",
   },
   {
-    name: "SAAP — Sand and Ash Protection",
-    included: false,
-    verdict: "GET IT — ~$15–25/day",
-    color: "#4a9ab5",
-    detail: "Volcanic sand and ash causes invisible but serious paint and body damage, especially on the south coast and near Myvatn. This is Iceland-specific and not covered by most credit cards.",
+    name: "SCDW — Super CDW",
+    included: true,
+    verdict: "Usually included — lowers deductible",
+    color: "#4a8a68",
+    detail: "Reduces your deductible if you're in an accident. Most local companies include this automatically. With a Silver/base tier you may still have a $400-1,100 deductible — Platinum brings it to zero.",
   },
   {
     name: "GP — Gravel Protection",
     included: false,
-    verdict: "GET IT — ~$12–20/day",
+    verdict: "GET IT — essential",
     color: "#4a9ab5",
-    detail: "Gravel road stone chips are the single most common insurance claim in Iceland. A cracked windscreen without GP costs $1,500–3,000 out of pocket. Non-negotiable for the Ring Road.",
+    detail: "If you only buy ONE add-on, make it this. Gravel road stone chips are the single most common claim in Iceland. A cracked windshield without GP runs $1,500-3,000 out of pocket. Covers windshield, headlights, paint, mirrors.",
+  },
+  {
+    name: "SAAP — Sand and Ash Protection",
+    included: false,
+    verdict: "GET IT — essential",
+    color: "#4a9ab5",
+    detail: "Volcanic sand and ash causes paint, window, and plastic damage, especially on the south coast and near active volcanoes. A sandstorm hit can cost $3,500-10,500 out of pocket. ~$15-25/day. Non-negotiable for your route.",
   },
   {
     name: "TP — Theft Protection",
     included: true,
     verdict: "Usually included — verify",
     color: "#4a8a68",
-    detail: "Covers vehicle theft. Typically included at reputable Icelandic companies. Confirm when booking.",
+    detail: "Covers vehicle theft. Typically included at reputable Icelandic companies. Iceland has very low theft rates but confirm at booking anyway.",
   },
   {
-    name: "Wind Damage",
+    name: "Tire Protection (TIP)",
+    included: false,
+    verdict: "Worth it on Platinum",
+    color: "#4a9ab5",
+    detail: "Usually bundled into Platinum/Zero Excess packages. Covers flat tires and wheel damage. Gravel roads puncture tires regularly. Without TIP, replacements are on you.",
+  },
+  {
+    name: "Platinum / Zero Excess Bundle",
+    included: false,
+    verdict: "RECOMMENDED — all-in-one",
+    color: "#4a9ab5",
+    detail: "Most companies offer a top-tier bundle (Platinum/Zero Excess/Full) that includes CDW+SCDW+GP+SAAP+TP+TIP all with $0 deductible. Costs $22-45/day, total $250-500 for 11 days. For peace of mind and the math on potential damage, it's worth it.",
+  },
+  {
+    name: "Wind Damage to Doors",
     included: false,
     verdict: "NOT insurable — be careful",
     color: "#b56a3a",
-    detail: "No insurance covers wind damage to car doors. Icelandic wind can rip a door off its hinges in one gust — serious, expensive, and very common. Always hold the door firmly when opening.",
+    detail: "No insurance covers wind damage to car doors. Icelandic wind can rip a door backwards off its hinges in one gust. Repairs run $1,500-3,000. Rule: park facing into the wind, hold doors firmly when opening.",
+  },
+  {
+    name: "Water / River Crossing Damage",
+    included: false,
+    verdict: "NEVER covered — avoid",
+    color: "#b56a3a",
+    detail: "No insurance at any level covers water damage from river crossings. You won't be doing F-roads so this shouldn't come up, but know that if you drive through a stream and it kills the engine, you pay for everything.",
   },
   {
     name: "Credit Card Coverage",
     included: false,
-    verdict: "Check before relying on it",
+    verdict: "Don't rely on it alone",
     color: "#b56a3a",
-    detail: "Iceland is listed as an exception in some card policies. Many cards exclude 4x4 vehicles entirely. Call your card provider before departure and get the exclusions in writing.",
+    detail: "Many US cards exclude Iceland entirely or exclude 4x4/SUV vehicles. Even cards that cover international rentals usually exclude gravel and sand damage — the two most common claims here. Call your card issuer and get exclusions IN WRITING before departure. Buy rental insurance regardless.",
   },
 ];
 
@@ -487,17 +544,40 @@ const apps = [
 ];
 
 const carPickupChecklist = [
-  "Confirm automatic transmission — manuals are cheaper but not worth it with kids",
-  "Confirm 4x4 capability — not just 'SUV', actual four-wheel drive",
-  "Child seats x2 booked in advance — confirm they are reserved, not just requested",
+  "Physical credit card in main driver's name — mobile wallets and virtual cards are rejected",
+  "Automatic transmission confirmed — manuals are cheaper but brutal with kids and long drives",
+  "4x4/AWD confirmed — not just 'SUV', actual four-wheel drive",
+  "2 high-back booster seats reserved — confirm RESERVED for your dates, not just requested. ECE R44/04 or R129 certified (look for orange sticker).",
   "Gravel Protection (GP) added to policy",
   "Sand and Ash Protection (SAAP) added to policy",
+  "Platinum / Zero Excess bundle for maximum coverage with $0 deductible",
+  "Additional driver added — free at most local companies, essential for switching on long drives",
   "Ask where the spare tire is and how to use it before leaving the lot",
-  "Film a full video walkthrough of the entire car — all 4 sides, underneath, roof — before driving off",
-  "Confirm how the km road tax is charged — per km at return or built into daily rate",
-  "Confirm GPS is in the car or that your phone offline maps are ready",
-  "Check headlights are set to automatic",
+  "Walk-around video of entire car BEFORE driving off — all 4 sides, roof, underside, windshield. Photograph every existing scratch, chip, dent.",
+  "Verify fuel tank is actually full (not just stated as full)",
+  "Confirm how the 2026 km road tax is charged — per km at return or built into daily rate",
+  "Confirm GPS is in the car OR your phone offline maps are ready (Google Maps + Maps.me)",
+  "Check headlights are set to automatic (legally required on at all times)",
+  "Save rental company's 24/7 emergency number in your phone",
 ];
+
+const carSeatRules = {
+  rule: "Iceland law: all children under 135 cm (4'5\") must use an approved child car seat or booster — no exceptions.",
+  yourKids: [
+    {
+      age: "9-year-old",
+      action: "Measure height tonight",
+      detail: "Iceland's threshold is 135 cm (4'5\"). If under 135 cm → high-back booster required. If over 135 cm → regular seatbelt in back seat is legal (but booster recommended until 150 cm for proper seatbelt fit). Never front seat with active airbag until 150 cm.",
+    },
+    {
+      age: "6-year-old",
+      action: "Booster seat required",
+      detail: "High-back booster is recommended over backless. Must weigh at least 15 kg (33 lbs) for a booster — if lighter, a forward-facing harness seat is required. Back seat only.",
+    },
+  ],
+  dontDo: "DO NOT bring US car seats. They're not ECE R44/04 or R129 certified and are technically illegal in Iceland. Could be an insurance issue if you're in an accident.",
+  whatToDo: "Rent 2 high-back boosters from your rental company. $7–28 per seat per day. For 11 days × 2 seats = roughly $150–300 extra. Reserve in advance — July demand is high. When booking, give them each child's height and weight.",
+};
 
 const cantMiss = {
   food: [
@@ -679,7 +759,197 @@ const cantMiss = {
   ],
 };
 
-const TABS = ["Itinerary", "Hotels", "Budget", "Activities", "Packing", "Car + Driving", "Can't Miss", "Booking"];
+const desserts = {
+  classics: [
+    {
+      name: "Skyr",
+      emoji: "🥛",
+      what: "Iceland's iconic yogurt-like dessert. Thicker, creamier, less sour than Greek yogurt. Eaten plain or topped with berries and honey.",
+      where: "Every supermarket (Bonus, Kronan) sells 20+ flavors. Try blueberry, vanilla, or caramel. Breakfast staple at every hotel.",
+      kidTip: "Get them the vanilla or blueberry skyr cups from Bonus on day 1 — cheap, filling, healthy-ish breakfast for the apartment.",
+    },
+    {
+      name: "Skúffukaka",
+      emoji: "🍫",
+      what: "Iceland's national chocolate sheet cake. Moist, deeply chocolatey, topped with chocolate glaze and toasted coconut. Every Icelandic family has their own recipe. It's THE cake — served at every birthday, every gathering.",
+      where: "Bernhöftsbakarí in Reykjavik has the most traditional version. Most bakeries on the Ring Road sell their own take. Sandholt in Reykjavik also excellent.",
+      kidTip: "Dense, fudgy, chocolate-coconut — basically a brownie elevated. 6 and 9 year olds will demolish it. Pair with cold milk.",
+    },
+    {
+      name: "Kleina (Kleinur plural)",
+      emoji: "🍩",
+      what: "Twisted, deep-fried dough knots flavored with cardamom. Slightly crisp outside, soft inside. The Icelandic donut, eaten with coffee or hot chocolate. 200+ years of history.",
+      where: "Sandholt Bakery (Laugavegur), Bernhöftsbakarí. Or — fun fact — IKEA's kleinur are legitimately considered some of the best in Iceland by locals. The recipe is from an Icelandic grandmother.",
+      kidTip: "Sweet, slightly crunchy, twisted shape that's fun to eat. Order a few — they disappear fast.",
+    },
+    {
+      name: "Snúður",
+      emoji: "🧁",
+      what: "Icelandic cinnamon roll, but bigger and with a thick layer of chocolate, caramel, or pink glaze on top. Eat it by peeling apart the layers. Much more bready than American cinnamon rolls.",
+      where: "Braud & Co (rainbow-painted storefront in Reykjavik) — the defining version. Also Sandholt. Available at most gas station bakeries across Iceland too.",
+      kidTip: "The pink-glaze bleikt snúður is a kid magnet. Get a chocolate one for yourself. One is enough to share between 2 kids.",
+    },
+    {
+      name: "Pönnukökur",
+      emoji: "🥞",
+      what: "Thin Icelandic pancakes/crepes, folded and filled with whipped cream and rhubarb jam, or rolled with sugar inside. More delicate than American pancakes.",
+      where: "Kaffi Loki near Hallgrímskirkja in Reykjavik (traditional Icelandic food with pönnukökur on the menu). Mokka Kaffi (Reykjavik's oldest coffeehouse, since 1958) is iconic.",
+      kidTip: "Order one to share between the kids — with whipped cream and jam they'll be thrilled. Adults: get one with sugar and lemon.",
+    },
+    {
+      name: "Hjónabandssæla",
+      emoji: "🥧",
+      what: "Literally 'marriage bliss' — a rhubarb or blueberry jam tart with a buttery oat crumble top. Dense, sweet, slightly tart. A bakery case staple.",
+      where: "Braud & Co in Reykjavik. Most proper bakeries across Iceland. Café Vatnajökull near Skaftafell is a great stop after the glacier walk.",
+      kidTip: "Kids love the crumble top. The rhubarb version is tart-sweet; blueberry is sweeter and a safer kid bet.",
+    },
+    {
+      name: "Vínarterta",
+      emoji: "🎂",
+      what: "Iceland's layered celebration cake — 5 to 7 thin almond cake layers sandwiched with sticky prune jam. Traditionally a Christmas cake but available year-round.",
+      where: "Bernhöftsbakarí. Large bakeries in Reykjavik and Akureyri. Sliced thin — a little goes a long way.",
+      kidTip: "More of an adult dessert — the prune filling is less kid-friendly. But show them a slice for the visual — the layers are striking.",
+    },
+    {
+      name: "Ástarpungar (Love Balls)",
+      emoji: "🍪",
+      what: "Deep-fried sweet dough balls studded with raisins. Denser than kleina, eaten warm with coffee. The name translates to 'love balls' which delights every English-speaking tourist.",
+      where: "Most Icelandic bakeries. Great warm on a cold morning.",
+      kidTip: "Ball-shaped, sweet, fun name — your kids will request 'love balls' for weeks after you get home.",
+    },
+  ],
+  iceCream: [
+    {
+      name: "Brynja (Akureyri) — the pilgrimage spot",
+      emoji: "🍦",
+      what: "Akureyri's legendary soft-serve ice cream stand, open since 1939. Icelanders drive hours for it. The plain vanilla is the stuff of Icelandic childhood memories.",
+      where: "Aðalstræti 3, Akureyri. On foot from your log cabin base. Open late.",
+      kidTip: "This is NON-NEGOTIABLE on your Akureyri day. Go. Get the dipped cone. The Icelandic soft-serve tradition is a real thing and this is its temple.",
+    },
+    {
+      name: "Valdís (Reykjavik)",
+      emoji: "🍨",
+      what: "Reykjavik's beloved ice cream shop. 20+ rotating flavors including licorice, rye bread, birch, sea salt caramel, and seasonal Icelandic berries.",
+      where: "Grandagarður 21, Reykjavik (Old Harbour area, very close to your apartment).",
+      kidTip: "Let the kids pick the weirdest flavor they can find. Skip licorice (adult-only Icelandic specialty). The strawberry and vanilla are kid-safe winners.",
+    },
+    {
+      name: "Ísbúð Vesturbæjar (Reykjavik)",
+      emoji: "🍦",
+      what: "Classic neighborhood ice cream stand, locals' favorite. Soft-serve with every topping imaginable — chocolate dip, rainbow sprinkles, crushed Prins Póló (Iceland's favorite candy bar).",
+      where: "Hagamelur 67, Reykjavik. Walkable from Reykjavik Residence area.",
+      kidTip: "Order 'brædingur' — soft serve with broken-up candy mixed in. Peak kid happiness.",
+    },
+    {
+      name: "Vinberið (Blonduos, drive day stop)",
+      emoji: "🍨",
+      what: "Famous stop on the Akureyri-to-Snæfellsnes drive. Homemade ice cream plus full cafe menu. Legitimate road trip institution.",
+      where: "Blonduos, right on Ring Road between Akureyri and Snæfellsnes. About halfway through your Day 10 drive.",
+      kidTip: "Perfect break point on the long Day 10 drive. Proper lunch and ice cream in one stop.",
+    },
+    {
+      name: "Sveitasetrið Gamli Bær (near Vik)",
+      emoji: "🍦",
+      what: "Farm-based ice cream made from the dairy's own cows. Rare and special — farm-to-cone.",
+      where: "Just off Ring Road near Vik. Good stop on the way to the glacier zone.",
+      kidTip: "Tell the kids the milk came from cows they can see from the window. Blows their minds.",
+    },
+  ],
+  hotDrinks: [
+    {
+      name: "Icelandic hot chocolate",
+      emoji: "☕",
+      what: "Thicker and richer than American hot chocolate, usually topped with a pile of whipped cream. The post-waterfall reward.",
+      where: "Every cafe. Notable: Mokka Kaffi (Reykjavik), Kaffi Ilmur (Akureyri), Café Loki (Reykjavik).",
+      kidTip: "After a cold whale watching boat or a waterfall soaking, ordering hot chocolate is a tradition. Worth every krona.",
+    },
+    {
+      name: "Kakósúpa (chocolate soup)",
+      emoji: "🍵",
+      what: "Literally chocolate soup — hot cocoa served as a dessert course with whipped cream. Icelandic school cafeteria classic many adults still crave.",
+      where: "Some traditional restaurants. Ask specifically — not every menu lists it.",
+      kidTip: "Kids will lose their minds at 'chocolate soup.' If you see it on a menu, order it immediately.",
+    },
+  ],
+  chocolate: [
+    {
+      name: "Nói Síríus (grocery store chocolate)",
+      emoji: "🍫",
+      what: "Iceland's beloved national chocolate brand since 1933. Milk chocolate, hazelnut, rum raisin, licorice-filled. Cheap, delicious, ubiquitous.",
+      where: "Every Bonus and Kronan grocery store. Stock up on Day 1. DO NOT buy at the airport — 3x the price.",
+      kidTip: "Buy a handful of different bars for trip snacks. The milk chocolate 'Konsum' bars are the kid-safe classic.",
+    },
+    {
+      name: "Prins Póló",
+      emoji: "🍫",
+      what: "Polish wafer bar that became Iceland's unofficial national candy. Every Icelandic child grew up on these. Cheap, chocolatey, crispy.",
+      where: "Every gas station and grocery store.",
+      kidTip: "Trip snack essential. Pack a handful in the car.",
+    },
+    {
+      name: "Omnom Chocolate (artisan)",
+      emoji: "🍫",
+      what: "Reykjavik-based bean-to-bar chocolate maker, internationally famous. Beautiful packaging, serious craft chocolate. Flavors like black and burnt barley, liquorice and sea salt, milk + caramel.",
+      where: "Omnom factory store at Hólmaslóð 4, Reykjavik (worth a visit — free tasting). Also at Flying Tiger and gift shops.",
+      kidTip: "Grown-up chocolate. Let the kids taste a square and keep the rest for yourself. The milk + caramel is kid-friendly.",
+    },
+  ],
+  candy: [
+    {
+      name: "Nammi (pick 'n mix)",
+      emoji: "🍬",
+      what: "Every supermarket has a massive pick 'n mix candy wall with 50+ options. Saturday candy is an Icelandic tradition — locals call it 'laugardagsnammi.' Pay by weight.",
+      where: "Bonus, Kronan, every grocery. Saturday afternoons especially busy with families doing their weekly candy run.",
+      kidTip: "Give the kids a small bag each and let them pick their own. This is peak kid happiness. Avoid the salted licorice bins — that stuff is aggressive.",
+    },
+    {
+      name: "Lakkrís (Icelandic licorice)",
+      emoji: "🖤",
+      what: "Iceland's national sweet obsession. Salted licorice, chocolate-covered licorice, licorice-in-everything. An acquired taste — most adults love it, most kids hate it.",
+      where: "Everywhere. Djúpur is the legendary brand.",
+      kidTip: "Let them try ONE piece. They will make a face. You will now have a trip story.",
+    },
+    {
+      name: "Appolo Lakkrís (chocolate-covered licorice)",
+      emoji: "🍬",
+      what: "Icelandic candy classic — soft licorice chunks coated in milk chocolate. The training-wheels version of Icelandic licorice for the rest of the world.",
+      where: "Any grocery store, gas station.",
+      kidTip: "More kid-accessible than pure salted licorice. Start here if they want to try Icelandic candy.",
+    },
+  ],
+  specialTreats: [
+    {
+      name: "Reykjavik Roasters pastry + coffee",
+      emoji: "☕",
+      what: "Reykjavik's best coffee shop. Their pastry case rotates daily — cardamom buns, kanelbullar, cruffins, seasonal specials.",
+      where: "Kárastígur 1, Reykjavik. Small and always busy.",
+      kidTip: "Adult dessert destination, but the cardamom bun for the kids works.",
+    },
+    {
+      name: "Bæjarins Beztu Bryggjan Ice Cream",
+      emoji: "🍦",
+      what: "Dip-cone soft-serve next door to the famous hot dog stand. Post-hot-dog tradition for Reykjavik families.",
+      where: "Tryggvagata, Old Harbour.",
+      kidTip: "Hot dog THEN ice cream. Full Reykjavik kid experience.",
+    },
+    {
+      name: "Gullfoss Kaffi rhubarb crumble",
+      emoji: "🥧",
+      what: "At the Gullfoss waterfall visitor center on Golden Circle day — their hot rhubarb crumble with vanilla ice cream is reputedly the best in Iceland.",
+      where: "Gullfoss parking lot cafe. Right on your Day 3 route.",
+      kidTip: "Perfect warm-up after the freezing waterfall mist. Share one between the whole family.",
+    },
+    {
+      name: "Hot fresh kleina from Almar Bakari",
+      emoji: "🍩",
+      what: "Three locations along the South Ring Road (Hveragerði, Selfoss, Hella). Ring Road legend — hot kleinur straight from the fryer.",
+      where: "Almar Bakari, roadside. Right on your Day 5 South Coast drive.",
+      kidTip: "Make this the first stop out of Reykjavik on South Coast day. Hot, sweet, warm kids = happy kids.",
+    },
+  ],
+};
+
+const TABS = ["Itinerary", "Hotels", "Budget", "Activities", "Packing", "Car + Driving", "Can't Miss", "Desserts", "Booking"];
 
 export default function IcelandGuide() {
   const [tab, setTab] = useState(0);
@@ -739,9 +1009,9 @@ export default function IcelandGuide() {
         {tab === 0 && (
           <div>
             <div style={{ padding: "12px 14px", background: "#0d1a10", borderRadius: 9, border: "1px solid #2a4a30", marginBottom: 18 }}>
-              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#5a9068", marginBottom: 4 }}>✓ All Hotels Booked · 11 Nights · $6,371</div>
+              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#5a9068", marginBottom: 4 }}>✓ 11 Nights · 4 Base Camps · $6,371 Total Lodging</div>
               <div style={{ fontSize: 12, color: "#6a9878", lineHeight: 1.6 }}>
-                Reykjavik (4) → Glacier (3) → Akureyri (2) → Snæfellsnes (2). Note: Mývatn became a drive-day stop instead of a base camp because all area hotels were sold out. Day-by-day plans below show the original 3-3-3-2 structure and will be rebuilt to match the new flow.
+                Reykjavik (4) → Glacier (3) → Akureyri + Mývatn (2) → Snæfellsnes (2). All hotels booked. Day plans include real drive times, stop suggestions, and restaurant recommendations.
               </div>
             </div>
             <p style={s.intro}>4 hotels, 4 check-ins over 11 nights. Tap any camp or day to expand.</p>
@@ -1102,6 +1372,26 @@ export default function IcelandGuide() {
               </div>
             ))}
 
+            {/* CAR SEAT RULES */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Car Seats — Icelandic Law</div>
+            <div style={{ padding: "14px 16px", background: "#1a1408", borderRadius: 9, border: "1px solid #3a2810", marginBottom: 12 }}>
+              <div style={{ fontSize: 13, color: "#c0a058", lineHeight: 1.6, marginBottom: 10, fontWeight: 600 }}>
+                {carSeatRules.rule}
+              </div>
+              {carSeatRules.yourKids.map((kid, i) => (
+                <div key={i} style={{ marginBottom: 10, padding: "10px 12px", background: "#100a04", borderRadius: 7, border: "1px solid #2a1a08" }}>
+                  <div style={{ fontSize: 12, color: "#e0b068", marginBottom: 3, fontWeight: 600 }}>{kid.age} — {kid.action}</div>
+                  <div style={{ fontSize: 12, color: "#a08058", lineHeight: 1.6 }}>{kid.detail}</div>
+                </div>
+              ))}
+              <div style={{ marginTop: 10, padding: "10px 12px", background: "#200808", borderRadius: 7, border: "1px solid #601010" }}>
+                <div style={{ fontSize: 12, color: "#d06050", lineHeight: 1.6 }}>⚠ {carSeatRules.dontDo}</div>
+              </div>
+              <div style={{ marginTop: 8, padding: "10px 12px", background: "#081810", borderRadius: 7, border: "1px solid #1a4028" }}>
+                <div style={{ fontSize: 12, color: "#60a078", lineHeight: 1.6 }}>✓ {carSeatRules.whatToDo}</div>
+              </div>
+            </div>
+
             {/* PICKUP CHECKLIST */}
             <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>At Pickup — Do Not Skip These</div>
             {carPickupChecklist.map((item, i) => (
@@ -1193,11 +1483,12 @@ export default function IcelandGuide() {
             {/* STILL TO DO */}
             <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Still on Your To-Do List</div>
             {[
+              { item: "Rental car — decision pending", detail: "Quotes in hand from MyCar and Lotus. Toyota RAV4 or Kia Sportage, automatic, 4WD, Platinum/Zero Excess insurance, 2 high-back boosters. Measure kids' heights before booking. Credit card only.", done: false, urgent: true },
               { item: "Book all 4 hotels", detail: "Reykjavik Residence, Hótel Jökulsarlon, Akureyri Log Cabin, Hotel Vest Mar — all 11 nights locked. Total: $6,371.", done: true, urgent: false },
               { item: "Travel insurance", detail: "Squaremouth.com → Tin Leg Gold. Buy this week — 14-day window for best coverage is closing.", done: false, urgent: true },
               { item: "Order Wise card", detail: "wise.com — takes 2 to 3 weeks to arrive. Best exchange rate for Iceland spending.", done: false, urgent: true },
               { item: "Rental SUV", detail: "MyCar or Lava Car Rental. Large 4x4, automatic, gravel protection, SAAP, 2 child seats.", done: false, urgent: true },
-              { item: "Blue Lagoon slot", detail: "bluelagoon.com, Jul 27 around 12pm. Direct only.", done: false, urgent: false },
+              { item: "Blue Lagoon slot", detail: "bluelagoon.com — Jul 18 or 19, 3pm or 4pm afternoon slot. Comfort package only. Day trip from Reykjavik, not departure day.", done: false, urgent: false },
               { item: "North Sailing Husavik", detail: "northsailing.is — whale and puffin combo. Date follows Myvatn check-in. Books out for July.", done: false, urgent: false },
               { item: "ISK cash", detail: "Not urgent. Withdraw ~15,000 ISK (~$110) from ATM at Keflavik airport on arrival. Iceland is nearly cashless.", done: false, urgent: false },
               { item: "Check all 4 passports", detail: "Must be valid past Oct 27, 2026. Kids passports are 5-year validity — check carefully.", done: false, urgent: false },
@@ -1223,6 +1514,92 @@ export default function IcelandGuide() {
         )}
 
         {tab === 7 && (
+          <div>
+            <p style={s.intro}>Iceland takes its sweets seriously. Your kids will too.</p>
+
+            {/* CLASSIC ICELANDIC DESSERTS */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "14px 0 12px" }}>Classic Icelandic Desserts</div>
+            {desserts.classics.map((d, i) => (
+              <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
+                <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
+                <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 6 }}>{d.what}</div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", marginBottom: 4 }}><span style={{ color: "#5aa8c4" }}>Where:</span> {d.where}</div>
+                <div style={{ fontSize: 11, color: "#c09060", lineHeight: 1.5 }}>🧒 {d.kidTip}</div>
+              </div>
+            ))}
+
+            {/* ICE CREAM */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Ice Cream — Iceland's Real Obsession</div>
+            <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 12, fontStyle: "italic" }}>
+              Icelanders eat ice cream year-round — even in winter. Every town has its shrine. These are the ones to actually hit.
+            </div>
+            {desserts.iceCream.map((d, i) => (
+              <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
+                <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
+                <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 6 }}>{d.what}</div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", marginBottom: 4 }}><span style={{ color: "#5aa8c4" }}>Where:</span> {d.where}</div>
+                <div style={{ fontSize: 11, color: "#c09060", lineHeight: 1.5 }}>🧒 {d.kidTip}</div>
+              </div>
+            ))}
+
+            {/* HOT DRINKS */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Hot Chocolate + Warm Drinks</div>
+            {desserts.hotDrinks.map((d, i) => (
+              <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
+                <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
+                <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 6 }}>{d.what}</div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", marginBottom: 4 }}><span style={{ color: "#5aa8c4" }}>Where:</span> {d.where}</div>
+                <div style={{ fontSize: 11, color: "#c09060", lineHeight: 1.5 }}>🧒 {d.kidTip}</div>
+              </div>
+            ))}
+
+            {/* CHOCOLATE */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Chocolate</div>
+            {desserts.chocolate.map((d, i) => (
+              <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
+                <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
+                <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 6 }}>{d.what}</div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", marginBottom: 4 }}><span style={{ color: "#5aa8c4" }}>Where:</span> {d.where}</div>
+                <div style={{ fontSize: 11, color: "#c09060", lineHeight: 1.5 }}>🧒 {d.kidTip}</div>
+              </div>
+            ))}
+
+            {/* CANDY */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Candy & Nammi</div>
+            {desserts.candy.map((d, i) => (
+              <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
+                <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
+                <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 6 }}>{d.what}</div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", marginBottom: 4 }}><span style={{ color: "#5aa8c4" }}>Where:</span> {d.where}</div>
+                <div style={{ fontSize: 11, color: "#c09060", lineHeight: 1.5 }}>🧒 {d.kidTip}</div>
+              </div>
+            ))}
+
+            {/* SPECIAL TREATS */}
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Specific Spots to Hit</div>
+            {desserts.specialTreats.map((d, i) => (
+              <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
+                <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
+                <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 6 }}>{d.what}</div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", marginBottom: 4 }}><span style={{ color: "#5aa8c4" }}>Where:</span> {d.where}</div>
+                <div style={{ fontSize: 11, color: "#c09060", lineHeight: 1.5 }}>🧒 {d.kidTip}</div>
+              </div>
+            ))}
+
+            <div style={{ marginTop: 24, padding: "14px 16px", background: "#1a1408", borderRadius: 10, border: "1px solid #3a2810" }}>
+              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#c09060", marginBottom: 6 }}>🏆 The Non-Negotiables</div>
+              <div style={{ fontSize: 12, color: "#a08060", lineHeight: 1.7 }}>
+                1. <strong>Brynja soft-serve in Akureyri</strong> — pilgrimage-worthy, Icelanders travel for this<br/>
+                2. <strong>Skúffukaka at any proper bakery</strong> — the national cake, every kid's new favorite<br/>
+                3. <strong>Braud & Co snúður in Reykjavik</strong> — the rainbow bakery, best cinnamon roll in the country<br/>
+                4. <strong>Nammi pick 'n mix on a Saturday</strong> — proper Icelandic kid tradition<br/>
+                5. <strong>Gullfoss rhubarb crumble</strong> — right on your Day 3 Golden Circle route
+              </div>
+            </div>
+          </div>
+        )}
+
+        {tab === 8 && (
           <div>
             <p style={s.intro}>Flights are booked. Work through this in order. Tap any item to check it off.</p>
             {bookingPhases.map((phase, pi) => (
