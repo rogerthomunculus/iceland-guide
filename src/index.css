@@ -1,2 +1,4 @@
 *, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; font-family: system-ui, sans-serif; }
+body { margin: 0; font-family: system-ui, sans-serif; padding-bottom: env(safe-area-inset-bottom); }
+.tab-scroll { scrollbar-width: none; -ms-overflow-style: none; }
+.tab-scroll::-webkit-scrollbar { display: none; }
