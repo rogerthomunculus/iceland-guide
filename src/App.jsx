@@ -56,7 +56,8 @@ const camps = [
         drive: "Keflavik to Reykjavik: 49 km · 45 min",
         plan: [
           "Land 6:25am — you have been traveling since yesterday. Pace yourself.",
-          "Collect rental SUV — confirm child seats, gravel + SAAP insurance, automatic",
+          "Wait for Lotus shuttle at designated KEF shuttle stop (runs 5am-6pm). Pickup at 8:30am gives buffer for bags + immigration.",
+          "Collect Toyota RAV4 at Lotus office (Flugvellir 6, Keflavik) — confirm 1 booster + 1 Child Seat ready, Platinum insurance active",
           "Drive to Reykjavik, check in at Reykjavik Residence (request early check-in)",
           "Big grocery run at Bonus supermarket — stock up for the whole trip",
           "Short walk to Old Harbour, early dinner, get the kids to sleep at a normal Iceland bedtime",
@@ -94,20 +95,21 @@ const camps = [
         tip: "Fridheimar is a genuine highlight — a working tomato greenhouse with a restaurant literally among the plants. Kids love it. Book a table at fridheimar.is ahead of time. Order the tomato soup with unlimited refills.",
       },
       {
-        n: 4, date: "Sun Jul 19", title: "Reykjavik Full Day",
-        drive: "No driving — downtown walk",
+        n: 4, date: "Sun Jul 19", title: "Reykjavik Morning + Blue Lagoon Afternoon",
+        drive: "Reykjavik morning on foot · 50 min drive each way to Blue Lagoon",
         plan: [
           "Slow breakfast at apartment",
-          "Morning: Hallgrimskirkja church + elevator to the top for city views",
-          "Mid-morning coffee and pastries at Braud & Co (rainbow-painted bakery, legendary kleina)",
-          "Walk Laugavegur main shopping street — lopapeysa shopping at the Handknitting Association",
-          "Lunch at Icelandic Street Food — unlimited lamb soup refills, complimentary waffles with jam",
-          "Afternoon: Perlan museum — inside a real ice cave, northern lights planetarium",
-          "Sun Voyager sculpture + Harpa Concert Hall at golden hour (but it never sets)",
-          "Dinner: Messinn harbor location — big fish skillets for sharing ($30-35 feeds 2-3 kids)",
+          "Morning: Hallgrimskirkja church + elevator to the top for 360° city views (1,500 ISK/adult, 200 ISK/kid)",
+          "Mid-morning coffee and pastries at Braud & Co (rainbow-painted bakery, best cinnamon rolls in Iceland)",
+          "Walk Laugavegur main shopping street — lopapeysa browsing at the Handknitting Association",
+          "Early lunch at Icelandic Street Food — unlimited lamb soup refills, complimentary waffles with jam",
+          "Leave apartment by 2pm sharp — 50 min drive to Blue Lagoon, arrival time is strict",
+          "Blue Lagoon Comfort Package — 3pm entry, soak until ~5:30-6pm",
+          "Drive back to Reykjavik after (~50 min) — kids will be happy-tired",
+          "Easy dinner at apartment or casual takeaway — pack skyr/fruit in the fridge for anyone too tired to eat out",
         ],
         creatures: [],
-        tip: "Hallgrimskirkja elevator is $12/adult, kids cheap. Skip the line by going right after it opens at 10am. Perlan is built inside an old hot water tank with a real 100m ice cave you can walk through — genuine wow factor for kids.",
+        tip: "Blue Lagoon is the centerpiece of today — everything else is structured around being ready to leave the apartment by 2pm. They don't let you in early or late. Bring swimsuits in a daybag. The silica mud mask is included. Kids get soft drinks at the in-water bar; adults can have a beer or wine. Skip the Lava restaurant at the lagoon (expensive, slow service). Perlan museum and Sun Voyager can shift to Day 2 or Day 9 if you want them.",
       },
     ],
   },
@@ -172,32 +174,44 @@ const camps = [
         drive: "Glacier Zone to Akureyri via Mývatn: ~580 km · the biggest drive day, 9+ hrs with stops",
         plan: [
           "Hard start — leave hotel by 7:30am",
-          "Hofn for fuel + a proper bathroom stop (10-15 min)",
-          "Optional breakfast at Kaffi Hornid in Hofn (famous langoustine soup if you want lunch for breakfast)",
+          "Hofn for fuel + a proper bathroom stop (10-15 min). Optional: breakfast at Kaffi Hornið for langoustine soup",
           "Drive the East Fjords — scenic but long. Pull over whenever kids need a break",
-          "Stop at Djupivogur — tiny village with colorful harbor",
+          "Stop 1: Djupivogur — tiny village with colorful harbor, 15 min stretch",
+          "Stop 2: Petra's Stone Collection in Stöðvarfjörður — one woman's 80-year lifetime of minerals and crystals. Weirdly captivating for kids. 30 min, small entry fee.",
+          "Egilsstaðir — natural midpoint. Fuel, bathrooms, lunch at N1 or bakery",
           "Mid-afternoon: arrive at Mývatn area (3-4 hr stop)",
-          "Hit Mývatn highlights: Dimmuborgir lava labyrinth, Skútustaðir pseudo-craters, Hverir geothermal area (boiling mud, sulfur steam — alien landscape)",
+          "Mývatn highlights: Dimmuborgir lava labyrinth, Skútustaðir pseudo-craters, Hverir geothermal area (boiling mud, sulfur steam — alien landscape)",
           "Vogafjós farm restaurant for dinner — cowshed dining room with lake views, smoked lamb, fresh trout, Geysir bread baked underground (the kids will love watching the cows)",
-          "Drive 90 min west to Akureyri Log Cabin, arrive by 9-10pm (still light out)",
+          "Essential final stop: Goðafoss waterfall (literally on Route 1, 10 min stop) — 'Waterfall of the Gods' drops 12m in a perfect semi-circle",
+          "Drive 30 min west to Akureyri Log Cabin, arrive by 10-11pm (still light out)",
         ],
         creatures: ["🦌 REINDEER — scan roadsides constantly in East Iceland", "🦅 White-tailed eagles near the fjords", "🦭 Harbor seals at Djupivogur", "🦆 15+ duck species around Mývatn lake"],
-        tip: "This is THE drive day. Pre-download 3+ hours of audiobooks/shows for the kids. Ice pack in the cooler with skyr and fruit. Make reindeer-spotting a game — they're real and they're there. Vogafjós is the dining highlight of your trip — the restaurant is inside a converted working dairy cowshed with floor-to-ceiling windows into the barn.",
+        tip: "This is THE drive day. Pre-download 3+ hours of audiobooks/shows for the kids. Ice pack in the cooler with skyr and fruit. Make reindeer-spotting a game — they're real and they're there. Vogafjós is the dining highlight of your trip — the restaurant is inside a converted working dairy cowshed with floor-to-ceiling windows into the barn. Don't skip Goðafoss — it's 10 min off your exact driving path.",
       },
       {
-        n: 9, date: "Fri Jul 24", title: "Akureyri — City Recovery Day",
-        drive: "Local only — under 15 min driving total",
+        n: 9, date: "Fri Jul 24", title: "Húsavík Whales — North Sailing ✓ BOOKED",
+        drive: "Akureyri to Húsavík: ~75 km · 1 hr each way",
         plan: [
-          "Sleep in — everyone earned it",
-          "Late breakfast at Kaffi Ilmur (downtown Akureyri) — homemade pastries and the city's best coffee",
-          "Akureyri Botanical Garden — free entry, stunning roses and Arctic plants, great for kids to run around",
-          "Lunch at Bryggjan by the harbor — fresh fish, kid-friendly menu",
-          "Akureyri Swimming Pool (Sundlaug Akureyrar) — 2 hrs there, Icelanders' favorite pool in the country, slides + hot tubs + outdoor pool, family-priced",
-          "Ice cream at Brynja — legendary ice cream shop open since 1939, the soft-serve is the stuff of Icelandic childhood",
-          "Quiet evening back at the cabin — grill dinner or Akureyri Fish & Chips takeaway",
+          "Wake 7am at Akureyri Log Cabin — pack daypack (binoculars, Sea-Bands, layers)",
+          "Quick breakfast — protein bars in the car, save Kaffi Ilmur for tomorrow",
+          "7:30am: leave Akureyri",
+          "8:30am: arrive Húsavík, grab coffee at harbor",
+          "9:30am: check in at North Sailing Whale Watching Centre, Hafnarstétt 9 (30 min before sailing)",
+          "10:00am-1:00pm: Húsavík Original Whale Watching — 3 hrs on traditional oak boat (Booking NOS-89947819)",
+          "1:00pm: lunch at Naustið (harbor seafood) or Salka (cozy traditional)",
+          "2:30pm: Húsavík Whale Museum — excellent, 1-1.5 hrs, has 25m blue whale skeleton",
+          "4:00pm: drive back to Akureyri (1 hr)",
+          "5:30pm: Brynja ice cream (NON-NEGOTIABLE — Iceland's most legendary soft-serve)",
+          "Evening: Akureyri Swimming Pool (Iceland's best public pool, ~$12 family) OR quiet cabin dinner — whichever the kids want",
         ],
-        creatures: ["🦢 Ducks in the botanical garden pond"],
-        tip: "This day is intentionally easy. After the east fjords + Mývatn marathon, the kids (and you) need recovery. The Akureyri pool is a local institution — Icelanders consider it the best public pool in the country, and at ~$12 for the whole family it's the best value activity of your trip. Brynja is a pilgrimage for Icelanders — do not leave without trying their soft-serve.",
+        creatures: [
+          "🐋 Humpback whales — near-guaranteed in July, 97% sighting success rate",
+          "🐋 Minke whales — common in Skjálfandi Bay",
+          "🐬 White-beaked dolphins — common pods",
+          "🦜 Atlantic puffins — visible from boat near Puffin Island",
+          "🐦 Northern gannets, fulmars, arctic terns",
+        ],
+        tip: "North Sailing provides warm overalls + raincoats — wear layers underneath, not your bulky waterproofs. Bring binoculars (transforms the experience). Sea-Bands on Lucas before boarding. Hot chocolate + cinnamon cookies served on the way back. Stand at the SIDES of the boat — kids can't see over the front. The 10am slot is ideal: calmest morning seas, full afternoon for Húsavík + Akureyri activities. Note: Lucas was booked as 'Toddler' (free) — at 6 he might technically be Youth (~$50). Check at the dock; they're family-friendly and may wave it through.",
       },
     ],
   },
@@ -210,16 +224,20 @@ const camps = [
         plan: [
           "Breakfast at cabin, check out by 10am",
           "Drive south and west across north Iceland",
-          "Stop in Varmahlid for fuel + snacks",
-          "Lunch in Blonduos at Vinberid — famous homemade ice cream cafe with real food too",
-          "Optional short detour to Hvammstangi (seal watching centre — Iceland's seal capital)",
-          "Continue west onto Snaefellsnes peninsula",
+          "Stop 1: Varmahlid — fuel + snacks, 15 min",
+          "Stop 2: Blonduos — lunch at Vinberid, famous homemade ice cream cafe (45 min)",
+          "Optional short detour: Hvammstangi seal watching centre (15 min off route)",
+          "MUST STOP: Deildartunguhver + Hraunfossar cluster (30 min off Ring Road, 45 min on site)",
+          "— Deildartunguhver: Europe's highest-flow hot spring, 180 L/sec of boiling water. Dramatic steam clouds. 10 min photo stop.",
+          "— Hraunfossar: waterfalls streaming out of a lava field for 700m — water appears from rocks with no cliff. Totally unique to Iceland. Flat path, kid-friendly. 30 min.",
+          "— Barnafoss: violent rapids just upstream from Hraunfossar, 5 min walk",
+          "Continue west onto Snæfellsnes peninsula",
           "Arrive Hotel Vest Mar in Olafsvik by late afternoon — home for 2 nights",
           "Evening: Kirkjufell mountain and waterfall — 15 min drive east, most photographed mountain in Iceland",
           "Dinner at Sker Restaurant (in your hotel)",
         ],
         creatures: ["🐴 Icelandic horses on farms throughout the drive", "🦭 Seals at Hvammstangi if you detour"],
-        tip: "Kirkjufell at 9-10pm with golden hour light is magic — plenty of time to drive there after dinner since it stays light until past midnight. Arnarstapi village is 30 min south of your hotel, keep it in mind for tomorrow.",
+        tip: "The Deildartunguhver + Hraunfossar cluster is 30 min off the direct route but genuinely worth it — these are unique Icelandic phenomena you won't see anywhere else. Kirkjufell at 10-11pm with golden hour light is magic — plenty of time to drive there after dinner since it stays light until past midnight. Arnarstapi village is 30 min south of your hotel, keep it in mind for tomorrow.",
       },
       {
         n: 11, date: "Sun Jul 26", title: "Snaefellsnes Peninsula Full Day",
@@ -250,36 +268,115 @@ const finalDay = {
     "Drive south through Snæfellsnes — the drive itself is beautiful, final views of the glacier",
     "Stop: Borgarnes (~11:30am) — lunch at Englendingavík restaurant by the harbor",
     "Dessert: Geirabakari Kaffihús bakery next door — chocolate cinnamon buns, featured in The Secret Life of Walter Mitty",
-    "Drive 1 hour south to Keflavík, return rental SUV by 2:30-3pm",
+    "Drive 1 hour south to Keflavík, return Toyota RAV4 to Lotus by 2pm",
     "Fill tank before returning — companies charge 3x market rate to refuel",
     "Check in, security, airport — relaxed with time to spare",
-    "Fly home 5:10pm — arrive New Orleans 12:20am Jul 28",
+    "Fly home 5:10pm — KEF → Nashville → New Orleans, arrive MSY 12:20am Jul 28",
   ],
   creatures: ["🦭 Last chance: Icelandic horses in fields along Route 54", "🐦 Seabirds at Borgarnes harbor"],
   tip: "Englendingavík is in an 1885 building on a quiet bay — fish-focused, harbor views, family-friendly, consistently the best meal in Borgarnes. Blue Lagoon moved to a Reykjavik day trip (Jul 18 or 19 afternoon). Travel days with two small kids should be relaxed, not a race.",
+};
+
+const campGuides = {
+  reykjavik: {
+    summary: "Iceland's capital and your trip warmup. Walkable core, great kitchens at your apartment, and the easiest base for kids. You'll eat well, see whales and puffins, soak at the Blue Lagoon, and do the Golden Circle without pushing anyone past their limits.",
+    extras: [
+      { name: "Grótta lighthouse sunset walk", note: "15 min west of Old Harbour. Tidal causeway to a lighthouse. Empty, calm, great for golden hour (10pm-1am in July). Check tide times — the path floods at high tide.", priority: "Hidden gem" },
+      { name: "Tjörnin duck pond", note: "Right in central Reykjavik. Free. Ducks, geese, swans — completely tame. Perfect 30-min arrival day stop for your 6-year-old. Buy birdseed at nearby shops (not bread).", priority: "Kid win" },
+      { name: "Harpa Concert Hall interior", note: "Free to walk inside. The honeycomb glass facade creates a kaleidoscope effect. 10 min at the Old Harbour anytime.", priority: "Quick" },
+      { name: "Kolaportið flea market", note: "Weekends only. Downtown. Icelandic snacks (try the hangikjöt lamb on rye), local crafts, random old treasures. Good rainy-day option.", priority: "Weekends only" },
+      { name: "Sky Lagoon", note: "Alternative to Blue Lagoon — 10 min from downtown, ocean infinity edge. Has a 7-step ritual with cold plunge. You booked Blue Lagoon, so this is the skip — but worth knowing about for future trips.", priority: "Already decided" },
+    ],
+    food: [
+      { name: "Bæjarins Beztu hot dogs", where: "Old Harbour — the red stand", note: "Order 'eina með öllu' — one with everything. $5 each. Bill Clinton and Anthony Bourdain both ate here. Kids will demand seconds." },
+      { name: "Braud & Co bakery", where: "Frakkastígur 16 — the rainbow-painted bakery", note: "The best cinnamon rolls (snúður) in Iceland. Queue moves fast. Buy extras for the road." },
+      { name: "Sandholt bakery", where: "Laugavegur 36", note: "Artisan bakery — sourdough, pastries, open-faced sandwiches for lunch. Multi-generational bakers." },
+      { name: "Icelandic Street Food", where: "Lækjargata 8", note: "Unlimited lamb soup refills, complimentary waffles with jam, casual. Perfect kid-friendly lunch." },
+      { name: "Messinn", where: "Lækjargata 6 or Old Harbour", note: "Their fish skillet portions are massive — $30-35 feeds 2 adults + 2 kids comfortably. Order one skillet to share." },
+      { name: "Matur og Drykkur", where: "Grandagarður 2, Old Harbour", note: "Traditional Icelandic cooking with a modern touch. If you want one nicer dinner in Reykjavik, go here. Reservations essential." },
+      { name: "Fish Market (Fiskmarkaðurinn)", where: "Aðalstræti 12", note: "Upscale Icelandic fish — if you want a splurge tasting menu night while your wife is there. Get babysitter or early dinner with kids." },
+    ],
+  },
+  glacier: {
+    summary: "Your most remote base. Iceland's wildest landscape — icebergs, glaciers, volcanic sand, and sea. Hotel Jökulsárlón is genuinely isolated which is part of the magic. Food options are limited on this stretch, so plan where you eat carefully.",
+    extras: [
+      { name: "Fjallsárlón (quieter glacier lagoon)", note: "10 min before Jökulsárlón on Route 1. A smaller, quieter glacier lagoon with a cafe. Gets 1/10 the crowd. Stop here first for icebergs without the tour buses.", priority: "Hidden gem" },
+      { name: "Stokksnes / Vestrahorn mountain", note: "30 min east of Höfn. The jagged Vestrahorn mountain reflects in a black sand beach with dunes. ~$10 entry at a small cafe. Can be magical if weather is clear, muddy if not. Worth the detour if you have a morning with good light.", priority: "Weather dependent" },
+      { name: "Fjaðrárgljúfur canyon", note: "Between Vík and Jökulsárlón on Route 1. A 100m deep mossy canyon with winding river. 20-30 min walk along the rim. Detour: ~15 min off Ring Road. Good Day 5 drive stop.", priority: "Drive stop" },
+      { name: "Höfn evening dinner trip", note: "30 min east of the hotel. Known as Iceland's langoustine capital. Worth one evening trip for Pakkhús restaurant.", priority: "Dinner option" },
+      { name: "Lómagnúpur cliff", note: "Roadside. A 767m cliff that rises vertically from flat plain on the drive toward the glacier zone. Photo stop.", priority: "Drive stop" },
+    ],
+    food: [
+      { name: "Pakkhús (Höfn)", where: "Krosseyjarvegur 3, Höfn — 30 min from hotel", note: "The langoustine pilgrimage. Soup and grilled tails are both legendary. Expensive ($40-55/main) but worth one dinner here. Book ahead." },
+      { name: "Hotel Jökulsárlón restaurant", where: "Your hotel", note: "The arctic char dish gets strong reviews. Fine for most nights given the location. Breakfast buffet is included and solid." },
+      { name: "Fancy Sheep food truck", where: "Jökulsárlón lagoon parking lot", note: "Lamb burgers, fish and chips, coffee. Open daytime hours, cheap, right where you'll be for the boat tour." },
+      { name: "Nýibær Cafe", where: "Skaftafell visitor centre", note: "Soup, sandwiches, coffee at your glacier walk base. Fine post-glacier fuel." },
+      { name: "Systrakaffi", where: "Kirkjubæjarklaustur (drive stop)", note: "1 hr west of hotel on Route 1. Pizza, fish and chips, ice cream. Best lunch option between Vík and the glacier zone." },
+      { name: "Kaffi Hornið (Höfn)", where: "Hafnarbraut 42, Höfn", note: "The langoustine soup is cheaper here than Pakkhús and nearly as good. Casual atmosphere, fits families." },
+    ],
+  },
+  myvatn: {
+    summary: "A full day of driving gets you here, and the payoff is one of Iceland's most otherworldly landscapes — sulfur vents, lava fields, pseudo-craters — plus a proper city (Akureyri) to recover in. The long drive day deserves deliberate stops. Optional Húsavík day trip adds whales and puffins if you can pull it off.",
+    extras: [
+      { name: "Goðafoss waterfall", note: "Between Mývatn and Akureyri on Route 1 — you literally drive past it. 5-10 min stop, park right at the top, walk 2 min to the edge. The 'Waterfall of the Gods' drops 12m in a semi-circle. Cannot skip this.", priority: "Essential — on the way" },
+      { name: "Húsavík whale watching day trip", note: "1 hr from Akureyri. Europe's whale capital — near-guaranteed humpback sightings. North Sailing runs wooden schooners with puffin combo tours. Whale Museum in town is excellent. Allow a full day.", priority: "Day 9 option" },
+      { name: "Mývatn Nature Baths", note: "Geothermal baths near Mývatn lake. Kids FREE under 12. Far less crowded than Blue Lagoon. Can be squeezed in during the Day 8 drive stop if time allows.", priority: "Day 8 option" },
+      { name: "Stuðlagil canyon", note: "2.5 hr detour east of Ring Road. A turquoise river flowing between towering basalt columns. Best viewed from the west side (no hike needed). Probably too far for this trip but noting it.", priority: "Too far this trip" },
+      { name: "Grjótagjá hot spring cave", note: "Near Mývatn — a geothermal cave where Jon Snow and Ygritte filmed. Closed for bathing (too hot now) but you can look inside. 5 min stop.", priority: "Quick curiosity" },
+      { name: "Akureyri Botanical Garden", note: "World's northernmost. Free entry. Roses, arctic plants, great for kids to run around. Close to your Log Cabin base.", priority: "Free, relaxing" },
+    ],
+    food: [
+      { name: "Brynja (Akureyri)", where: "Aðalstræti 3, Akureyri", note: "PILGRIMAGE. Legendary soft-serve since 1939. Icelanders drive hours for this. Get the dipped cone. Non-negotiable." },
+      { name: "Kaffi Ilmur (Akureyri)", where: "Hafnarstræti 107b, Akureyri", note: "Downtown Akureyri's best breakfast and coffee. Homemade pastries, cozy atmosphere, fits families." },
+      { name: "Bryggjan (Akureyri)", where: "Akureyri harbor", note: "Fresh fish with kid-friendly menu. Great lunch spot with harbor view." },
+      { name: "Rub23 (Akureyri)", where: "Kaupvangsstræti 6", note: "Upscale sushi-meets-Icelandic. If you want one nicer dinner in Akureyri. Reserve ahead." },
+      { name: "Vogafjós (Mývatn)", where: "Vogar, near Mývatn — on drive day", note: "Eat dinner inside a working dairy cowshed with floor-to-ceiling windows into the barn. Smoked lamb, fresh trout, Geysir bread baked underground. The kids will talk about this for years." },
+      { name: "Akureyri Fish & Chips", where: "Skipagata 14, Akureyri", note: "Casual takeaway, fresh cod, cheap. Perfect for the cabin dinner." },
+    ],
+  },
+  snaefellsnes: {
+    summary: "Called 'Iceland in Miniature' — glacier, fjords, lava fields, waterfalls, black sand, volcanic cones all on one peninsula. Less crowded than the South Coast. Hotel Vest Mar in Ólafsvík puts you 10 min from the national park. Great final stop before the flight home.",
+    extras: [
+      { name: "Kirkjufell + Kirkjufellsfoss", note: "The most photographed mountain in Iceland, 15 min east of your hotel. Game of Thrones fans will recognize it. Best at midnight sun golden hour (10pm-midnight).", priority: "Essential" },
+      { name: "Vatnshellir Cave", note: "Descend 35m into an 8,000-year-old lava tube. Guided tours every hour, $50/adult, minimum age 5. Helmets and lights provided. Book ahead.", priority: "Kid highlight" },
+      { name: "Búðakirkja black church", note: "South coast of peninsula, isolated black wooden church in a lava field with glacier behind. Iconic photo stop. 5 min parking.", priority: "Photo stop" },
+      { name: "Gerðuberg basalt cliffs", note: "South coast. A wall of hexagonal basalt columns 100m long. Good drive stop on your way in or out of Snæfellsnes.", priority: "Drive stop" },
+      { name: "Rauðfeldsgjá gorge", note: "Near Arnarstapi. Scramble into a narrow mossy crack in the mountain with a waterfall inside. Kids love it. Wear boots, feet will get wet.", priority: "Hidden gem" },
+      { name: "Saxhóll crater", note: "A small volcanic crater with metal steps to the top. 10 min each way. 360° view from the summit.", priority: "Quick kid win" },
+      { name: "Londrangar basalt sea stacks", note: "West coast of peninsula. Two volcanic rock pillars rising from the sea — 75m and 61m. Short walk to viewpoint.", priority: "Photo stop" },
+    ],
+    food: [
+      { name: "Sjávarpakkhúsið (Stykkishólmur)", where: "Hafnargata 2, Stykkishólmur — 45 min from hotel", note: "Harbor fish restaurant in a historic building. Mussels from the bay. Worth the drive for a proper seafood dinner." },
+      { name: "Fjöruhúsið (Hellnar)", where: "Tiny wooden building on the Hellnar beach", note: "Legendary fish soup — considered one of Iceland's best by locals. Hard to find. Cash or card, limited hours." },
+      { name: "Bjargarsteinn (Grundarfjörður)", where: "Near Kirkjufell", note: "Fine dining in a restored 1908 house that was moved to Grundarfjörður in 2014. Nordic-style tasting. Reserve ahead." },
+      { name: "Narfeyrarstofa (Stykkishólmur)", where: "Aðalgata 3", note: "Historic building, Icelandic food with modern presentation. Good alternative to Sjávarpakkhúsið if fully booked." },
+      { name: "Sker Restaurant", where: "Inside Hotel Vest Mar, your hotel", note: "Convenient when you're tired. Decent Icelandic menu. Fine for one dinner, not worth multiple." },
+      { name: "Bjarnarhöfn shark museum", where: "Shark farm on peninsula", note: "Try hákarl — fermented Greenlandic shark. Small entry fee. The 9-year-old will either be horrified or thrilled. Either way, a trip story forever." },
+    ],
+  },
 };
 
 const bookingPhases = [
   {
     label: "✅ Already Done", urgent: false, done: true,
     items: [
-      { text: "Flights booked — MSY → KEF Jul 15 night, KEF → MSY Jul 27 5:10pm", note: "Confirmed", url: null },
+      { text: "Flights booked — $3,898 total · Booking ref BLYK5I", note: "Outbound: MSY → BWI → KEF, departs Jul 15 11:50am, arrives KEF Jul 16 6:25am. Return: KEF → BNA → MSY, departs Jul 27 5:10pm, arrives MSY Jul 28 12:20am.", url: null },
       { text: "Reykjavik Residence Apartment Hotel — Jul 16-20 · $2,469", note: "Premium 2BR apartment with full kitchen", url: null },
+      { text: "Blue Lagoon Comfort Package — Jul 19, 3pm · 2 adults + 2 children ✓ BOOKED", note: "50 min from apartment. Leave by 2pm. Strict timed entry.", url: null },
       { text: "Hotel Jokulsarlon Glacier Lagoon — Jul 20-23 · $2,120", note: "Family of 4 confirmed OK in booked room", url: null },
       { text: "Akureyri Log Cabin — Jul 23-25 · $878", note: "Replaced sold-out Mývatn options. Mývatn becomes a drive-day stop.", url: null },
       { text: "Hotel Vest Mar (Olafsvik, Snæfellsnes) — Jul 25-27 · $904", note: "Renovated 2025, 10 min from National Park entrance", url: null },
+      { text: "Lotus Car Rental — Toyota RAV4 4x4 automatic · Jul 16-27 · ~$2,775 · Booking 2QFX7V", note: "Pickup Jul 16 8:30am at KEF, drop-off Jul 27 2pm. Platinum Insurance (zero excess) + Free WiFi + GPS. 1 booster (Hailey) + 1 Child Seat 15-36 kg (Lucas). Online check-in opens Jul 9.", url: "https://www.lotuscarrental.is/" },
+      { text: "Travel Insurance — Tin Leg Gold · $634 · Policy 53-TLG-FDD-6EB76 ✓ BOOKED", note: "$500K medical + $500K evacuation per person (primary coverage, no deductible). Pre-existing conditions covered. 100% trip cancellation ($14K). 150% trip interruption ($21K). Volcanic eruption covered. Emergency: 844-927-9265 (US), +1 727-264-5657 (int'l collect).", url: null },
       { text: "T-Mobile confirmed for Iceland — data roaming included on your plan", note: "Enable data roaming before you leave", url: null },
+      { text: "North Sailing Húsavík Whale Watching ✓ BOOKED — Jul 24, 10am", note: "Booking NOS-89947819 · Húsavík Original Whale Watching, 3 hrs · ~$255 family. Meeting: Whale Watching Centre, Hafnarstétt 9, Húsavík, 9:30am.", url: "https://www.northsailing.is/" },
       { text: "Itinerary structure locked — 4-3-2-2 split", note: "All 11 nights of lodging booked. Total: $6,371.", url: null },
     ],
   },
   {
     label: "🔴 This Week — Do Not Delay", urgent: true,
     items: [
-      { text: "Travel insurance — family of 4, 12 days, adventure activities covered", note: "Buy within 14 days of first trip deposit for CFAR and pre-existing coverage", url: "https://www.squaremouth.com/travel-insurance-providers/tin-leg/gold" },
-      { text: "Blue Lagoon Comfort package — Jul 18 or 19, afternoon slot (3-4pm)", note: "Reykjavik day trip, not departure day. Comfort package only. Book at bluelagoon.com directly.", url: "https://www.bluelagoon.com/" },
-      { text: "North Sailing whale + puffin combo, Husavik (day trip from Akureyri Jul 24)", note: "~$100/adult, ~$55/child. Books out months ahead for July.", url: "https://www.northsailing.is/" },
-      { text: "Order Wise card — takes 2 to 3 weeks to arrive", note: "Best exchange rate, no foreign transaction fees", url: "https://wise.com/us/card/" },
-      { text: "Rental SUV — MyCar or Lotus Car Rental", note: "Toyota RAV4 or Kia Sportage, automatic, 4x4/AWD. Platinum/Zero Excess insurance. 2 high-back boosters reserved. Additional driver added. Credit card in main driver's name. Measure kids' heights first.", url: "https://www.mycar.is/" },
+      { text: "All urgent items booked! 🎉", note: "Tour bookings within 2 weeks below.", url: null },
     ],
   },
   {
@@ -288,15 +385,13 @@ const bookingPhases = [
       { text: "Glacier walk at Skaftafell", note: "icelandicmountainguides.is — confirm minimum age 6 is accepted. Date follows glacier lagoon check-in.", url: "https://www.icelandicmountainguides.is/" },
       { text: "Jokulsarlon amphibious boat tour", note: "~$65/adult, ~$35/child. Book for a day at glacier base camp.", url: "https://icelagoon.is/" },
       { text: "Elding whale watching + puffin express, Reykjavik (Day 2)", note: "Book morning departure — calmest seas", url: "https://elding.is/" },
-      { text: "Check all 4 passports expire after Oct 27, 2026", note: "Kids passports valid 5 years only — check carefully", url: "https://travel.state.gov" },
     ],
   },
   {
     label: "🤔 Still To Discuss", urgent: false,
     items: [
       { text: "Photography plan — midnight sun golden hour runs 10pm to 2am", note: null, url: null },
-      { text: "Kids' entertainment for long drives (Day 4 = 4.5 hrs, Day 7 = 5.5 hrs)", note: "Audiobooks, downloaded shows, car snack strategy", url: null },
-      { text: "Reykjavik last day plan — you now have a full day at the end", note: "Old Harbour, Laugavegur, lopapeysa shopping, midnight sun walk", url: null },
+      { text: "Kids' entertainment for long drives (Day 5 = ~5 hrs, Day 8 = ~9 hrs)", note: "Audiobooks, downloaded shows, car snack strategy", url: null },
       { text: "Volcano activity monitoring — Reykjanes Peninsula near Keflavik is active", note: "Check mbls.is for eruption status before travel", url: "https://www.mbls.is/english/" },
       { text: "VAT refund at airport — reclaim 24% on purchases over ~6,000 ISK", note: "Present goods, form, and receipts at Keflavik before checking bags", url: null },
       { text: "ETIAS status check — may launch for US travelers by Jul 2026", note: "Check travel.state.gov the week before departure", url: "https://travel.state.gov" },
@@ -313,31 +408,35 @@ const bookingPhases = [
       { text: "Pack portable blackout curtain strips with suction cups", note: "July = 24 hrs daylight. Kids cannot sleep without them.", url: null },
       { text: "Enable T-Mobile data roaming before departure", note: "Settings → Cellular → Roaming → On", url: null },
       { text: "Pack kids medical kit — Dramamine, ibuprofen, antihistamine, blister plasters, sunscreen SPF 50, melatonin, antidiarrheal", note: null, url: null },
-      { text: "Notify your bank of Iceland travel Jul 15 to 28", note: null, url: null },
-      { text: "Buy Icelandic krona — withdraw ~15,000 ISK at Keflavik airport ATM on arrival", note: "~$110 total for the family. Card accepted almost everywhere but useful for emergencies.", url: null },
+      { text: "Notify all 3 credit card issuers of Iceland travel Jul 15 to 28", note: "Chase Sapphire (primary) + 2 backup cards. Set travel notice in each card's app.", url: null },
+      { text: "Verify 4-digit PIN on Chase Sapphire before leaving", note: "Call number on back of card or check Chase app. Needed for unmanned Icelandic gas stations. US cards normally don't have this set.", url: null },
+      { text: "Buy Icelandic krona — withdraw ~15,000 ISK at Keflavik airport ATM on arrival", note: "~$110 total for the family. Card accepted almost everywhere but useful for emergencies. Use debit card from checking.", url: null },
     ],
   },
 ];
 
 const budgetLines = [
-  { label: "Flights (family of 4)", comfort: 3000, goBig: 4500 },
-  { label: "SUV Rental (10 days, full insurance)", comfort: 2000, goBig: 2800 },
-  { label: "Fuel (~1,500 km total)", comfort: 420, goBig: 420 },
-  { label: "Iceland Km Tax (2026)", comfort: 105, goBig: 105 },
+  { label: "Flights (family of 4) ✓ BOOKED", comfort: 3898, goBig: 3898 },
+  { label: "Lotus RAV4 (11 days, Platinum Insurance) ✓ BOOKED", comfort: 2775, goBig: 2775 },
+  { label: "Fuel (~1,800 km total)", comfort: 400, goBig: 400 },
+  { label: "Iceland Km Tax (2026)", comfort: 120, goBig: 120 },
   { label: "Lodging (11 nights, 4 hotels) ✓ BOOKED", comfort: 6371, goBig: 6371 },
-  { label: "Food + Restaurants", comfort: 2200, goBig: 3800 },
-  { label: "Tours + Activities", comfort: 2500, goBig: 4000 },
+  { label: "Blue Lagoon Comfort (family) ✓ BOOKED", comfort: 360, goBig: 360 },
+  { label: "Travel Insurance (Tin Leg Gold) ✓ BOOKED", comfort: 634, goBig: 634 },
+  { label: "Tours (remaining 4 bookings)", comfort: 1050, goBig: 1350 },
+  { label: "Food + Restaurants", comfort: 2000, goBig: 3500 },
+  { label: "Souvenirs + Incidentals", comfort: 400, goBig: 1000 },
 ];
 
 const activities = [
   { name: "Puffin Express Boat Tour", location: "Reykjavik", price: "$35 adult / $20 child", duration: "1 hr", book: "elding.is", priority: true },
   { name: "Whale Watching Classic Tour", location: "Reykjavik", price: "$80 adult / $45 child", duration: "3 to 3.5 hrs", book: "elding.is", priority: true },
   { name: "Whales of Iceland Museum", location: "Reykjavik", price: "$30 adult / $15 child", duration: "1.5 hrs", book: "Walk-in fine", priority: true },
-  { name: "North Sailing Whale + Puffin Combo", location: "Husavik", price: "$100 adult / $55 child", duration: "3 hrs", book: "northsailing.is — book months ahead", priority: true },
+  { name: "North Sailing Húsavík Original ✓ BOOKED", location: "Húsavík · Jul 24, 10am", price: "$255 family total", duration: "3 hrs", book: "BOOKED — NOS-89947819. Meet 9:30am at Whale Watching Centre, Hafnarstétt 9.", priority: true },
   { name: "Jokulsarlon Amphibious Boat Tour", location: "Glacier Lagoon", price: "$65 adult / $35 child", duration: "45 min", book: "icelagoon.is", priority: true },
   { name: "Family Glacier Walk (Vatnajokull)", location: "Skaftafell", price: "$85 adult / $65 child", duration: "3 hrs", book: "icelandicmountainguides.is", priority: true },
   { name: "Icelandic Horse Riding", location: "Snaefellsnes", price: "$80 adult / $60 child", duration: "1 to 2 hrs", book: "Book through hotel", priority: true },
-  { name: "Blue Lagoon Comfort Package", location: "Reykjavik day trip (Jul 18 or 19)", price: "$120 adult / $60 child", duration: "2 to 3 hrs", book: "bluelagoon.com ONLY — book afternoon slot 3pm or 4pm. Comfort package only, skip Lava Restaurant for family visit.", priority: true },
+  { name: "Blue Lagoon Comfort Package ✓ BOOKED", location: "Reykjavik day trip · Jul 19, 3pm", price: "$360 family total", duration: "2 to 3 hrs", book: "BOOKED — 2 adults + 2 children. Leave apartment by 2pm.", priority: true },
   { name: "Myvatn Nature Baths", location: "Lake Myvatn", price: "$38 adult / FREE under 12", duration: "2 hrs", book: "jardbadin.is", priority: false },
   { name: "Secret Lagoon", location: "Fludir, Golden Circle", price: "$28 adult / $15 child", duration: "1.5 hrs", book: "secretlagoon.is", priority: false },
   { name: "Whale Museum Husavik", location: "Husavik", price: "$22 adult / $10 child", duration: "1 hr", book: "Walk-in fine", priority: false },
@@ -399,24 +498,24 @@ const packingList = {
 
 const carCompanies = [
   {
+    name: "Lotus Car Rental ✓ YOUR BOOKING",
+    rating: "9.6", reviews: "500+",
+    tag: "Booking 2QFX7V",
+    tagColor: "#4a8a68",
+    fleet: "Toyota RAV4 2022-25",
+    notes: "Local family-owned. Your Platinum insurance includes FREE WIFI IN THE CAR — genuinely useful for road.is and maps. No deposit with a valid credit card. 24/7 office, self-service pickup available with Platinum. Online check-in opens 7 days before pickup (July 9).",
+    url: "https://www.lotuscarrental.is/",
+    priceRange: "$75–520/day",
+  },
+  {
     name: "MyCar Rental",
     rating: "9.6", reviews: "493",
-    tag: "Top Pick",
+    tag: "Also Highly Rated",
     tagColor: "#4a9ab5",
     fleet: "2023–2025 vehicles",
     notes: "Highest-rated Icelandic company. Connected to Toyota's nationwide service network — if anything breaks on the Ring Road, you have backup. Free airport shuttle, smooth pickup.",
     url: "https://www.mycar.is/",
     priceRange: "$90–590/day",
-  },
-  {
-    name: "Lotus Car Rental",
-    rating: "9.6", reviews: "500+",
-    tag: "Best Value",
-    tagColor: "#4a8a68",
-    fleet: "2022–2025 vehicles",
-    notes: "Local family-owned. Platinum insurance includes FREE WIFI IN THE CAR — genuinely useful for road.is and maps. No deposit with a valid credit card. 24/7 office, self-service pickup available with Platinum.",
-    url: "https://www.lotuscarrental.is/",
-    priceRange: "$75–520/day",
   },
   {
     name: "Lava Car Rental",
@@ -444,72 +543,72 @@ const insuranceItems = [
   {
     name: "CDW — Collision Damage Waiver",
     included: true,
-    verdict: "Included — verify at booking",
+    verdict: "✓ Covered (zero excess)",
     color: "#4a8a68",
-    detail: "Covers collision damage to the car body with a deductible. Third-Party Liability (legally required) is also included automatically. Both baseline coverages come with every rental.",
+    detail: "Covers collision damage to the car body. Your Lotus Platinum includes this with $0 deductible.",
   },
   {
     name: "SCDW — Super CDW",
     included: true,
-    verdict: "Usually included — lowers deductible",
+    verdict: "✓ Covered (zero excess)",
     color: "#4a8a68",
-    detail: "Reduces your deductible if you're in an accident. Most local companies include this automatically. With a Silver/base tier you may still have a $400-1,100 deductible — Platinum brings it to zero.",
+    detail: "Reduces your deductible to zero on collision damage. Bundled into your Platinum package.",
   },
   {
     name: "GP — Gravel Protection",
-    included: false,
-    verdict: "GET IT — essential",
-    color: "#4a9ab5",
-    detail: "If you only buy ONE add-on, make it this. Gravel road stone chips are the single most common claim in Iceland. A cracked windshield without GP runs $1,500-3,000 out of pocket. Covers windshield, headlights, paint, mirrors.",
+    included: true,
+    verdict: "✓ Covered (zero excess)",
+    color: "#4a8a68",
+    detail: "Gravel road stone chips are the single most common Iceland claim. Your Platinum covers windshield, headlights, paint, mirrors at $0 deductible.",
   },
   {
     name: "SAAP — Sand and Ash Protection",
-    included: false,
-    verdict: "GET IT — essential",
-    color: "#4a9ab5",
-    detail: "Volcanic sand and ash causes paint, window, and plastic damage, especially on the south coast and near active volcanoes. A sandstorm hit can cost $3,500-10,500 out of pocket. ~$15-25/day. Non-negotiable for your route.",
+    included: true,
+    verdict: "✓ Covered (zero excess)",
+    color: "#4a8a68",
+    detail: "Volcanic sand and ash damage — common on the south coast. A sandstorm hit can cost $3,500-10,500 without this coverage. You're protected.",
   },
   {
     name: "TP — Theft Protection",
     included: true,
-    verdict: "Usually included — verify",
+    verdict: "✓ Covered",
     color: "#4a8a68",
-    detail: "Covers vehicle theft. Typically included at reputable Icelandic companies. Iceland has very low theft rates but confirm at booking anyway.",
+    detail: "Covers vehicle theft. Included in your Platinum package. Iceland has very low theft rates anyway.",
   },
   {
-    name: "Tire Protection (TIP)",
-    included: false,
-    verdict: "Worth it on Platinum",
-    color: "#4a9ab5",
-    detail: "Usually bundled into Platinum/Zero Excess packages. Covers flat tires and wheel damage. Gravel roads puncture tires regularly. Without TIP, replacements are on you.",
+    name: "Tire Insurance",
+    included: true,
+    verdict: "✓ Covered (zero excess)",
+    color: "#4a8a68",
+    detail: "Covers flat tires and wheel damage from gravel roads. Included in your Platinum package.",
   },
   {
-    name: "Platinum / Zero Excess Bundle",
-    included: false,
-    verdict: "RECOMMENDED — all-in-one",
-    color: "#4a9ab5",
-    detail: "Most companies offer a top-tier bundle (Platinum/Zero Excess/Full) that includes CDW+SCDW+GP+SAAP+TP+TIP all with $0 deductible. Costs $22-45/day, total $250-500 for 11 days. For peace of mind and the math on potential damage, it's worth it.",
+    name: "Animal Damage",
+    included: true,
+    verdict: "✓ Covered (zero excess)",
+    color: "#4a8a68",
+    detail: "Covers vehicle damage if you hit a sheep (must still report to 112 by law). Included in your Platinum package.",
+  },
+  {
+    name: "Towing",
+    included: true,
+    verdict: "Covered with 35,000 ISK ($250) deductible",
+    color: "#c09060",
+    detail: "If the vehicle breaks down and needs a tow, you pay the first ~$250. This is the ONLY thing in your Platinum that isn't zero excess.",
   },
   {
     name: "Wind Damage to Doors",
     included: false,
-    verdict: "NOT insurable — be careful",
+    verdict: "⚠ NOT insurable — be careful",
     color: "#b56a3a",
-    detail: "No insurance covers wind damage to car doors. Icelandic wind can rip a door backwards off its hinges in one gust. Repairs run $1,500-3,000. Rule: park facing into the wind, hold doors firmly when opening.",
+    detail: "No Iceland insurance at any tier covers wind damage to car doors. Icelandic wind can rip a door backwards off its hinges in one gust. Repairs run $1,500-3,000. Rule: park facing into the wind, hold doors firmly when opening.",
   },
   {
-    name: "Water / River Crossing Damage",
-    included: false,
-    verdict: "NEVER covered — avoid",
-    color: "#b56a3a",
-    detail: "No insurance at any level covers water damage from river crossings. You won't be doing F-roads so this shouldn't come up, but know that if you drive through a stream and it kills the engine, you pay for everything.",
-  },
-  {
-    name: "Credit Card Coverage",
-    included: false,
-    verdict: "Don't rely on it alone",
-    color: "#b56a3a",
-    detail: "Many US cards exclude Iceland entirely or exclude 4x4/SUV vehicles. Even cards that cover international rentals usually exclude gravel and sand damage — the two most common claims here. Call your card issuer and get exclusions IN WRITING before departure. Buy rental insurance regardless.",
+    name: "Off-Road / F-Road Driving",
+    included: true,
+    verdict: "✓ Covered (but you're not doing this)",
+    color: "#4a8a68",
+    detail: "Your Platinum includes F-Road and River Crossing coverage, which is unusual. But your route (Ring Road + Snæfellsnes) has NO F-roads. Don't tempt it — even with coverage, getting stuck in a river with kids is dangerous.",
   },
 ];
 
@@ -544,21 +643,21 @@ const apps = [
 ];
 
 const carPickupChecklist = [
-  "Physical credit card in main driver's name — mobile wallets and virtual cards are rejected",
-  "Automatic transmission confirmed — manuals are cheaper but brutal with kids and long drives",
-  "4x4/AWD confirmed — not just 'SUV', actual four-wheel drive",
-  "2 high-back booster seats reserved — confirm RESERVED for your dates, not just requested. ECE R44/04 or R129 certified (look for orange sticker).",
-  "Gravel Protection (GP) added to policy",
-  "Sand and Ash Protection (SAAP) added to policy",
-  "Platinum / Zero Excess bundle for maximum coverage with $0 deductible",
-  "Additional driver added — free at most local companies, essential for switching on long drives",
+  "Physical credit card (Chase Sapphire) in main driver's name — mobile wallets and virtual cards are rejected",
+  "Passport + US driving license for Hai (main driver). Add Linda as additional driver at the counter.",
+  "Confirm booster seat (Hailey) + Child Seat 15-36 kg (Lucas) are both ready and installed",
+  "Confirm Toyota RAV4 is automatic 4x4 — verify before signing",
+  "Confirm Platinum Insurance is active on the agreement — zero excess on gravel, sand/ash, tire, theft, etc.",
+  "Activate the free 4G WiFi device (usually in the glove box or on dashboard)",
+  "Pick up the Cheaper Fuel discount card",
   "Ask where the spare tire is and how to use it before leaving the lot",
   "Walk-around video of entire car BEFORE driving off — all 4 sides, roof, underside, windshield. Photograph every existing scratch, chip, dent.",
   "Verify fuel tank is actually full (not just stated as full)",
-  "Confirm how the 2026 km road tax is charged — per km at return or built into daily rate",
-  "Confirm GPS is in the car OR your phone offline maps are ready (Google Maps + Maps.me)",
+  "Confirm 2026 km road tax is built into your daily rate (it is)",
+  "Confirm GPS works OR your phone offline maps are ready (Google Maps + Maps.me)",
   "Check headlights are set to automatic (legally required on at all times)",
-  "Save rental company's 24/7 emergency number in your phone",
+  "Save Lotus emergency number +354 787 4444 in your phone",
+  "Online check-in opens July 9 at shuttle.lotuscarrental.is — do this to save 20-30 min at pickup",
 ];
 
 const carSeatRules = {
@@ -964,12 +1063,12 @@ export default function IcelandGuide() {
     page: { fontFamily: "Georgia, 'Times New Roman', serif", background: "#080f1c", minHeight: "100vh", color: "#d0e8f4" },
     header: { padding: "30px 20px 18px", borderBottom: "1px solid #1a3040" },
     inner: { maxWidth: 820, margin: "0 auto" },
-    eyebrow: { fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 6 },
+    eyebrow: { fontSize: 10, letterSpacing: 5, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 6 },
     h1: { margin: "0 0 4px", fontSize: 36, fontWeight: "normal", color: "#fff", letterSpacing: "-0.5px" },
     sub: { margin: "0 0 14px", color: "#3a5a6a", fontSize: 13 },
     pillRow: { display: "flex", gap: 8, flexWrap: "wrap" },
     tabBar: { background: "rgba(0,0,0,0.4)", borderBottom: "1px solid #1a3040", position: "sticky", top: 0, zIndex: 10 },
-    tabInner: { maxWidth: 820, margin: "0 auto", display: "flex", overflowX: "auto", WebkitOverflowScrolling: "touch" },
+    tabInner: { maxWidth: 820, margin: "0 auto", display: "flex" },
     body: { maxWidth: 820, margin: "0 auto", padding: "20px 16px 60px" },
     intro: { color: "#3a5a6a", fontSize: 13, margin: "0 0 16px", lineHeight: 1.7 },
   };
@@ -980,7 +1079,7 @@ export default function IcelandGuide() {
         <div style={s.inner}>
           <div style={s.eyebrow}>Iceland · Family of 4 · 4 Base Camps</div>
           <h1 style={s.h1}>Iceland — Jul 16–27, 2026</h1>
-          <p style={s.sub}>MSY departs Jul 15 night · Arrives KEF Jul 16 6:25am · Departs KEF Jul 27 5:10pm · 12 nights</p>
+          <p style={s.sub}>MSY → BWI → KEF · Departs Jul 15 11:50am · Arrives KEF Jul 16 6:25am · Departs KEF Jul 27 5:10pm · KEF → BNA → MSY · Arrives Jul 28 12:20am · 11 nights</p>
           <div style={s.pillRow}>
             {camps.map((c, i) => (
               <span key={i} style={{ background: "#0d2030", border: "1px solid " + CAMP_COLORS[i] + "40", borderRadius: 20, padding: "3px 12px", fontSize: 11, color: CAMP_COLORS[i] }}>
@@ -995,9 +1094,9 @@ export default function IcelandGuide() {
       </div>
 
       <div style={s.tabBar}>
-        <div style={s.tabInner} className="tab-scroll">
+        <div style={s.tabInner}>
           {TABS.map((t, i) => (
-            <button key={t} onClick={() => setTab(i)} style={{ background: "none", border: "none", borderBottom: tab === i ? "2px solid #5aa8c4" : "2px solid transparent", color: tab === i ? "#5aa8c4" : "#2a5060", padding: "13px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit", flexShrink: 0, whiteSpace: "nowrap", minHeight: 44 }}>
+            <button key={t} onClick={() => setTab(i)} style={{ background: "none", border: "none", borderBottom: tab === i ? "2px solid #5aa8c4" : "2px solid transparent", color: tab === i ? "#5aa8c4" : "#2a5060", padding: "12px 20px", cursor: "pointer", fontSize: 13, fontFamily: "inherit" }}>
               {t}
             </button>
           ))}
@@ -1021,7 +1120,7 @@ export default function IcelandGuide() {
               const isOpen = openCamp === ci;
               return (
                 <div key={ci} style={{ marginBottom: 10, borderRadius: 10, overflow: "hidden", border: "1px solid " + color + (isOpen ? "50" : "22") }}>
-                  <button onClick={() => { setOpenCamp(isOpen ? -1 : ci); setOpenDay(null); }} style={{ width: "100%", background: "#0d1e28", border: "none", padding: "15px 17px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 12, fontFamily: "inherit", color: "inherit", minHeight: 56 }}>
+                  <button onClick={() => { setOpenCamp(isOpen ? -1 : ci); setOpenDay(null); }} style={{ width: "100%", background: "#0d1e28", border: "none", padding: "15px 17px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 12, fontFamily: "inherit", color: "inherit" }}>
                     <span style={{ fontSize: 22 }}>{CAMP_ICONS[ci]}</span>
                     <div style={{ flex: 1 }}>
                       <div style={{ fontSize: 15, color: "#e8f4fa" }}>Base Camp {ci + 1}: {camp.name}</div>
@@ -1034,7 +1133,7 @@ export default function IcelandGuide() {
                     <div style={{ padding: "0 13px 13px" }}>
                       <div style={{ margin: "12px 0 10px", padding: "11px 13px", background: "#0a1820", borderRadius: 8, border: "1px solid #1a3040", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
                         <div>
-                          <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>Your Hotel</div>
+                          <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>Your Hotel</div>
                           <div style={{ fontSize: 14, color: "#d8f0f8" }}>{hotel.name}</div>
                           <div style={{ fontSize: 11, color: "#2a5060", marginTop: 2 }}>{"★ " + hotel.rating + " · " + hotel.reviews + " reviews · " + hotel.price}</div>
                           <div style={{ fontSize: 11, color: "#4a7080", marginTop: 3, fontStyle: "italic" }}>{hotel.highlight}</div>
@@ -1045,13 +1144,43 @@ export default function IcelandGuide() {
                         </div>
                       </div>
 
+                      {(() => {
+                        const guide = campGuides[HOTEL_KEYS[ci]];
+                        if (!guide) return null;
+                        return (
+                          <div style={{ marginBottom: 14, padding: "13px 14px", background: "#080f18", borderRadius: 8, border: "1px solid " + color + "25" }}>
+                            <div style={{ fontSize: 12, color: "#80a8b8", lineHeight: 1.6, fontStyle: "italic", marginBottom: 12 }}>{guide.summary}</div>
+
+                            <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 7 }}>Also in the Area</div>
+                            {guide.extras.map((e, ei) => (
+                              <div key={ei} style={{ marginBottom: 7, padding: "8px 10px", background: "#0a1820", borderRadius: 6, border: "1px solid #1a2a30" }}>
+                                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3, flexWrap: "wrap" }}>
+                                  <span style={{ fontSize: 12, color: "#d8f0f8" }}>{e.name}</span>
+                                  <span style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: 4, padding: "1px 7px", fontSize: 9, color: color }}>{e.priority}</span>
+                                </div>
+                                <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55 }}>{e.note}</div>
+                              </div>
+                            ))}
+
+                            <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "13px 0 7px" }}>Where to Eat</div>
+                            {guide.food.map((f, fi) => (
+                              <div key={fi} style={{ marginBottom: 7, padding: "8px 10px", background: "#0a1820", borderRadius: 6, border: "1px solid #1a2a30" }}>
+                                <div style={{ fontSize: 12, color: "#d8f0f8", marginBottom: 2 }}>{f.name}</div>
+                                <div style={{ fontSize: 10, color: "#3a6070", marginBottom: 3 }}>📍 {f.where}</div>
+                                <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55 }}>{f.note}</div>
+                              </div>
+                            ))}
+                          </div>
+                        );
+                      })()}
+
                       {camp.days.map((day, di) => {
                         const dk = ci + "-" + di;
                         const isDayOpen = openDay === dk;
                         return (
                           <div key={di} style={{ marginBottom: 6, borderRadius: 7, overflow: "hidden", border: isDayOpen ? "1px solid " + color + "40" : "1px solid #1a2a30", background: isDayOpen ? "#0a1820" : "#090f18" }}>
-                            <button onClick={() => setOpenDay(isDayOpen ? null : dk)} style={{ width: "100%", background: "none", border: "none", padding: "12px 13px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 10, fontFamily: "inherit", color: "inherit", minHeight: 48 }}>
-                              <div style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: "50%", width: 26, height: 26, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: color, flexShrink: 0 }}>
+                            <button onClick={() => setOpenDay(isDayOpen ? null : dk)} style={{ width: "100%", background: "none", border: "none", padding: "10px 13px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 10, fontFamily: "inherit", color: "inherit" }}>
+                              <div style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: "50%", width: 26, height: 26, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, color: color, flexShrink: 0 }}>
                                 {"D" + day.n}
                               </div>
                               <div style={{ flex: 1 }}>
@@ -1065,7 +1194,7 @@ export default function IcelandGuide() {
                             {isDayOpen && (
                               <div style={{ padding: "0 13px 13px", borderTop: "1px solid #1a2a30" }}>
                                 <div style={{ fontSize: 11, color: "#2a5060", padding: "8px 0 9px", borderBottom: "1px solid #1a2a30" }}>{"🚗 " + day.drive}</div>
-                                <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "9px 0 6px" }}>Day Plan</div>
+                                <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "9px 0 6px" }}>Day Plan</div>
                                 {day.plan.map((p, pi) => (
                                   <div key={pi} style={{ display: "flex", gap: 7, marginBottom: 5, fontSize: 12, color: "#90b8c8", lineHeight: 1.55 }}>
                                     <span style={{ color: "#1a4050", flexShrink: 0 }}>→</span>
@@ -1074,14 +1203,14 @@ export default function IcelandGuide() {
                                 ))}
                                 {day.creatures.length > 0 && (
                                   <div style={{ margin: "10px 0 7px", padding: "9px 11px", background: "#0a1820", borderRadius: 6, border: "1px solid #1a3040" }}>
-                                    <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 5 }}>Wildlife Today</div>
+                                    <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 5 }}>Wildlife Today</div>
                                     {day.creatures.map((c, i) => (
                                       <div key={i} style={{ fontSize: 12, color: "#6a9aaa", marginBottom: 3 }}>{c}</div>
                                     ))}
                                   </div>
                                 )}
                                 <div style={{ marginTop: 8, padding: "9px 11px", background: "#0a1410", borderRadius: 6, borderLeft: "3px solid #705020" }}>
-                                  <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
+                                  <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
                                   <div style={{ fontSize: 11, color: "#806030", lineHeight: 1.6 }}>{day.tip}</div>
                                 </div>
                               </div>
@@ -1100,14 +1229,14 @@ export default function IcelandGuide() {
                 <span style={{ fontSize: 22 }}>✈️</span>
                 <div style={{ flex: 1 }}>
                   <div style={{ fontSize: 15, color: "#e8f4fa" }}>Day 12 — Fly Home</div>
-                  <div style={{ fontSize: 11, color: "#c09030", marginTop: 2 }}>{finalDay.date} · Blue Lagoon then KEF 5:10pm</div>
+                  <div style={{ fontSize: 11, color: "#c09030", marginTop: 2 }}>{finalDay.date} · Borgarnes lunch, then KEF 5:10pm flight</div>
                 </div>
                 <span style={{ color: "#302010", fontSize: 13 }}>{openDay === "final" ? "▲" : "▼"}</span>
               </button>
               {openDay === "final" && (
                 <div style={{ padding: "0 15px 15px", borderTop: "1px solid #302010" }}>
                   <div style={{ fontSize: 11, color: "#2a5060", padding: "8px 0 9px", borderBottom: "1px solid #1a2a30" }}>{"🚗 " + finalDay.drive}</div>
-                  <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#c09030", margin: "9px 0 6px" }}>Day Plan</div>
+                  <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#c09030", margin: "9px 0 6px" }}>Day Plan</div>
                   {finalDay.plan.map((p, i) => (
                     <div key={i} style={{ display: "flex", gap: 7, marginBottom: 5, fontSize: 12, color: "#90b8c8", lineHeight: 1.55 }}>
                       <span style={{ color: "#503010", flexShrink: 0 }}>→</span>
@@ -1120,7 +1249,7 @@ export default function IcelandGuide() {
                     ))}
                   </div>
                   <div style={{ padding: "9px 11px", background: "#0a1410", borderRadius: 6, borderLeft: "3px solid #705020" }}>
-                    <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
+                    <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
                     <div style={{ fontSize: 11, color: "#806030", lineHeight: 1.6 }}>{finalDay.tip}</div>
                   </div>
                 </div>
@@ -1139,7 +1268,7 @@ export default function IcelandGuide() {
                 <div key={key} style={{ marginBottom: 12, background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "16px 16px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12, flexWrap: "wrap", marginBottom: 12 }}>
                     <div>
-                      <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>{CAMP_ICONS[i]} Base Camp {i + 1} · {h.dates}</div>
+                      <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>{CAMP_ICONS[i]} Base Camp {i + 1} · {h.dates}</div>
                       <div style={{ fontSize: 16, color: "#d8f0f8" }}>{h.name}</div>
                       <div style={{ fontSize: 11, color: "#2a5060", marginTop: 3 }}>{"★ " + h.rating + " (" + h.reviews + " reviews) · " + h.price}</div>
                     </div>
@@ -1182,7 +1311,7 @@ export default function IcelandGuide() {
                 <div>
                   <div style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "18px 20px", marginBottom: 20, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
                     <div>
-                      <div style={{ fontSize: 11, letterSpacing: 4, textTransform: "uppercase", color: "#5aa8c4" }}>Estimated Total</div>
+                      <div style={{ fontSize: 10, letterSpacing: 4, textTransform: "uppercase", color: "#5aa8c4" }}>Estimated Total</div>
                       <div style={{ fontSize: 34, color: "#fff", marginTop: 4 }}>{"$" + total.toLocaleString()}</div>
                       <div style={{ fontSize: 11, color: "#2a5060", marginTop: 3 }}>Family of 4 · 12 days · July · All-in including flights</div>
                     </div>
@@ -1203,7 +1332,7 @@ export default function IcelandGuide() {
                         <div style={{ height: 5, background: "#0d1820", borderRadius: 3 }}>
                           <div style={{ height: "100%", width: pct + "%", background: "#1e6080", borderRadius: 3 }} />
                         </div>
-                        <div style={{ fontSize: 11, color: "#1a4050", marginTop: 2 }}>{pct + "% of total"}</div>
+                        <div style={{ fontSize: 10, color: "#1a4050", marginTop: 2 }}>{pct + "% of total"}</div>
                       </div>
                     );
                   })}
@@ -1211,7 +1340,7 @@ export default function IcelandGuide() {
               );
             })()}
             <div style={{ marginTop: 20, background: "#0a1408", borderRadius: 9, padding: "14px 16px", border: "1px solid #1a3010" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 10 }}>Save $800 to 1,500</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 10 }}>Save $800 to 1,500</div>
               {["Use accommodation kitchens for breakfast and lunch every day — saves $600 to 800 vs eating out every meal.", "Big grocery run at Bonus on Day 1. Cheapest supermarket in Iceland.", "Iceland's best stuff is free: every waterfall, every beach, every viewpoint, every roadside reindeer.", "Fill water bottles from the tap — Icelandic water is glacier-fed, never buy bottled.", "Return rental car with full tank — companies charge 2 to 3x market rate to fill it.", "Kids under 12 free at Myvatn Nature Baths — saves $76 right there."].map((tip, i) => (
                 <div key={i} style={{ display: "flex", gap: 8, marginBottom: 6, fontSize: 12, color: "#507030", lineHeight: 1.5 }}>
                   <span style={{ flexShrink: 0 }}>→</span><span>{tip}</span>
@@ -1240,7 +1369,7 @@ export default function IcelandGuide() {
               </div>
             ))}
             <div style={{ marginTop: 10, padding: "13px 14px", background: "#0a1408", borderRadius: 8, border: "1px solid #1a3010" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Free — Just Show Up</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Free — Just Show Up</div>
               {freeAttractions.map((f, i) => (
                 <div key={i} style={{ fontSize: 12, color: "#507030", marginBottom: 4, paddingLeft: 12, position: "relative" }}>
                   <span style={{ position: "absolute", left: 0 }}>·</span>{f}
@@ -1254,7 +1383,7 @@ export default function IcelandGuide() {
           <div>
             {Object.entries(packingList).map(([cat, items]) => (
               <div key={cat} style={{ marginBottom: 20 }}>
-                <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 9, paddingBottom: 5, borderBottom: "1px solid #1a2a30" }}>{cat}</div>
+                <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 9, paddingBottom: 5, borderBottom: "1px solid #1a2a30" }}>{cat}</div>
                 {items.map((item, i) => (
                   <div key={i} style={{ display: "flex", gap: 9, fontSize: 13, color: "#80a8b8", lineHeight: 1.5, marginBottom: 7 }}>
                     <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
@@ -1273,17 +1402,17 @@ export default function IcelandGuide() {
 
         {tab === 5 && (
           <div>
-            <p style={s.intro}>Everything you need to know before picking up your keys — companies, insurance, rules, and apps.</p>
+            <p style={s.intro}>Everything you need to know before picking up your keys — your booking, insurance, rules, and apps.</p>
 
             {/* COMPANIES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Recommended Rental Companies</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Booking + Alternatives</div>
             {carCompanies.map((c, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "14px 16px", marginBottom: 10 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 8, marginBottom: 10 }}>
                   <div>
                     <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3 }}>
                       <span style={{ fontSize: 15, color: "#d8f0f8" }}>{c.name}</span>
-                      <span style={{ background: "#0d2030", border: "1px solid " + c.tagColor + "40", borderRadius: 5, padding: "2px 8px", fontSize: 11, color: c.tagColor }}>{c.tag}</span>
+                      <span style={{ background: "#0d2030", border: "1px solid " + c.tagColor + "40", borderRadius: 5, padding: "2px 8px", fontSize: 10, color: c.tagColor }}>{c.tag}</span>
                     </div>
                     <div style={{ fontSize: 11, color: "#2a5060" }}>{"★ " + c.rating + " · " + c.reviews + " reviews · " + c.fleet}</div>
                   </div>
@@ -1300,16 +1429,18 @@ export default function IcelandGuide() {
             </div>
 
             {/* WHAT TO RENT */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>What to Rent</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental — Toyota RAV4 (Lotus)</div>
             <div style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "14px 16px", marginBottom: 22 }}>
               {[
-                ["Vehicle class", "4x4 SUV — Kia Sorento, Toyota RAV4, or Hyundai Santa Fe class. Proper four-wheel drive, not just AWD."],
-                ["Transmission", "Automatic. Manuals are cheaper but you will be tired, distracted by scenery, and managing two kids."],
-                ["Seats", "5-seat with large boot. Fits family of 4 plus luggage for 12 days."],
-                ["Extras to book", "2x child seats (legally required), GPS, additional driver if sharing driving"],
-                ["4x4 needed?", "Yes. You are not doing F-roads, but gravel roads, East Fjords, and general confidence in wind all benefit from proper 4x4."],
+                ["Vehicle", "Toyota RAV4 2022-25 — 5-seat AWD SUV, automatic. Booking 2QFX7V. ~$2,775 total."],
+                ["Insurance", "Platinum Insurance — ZERO excess on everything. Covers CDW, SCDW, Theft, Gravel, Sand & Ash, Tire, River Crossing, F-Road, Animal Damage. Towing has 35,000 ISK deductible. Wind door damage still not covered (be careful)."],
+                ["Extras included", "GPS, 4G WiFi in car (free), Cheaper fuel discount card, Unlimited mileage, Road Tax, Admin fee. Online check-in opens 7 days before pickup (Jul 9)."],
+                ["Kids", "1 booster seat (Hailey) + 1 Child Seat 15-36 kg / high-back booster (Lucas)"],
+                ["Pickup", "Jul 16 at 8:30am — KEF shuttle stop after exiting Arrivals. Shared shuttle runs 5am-6pm. 2-hr buffer from your 6:25am landing."],
+                ["Drop-off", "Jul 27 at 2:00pm — same KEF location. 3+ hr buffer before 5:10pm flight."],
+                ["Contact", "lotus@lotuscarrental.is · +354 787 4444. Save this number."],
               ].map(([label, detail], i) => (
-                <div key={i} style={{ display: "flex", gap: 12, marginBottom: 10, paddingBottom: 10, borderBottom: i < 4 ? "1px solid #1a2a30" : "none" }}>
+                <div key={i} style={{ display: "flex", gap: 12, marginBottom: 10, paddingBottom: 10, borderBottom: i < 6 ? "1px solid #1a2a30" : "none" }}>
                   <span style={{ fontSize: 12, color: "#5aa8c4", minWidth: 130, flexShrink: 0 }}>{label}</span>
                   <span style={{ fontSize: 12, color: "#80a8b8", lineHeight: 1.6 }}>{detail}</span>
                 </div>
@@ -1317,10 +1448,16 @@ export default function IcelandGuide() {
             </div>
 
             {/* INSURANCE */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Insurance — Read This Carefully</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Insurance Coverage</div>
+            <div style={{ padding: "12px 14px", background: "#0d1a10", borderRadius: 9, border: "1px solid #2a4a30", marginBottom: 10 }}>
+              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#5a9068", marginBottom: 4 }}>✓ Lotus Platinum — Zero Excess on Everything</div>
+              <div style={{ fontSize: 12, color: "#6a9878", lineHeight: 1.6 }}>
+                You are fully covered. Nothing below is an action item — this is a reference for what Platinum includes versus the two things it doesn't cover (wind doors + off-road, neither of which applies to your route).
+              </div>
+            </div>
             {insuranceItems.map((ins, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 8, padding: "11px 14px", marginBottom: 7, display: "flex", gap: 12, alignItems: "flex-start" }}>
-                <span style={{ background: "#0d2030", border: "1px solid " + ins.color + "40", borderRadius: 5, padding: "3px 8px", fontSize: 11, color: ins.color, whiteSpace: "nowrap", flexShrink: 0, marginTop: 1 }}>{ins.verdict}</span>
+                <span style={{ background: "#0d2030", border: "1px solid " + ins.color + "40", borderRadius: 5, padding: "3px 8px", fontSize: 10, color: ins.color, whiteSpace: "nowrap", flexShrink: 0, marginTop: 1 }}>{ins.verdict}</span>
                 <div>
                   <div style={{ fontSize: 13, color: "#c0e0f0", marginBottom: 3 }}>{ins.name}</div>
                   <div style={{ fontSize: 11, color: "#507080", lineHeight: 1.6 }}>{ins.detail}</div>
@@ -1329,7 +1466,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SPEED LIMITS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Speed Limits</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Speed Limits</div>
             <div style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, overflow: "hidden", marginBottom: 22 }}>
               {speedLimits.map((s2, i) => (
                 <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px 14px", borderBottom: i < speedLimits.length - 1 ? "1px solid #1a2a30" : "none" }}>
@@ -1346,7 +1483,7 @@ export default function IcelandGuide() {
             </div>
 
             {/* DRIVING RULES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Rules + Things That Will Surprise You</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Rules + Things That Will Surprise You</div>
             <div style={{ display: "grid", gap: 7, marginBottom: 22 }}>
               {drivingRules.map((r, i) => (
                 <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 8, padding: "10px 13px", display: "flex", gap: 10, alignItems: "flex-start" }}>
@@ -1360,10 +1497,10 @@ export default function IcelandGuide() {
             </div>
 
             {/* APPS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Apps to Download Before You Fly</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Apps to Download Before You Fly</div>
             {apps.map((app, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 12px", background: "#0a1820", borderRadius: 8, border: "1px solid #1a2a30" }}>
-                <span style={{ background: app.essential ? "#0d2030" : "#080f18", border: "1px solid " + (app.essential ? "#5aa8c4" : "#1a2a30") + "40", borderRadius: 5, padding: "2px 7px", fontSize: 11, color: app.essential ? "#5aa8c4" : "#3a5060", whiteSpace: "nowrap", flexShrink: 0 }}>{app.essential ? "Essential" : "Backup"}</span>
+                <span style={{ background: app.essential ? "#0d2030" : "#080f18", border: "1px solid " + (app.essential ? "#5aa8c4" : "#1a2a30") + "40", borderRadius: 5, padding: "2px 7px", fontSize: 10, color: app.essential ? "#5aa8c4" : "#3a5060", whiteSpace: "nowrap", flexShrink: 0 }}>{app.essential ? "Essential" : "Backup"}</span>
                 <div style={{ flex: 1 }}>
                   <div style={{ fontSize: 13, color: "#c0e0f0", marginBottom: 2 }}>{app.name}</div>
                   <div style={{ fontSize: 11, color: "#507080", lineHeight: 1.5 }}>{app.use}</div>
@@ -1373,7 +1510,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* CAR SEAT RULES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Car Seats — Icelandic Law</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Car Seats — Icelandic Law</div>
             <div style={{ padding: "14px 16px", background: "#1a1408", borderRadius: 9, border: "1px solid #3a2810", marginBottom: 12 }}>
               <div style={{ fontSize: 13, color: "#c0a058", lineHeight: 1.6, marginBottom: 10, fontWeight: 600 }}>
                 {carSeatRules.rule}
@@ -1393,7 +1530,7 @@ export default function IcelandGuide() {
             </div>
 
             {/* PICKUP CHECKLIST */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>At Pickup — Do Not Skip These</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>At Lotus Pickup — Jul 16, 8:30am</div>
             {carPickupChecklist.map((item, i) => (
               <div key={i} style={{ display: "flex", gap: 9, fontSize: 13, color: "#80a8b8", lineHeight: 1.5, marginBottom: 7, padding: "8px 12px", background: "#0a1820", borderRadius: 7, border: "1px solid #1a2a30" }}>
                 <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
@@ -1403,7 +1540,7 @@ export default function IcelandGuide() {
 
             {/* FUEL */}
             <div style={{ marginTop: 20, padding: "14px 16px", background: "#0a1408", borderRadius: 9, border: "1px solid #1a3010" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Fuel</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Fuel</div>
               <div style={{ fontSize: 12, color: "#508030", lineHeight: 1.7 }}>
                 Fuel costs roughly $9.50 to $10.50 per US gallon — about double US prices. Fill up whenever your tank drops below half. Gaps between stations can be 200 km in the East Fjords. Most stations accept credit cards including unmanned self-service ones. Return the car with a full tank — rental companies charge 2 to 3x market rate to refuel it themselves.
               </div>
@@ -1416,12 +1553,12 @@ export default function IcelandGuide() {
             <p style={s.intro}>The food you must eat, the moments you must not rush past, the things worth buying, and the tourist traps to skip.</p>
 
             {/* FOOD */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 12 }}>Food — What to Eat in Iceland</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 12 }}>Food — What to Eat in Iceland</div>
             {cantMiss.food.map((f, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 9, padding: "13px 15px", marginBottom: 8 }}>
                 <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 10, marginBottom: 6 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    {f.mustTry && <span style={{ background: "#0d2030", border: "1px solid #5aa8c4", borderRadius: 5, padding: "2px 7px", fontSize: 11, color: "#5aa8c4", flexShrink: 0 }}>Must Try</span>}
+                    {f.mustTry && <span style={{ background: "#0d2030", border: "1px solid #5aa8c4", borderRadius: 5, padding: "2px 7px", fontSize: 9, color: "#5aa8c4", flexShrink: 0 }}>Must Try</span>}
                     <span style={{ fontSize: 14, color: "#d8f0f8" }}>{f.name}</span>
                   </div>
                   <span style={{ fontSize: 12, color: "#5aa8c4", whiteSpace: "nowrap", flexShrink: 0 }}>{f.price}</span>
@@ -1432,11 +1569,11 @@ export default function IcelandGuide() {
             ))}
 
             {/* EXPERIENCES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Experiences — Do Not Rush Past These</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Experiences — Do Not Rush Past These</div>
             {cantMiss.experiences.map((e, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 9, padding: "13px 15px", marginBottom: 8 }}>
                 <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 6 }}>
-                  <span style={{ background: "#0d2030", border: "1px solid #8a6aa8", borderRadius: 5, padding: "2px 7px", fontSize: 11, color: "#8a6aa8", flexShrink: 0, marginTop: 1 }}>{e.type}</span>
+                  <span style={{ background: "#0d2030", border: "1px solid #8a6aa8", borderRadius: 5, padding: "2px 7px", fontSize: 9, color: "#8a6aa8", flexShrink: 0, marginTop: 1 }}>{e.type}</span>
                   <span style={{ fontSize: 14, color: "#d8f0f8" }}>{e.name}</span>
                 </div>
                 <div style={{ fontSize: 12, color: "#6a9aaa", lineHeight: 1.6 }}>{e.detail}</div>
@@ -1444,7 +1581,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* HIDDEN GEMS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Easy Wins — Things Most Tourists Miss</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Easy Wins — Things Most Tourists Miss</div>
             {cantMiss.dontMiss.map((d, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 13px", background: "#0a1820", borderRadius: 8, border: "1px solid #1a2a30" }}>
                 <span style={{ color: "#b56a3a", flexShrink: 0, marginTop: 2 }}>→</span>
@@ -1456,7 +1593,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SOUVENIRS — BUY */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Souvenirs — What to Buy</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Souvenirs — What to Buy</div>
             {cantMiss.souvenirsBuy.map((sv, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 9, padding: "13px 15px", marginBottom: 8 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 10, marginBottom: 5 }}>
@@ -1469,7 +1606,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SOUVENIRS — AVOID */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#b56a3a", margin: "22px 0 12px" }}>Souvenirs — What to Avoid</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#b56a3a", margin: "22px 0 12px" }}>Souvenirs — What to Avoid</div>
             {cantMiss.souvenirAvoid.map((sv, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 13px", background: "#120808", borderRadius: 8, border: "1px solid #2a1010" }}>
                 <span style={{ color: "#b05040", flexShrink: 0, marginTop: 2 }}>✕</span>
@@ -1481,26 +1618,25 @@ export default function IcelandGuide() {
             ))}
 
             {/* STILL TO DO */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Still on Your To-Do List</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Trip Status</div>
             {[
-              { item: "Rental car — decision pending", detail: "Quotes in hand from MyCar and Lotus. Toyota RAV4 or Kia Sportage, automatic, 4WD, Platinum/Zero Excess insurance, 2 high-back boosters. Measure kids' heights before booking. Credit card only.", done: false, urgent: true },
-              { item: "Book all 4 hotels", detail: "Reykjavik Residence, Hótel Jökulsarlon, Akureyri Log Cabin, Hotel Vest Mar — all 11 nights locked. Total: $6,371.", done: true, urgent: false },
-              { item: "Travel insurance", detail: "Squaremouth.com → Tin Leg Gold. Buy this week — 14-day window for best coverage is closing.", done: false, urgent: true },
-              { item: "Order Wise card", detail: "wise.com — takes 2 to 3 weeks to arrive. Best exchange rate for Iceland spending.", done: false, urgent: true },
-              { item: "Rental SUV", detail: "MyCar or Lava Car Rental. Large 4x4, automatic, gravel protection, SAAP, 2 child seats.", done: false, urgent: true },
-              { item: "Blue Lagoon slot", detail: "bluelagoon.com — Jul 18 or 19, 3pm or 4pm afternoon slot. Comfort package only. Day trip from Reykjavik, not departure day.", done: false, urgent: false },
-              { item: "North Sailing Husavik", detail: "northsailing.is — whale and puffin combo. Date follows Myvatn check-in. Books out for July.", done: false, urgent: false },
-              { item: "ISK cash", detail: "Not urgent. Withdraw ~15,000 ISK (~$110) from ATM at Keflavik airport on arrival. Iceland is nearly cashless.", done: false, urgent: false },
-              { item: "Check all 4 passports", detail: "Must be valid past Oct 27, 2026. Kids passports are 5-year validity — check carefully.", done: false, urgent: false },
-              { item: "Glacier walk, boat tour, whale watching Reykjavik", detail: "icelandicmountainguides.is, icelagoon.is, elding.is — within 2 weeks.", done: false, urgent: false },
-              { item: "Photography — midnight sun golden hour", detail: "Golden hour runs roughly 10pm to 2am in July. Best light of your life. Worth knowing before you go.", done: false, urgent: false },
-              { item: "Kids' car entertainment plan", detail: "Day 4 is 4.5 hrs driving, Day 7 is 5.5 hrs. Downloaded shows, audiobooks, car snack rotation.", done: false, urgent: false },
+              { item: "Flights booked — $3,898", detail: "MSY → BWI → KEF, departs Jul 15 11:50am, arrives KEF Jul 16 6:25am. KEF → BNA → MSY, departs Jul 27 5:10pm, arrives MSY Jul 28 12:20am. Booking ref BLYK5I.", done: true, urgent: false },
+              { item: "All 4 hotels booked — $6,371", detail: "Reykjavik Residence (4 nights), Hotel Jökulsárlón (3 nights), Akureyri Log Cabin (2 nights), Hotel Vest Mar (2 nights).", done: true, urgent: false },
+              { item: "Blue Lagoon booked — Jul 19, 3pm", detail: "Comfort package, 2 adults + 2 children. Leave Reykjavik apartment by 2pm. Strict timed entry.", done: true, urgent: false },
+              { item: "Lotus Car Rental — Toyota RAV4 ✓ BOOKED", detail: "Booking 2QFX7V. ~$2,775. Platinum Insurance (zero excess) + Free WiFi. 1 booster (Hailey) + 1 Child Seat (Lucas). Pickup Jul 16 8:30am, drop-off Jul 27 2pm. Online check-in opens Jul 9.", done: true, urgent: false },
+              { item: "Travel insurance ✓ BOOKED", detail: "Tin Leg Gold · Policy 53-TLG-FDD-6EB76 · $634 · $500K medical + evacuation per person, primary, no deductible, pre-existing covered. Emergency: 844-927-9265.", done: true, urgent: false },
+              { item: "Passports verified ✓", detail: "All 4 passports valid past Oct 27, 2026. Confirmed good for travel.", done: true, urgent: false },
+              { item: "T-Mobile Iceland roaming", detail: "Data roaming included on your plan. Enable roaming before departure.", done: true, urgent: false },
+              { item: "Payment strategy set", detail: "Chase Sapphire as primary (no FX fees, travel protections). 2 backup credit cards. Skipped Wise. Notify card issuers before departure.", done: true, urgent: false },
+              { item: "North Sailing Húsavík (Day 9) ✓ BOOKED", detail: "Booking NOS-89947819 · Húsavík Original Whale Watching · Jul 24, 10am · ~$255 family · 3 hrs.", done: true, urgent: false },
+              { item: "Glacier walk at Skaftafell (Day 7)", detail: "icelandicmountainguides.is — confirm min age 6 accepted. ~$300 family.", done: false, urgent: false },
+              { item: "Jökulsárlón boat tour (Day 6)", detail: "icelagoon.is — amphibious boat tour, ~$200 family.", done: false, urgent: false },
+              { item: "Elding whale watching Reykjavik (Day 2)", detail: "elding.is — book morning departure for calmest seas.", done: false, urgent: false },
+              { item: "Photography — midnight sun golden hour", detail: "Golden hour runs roughly 10pm to 2am in July. Best light of your life.", done: false, urgent: false },
+              { item: "Kids' car entertainment plan", detail: "Day 5 = ~5 hrs (south coast), Day 8 = 9+ hrs (glacier to Akureyri). Downloaded shows, audiobooks, car snack rotation.", done: false, urgent: false },
               { item: "Volcano activity check", detail: "Reykjanes Peninsula near Keflavik has been active. Monitor mbls.is closer to departure.", done: false, urgent: false },
               { item: "VAT refund at airport", detail: "Reclaim 24% on purchases over ~6,000 ISK. Present goods and receipts at Keflavik before checking bags.", done: false, urgent: false },
-              { item: "Flights booked", detail: "MSY Jul 15 11:50pm → KEF Jul 16 6:25am. KEF Jul 27 5:10pm → MSY Jul 28 12:20am.", done: true, urgent: false },
-              { item: "T-Mobile confirmed for Iceland", detail: "Data roaming included on your plan. Enable roaming before departure.", done: true, urgent: false },
-              { item: "SIM card", detail: "No action needed. T-Mobile works in Iceland on your plan.", done: true, urgent: false },
-              { item: "ISK cash strategy", detail: "Iceland is nearly cashless. Wise card for spending. ~$110 cash at airport ATM on arrival.", done: true, urgent: false },
+              { item: "ISK cash on arrival", detail: "Withdraw ~15,000 ISK (~$110) from ATM at Keflavik on arrival. Iceland is nearly cashless but good for emergencies.", done: false, urgent: false },
             ].map((item, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 13px", background: item.done ? "#080f10" : item.urgent ? "#120808" : "#0a1820", borderRadius: 8, border: "1px solid " + (item.done ? "#1a3a20" : item.urgent ? "#2a1010" : "#1a2a30") }}>
                 <span style={{ color: item.done ? "#4a8a68" : item.urgent ? "#d06050" : "#f0c050", flexShrink: 0, marginTop: 2, fontSize: 14 }}>{item.done ? "✓" : item.urgent ? "!" : "·"}</span>
@@ -1517,8 +1653,22 @@ export default function IcelandGuide() {
           <div>
             <p style={s.intro}>Iceland takes its sweets seriously. Your kids will too.</p>
 
+            {/* KIDS' DESSERT PILGRIMAGES — NEW TOP SECTION */}
+            <div style={{ padding: "14px 16px", background: "#1a1408", borderRadius: 10, border: "1px solid #3a2810", marginBottom: 20 }}>
+              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#c09060", marginBottom: 10 }}>🧒 Kids' Top Dessert Pilgrimages</div>
+              <div style={{ fontSize: 12, color: "#a08060", lineHeight: 1.75 }}>
+                <div style={{ marginBottom: 8 }}><strong style={{ color: "#d8b878" }}>1. Brynja soft-serve (Akureyri)</strong> — Day 9, non-negotiable. The dipped cone. Since 1939. Icelanders drive hours for this.</div>
+                <div style={{ marginBottom: 8 }}><strong style={{ color: "#d8b878" }}>2. Braud & Co cinnamon roll (Reykjavik)</strong> — Day 4 morning. The rainbow bakery. Best snúður in Iceland.</div>
+                <div style={{ marginBottom: 8 }}><strong style={{ color: "#d8b878" }}>3. Geirabakari cinnamon bun (Borgarnes)</strong> — Day 12. Chocolate-covered, with sea view. Featured in Walter Mitty. Your last Iceland pastry.</div>
+                <div style={{ marginBottom: 8 }}><strong style={{ color: "#d8b878" }}>4. Nammi pick 'n mix on Saturday</strong> — Jul 18 or Jul 25 in a Bonus/Kronan. Icelandic 'laugardagsnammi' tradition. Let each kid pick their own bag by weight.</div>
+                <div style={{ marginBottom: 8 }}><strong style={{ color: "#d8b878" }}>5. Rye bread ice cream (Geysir or Mývatn)</strong> — Day 3 or Day 8. Warm underground-baked rye bread crumbled over vanilla soft-serve. Weird. Incredible.</div>
+                <div style={{ marginBottom: 8 }}><strong style={{ color: "#d8b878" }}>6. Skúffukaka slice at any bakery</strong> — the national chocolate sheet cake. Every kid's new favorite.</div>
+                <div><strong style={{ color: "#d8b878" }}>7. Vínberið homemade ice cream (Blönduós)</strong> — Day 10 drive break. The halfway point on the long Akureyri-to-Snæfellsnes drive.</div>
+              </div>
+            </div>
+
             {/* CLASSIC ICELANDIC DESSERTS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "14px 0 12px" }}>Classic Icelandic Desserts</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "14px 0 12px" }}>Classic Icelandic Desserts</div>
             {desserts.classics.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1529,7 +1679,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* ICE CREAM */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Ice Cream — Iceland's Real Obsession</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Ice Cream — Iceland's Real Obsession</div>
             <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 12, fontStyle: "italic" }}>
               Icelanders eat ice cream year-round — even in winter. Every town has its shrine. These are the ones to actually hit.
             </div>
@@ -1543,7 +1693,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* HOT DRINKS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Hot Chocolate + Warm Drinks</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Hot Chocolate + Warm Drinks</div>
             {desserts.hotDrinks.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1554,7 +1704,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* CHOCOLATE */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Chocolate</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Chocolate</div>
             {desserts.chocolate.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1565,7 +1715,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* CANDY */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Candy & Nammi</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Candy & Nammi</div>
             {desserts.candy.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1576,7 +1726,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SPECIAL TREATS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Specific Spots to Hit</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Specific Spots to Hit</div>
             {desserts.specialTreats.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1586,14 +1736,10 @@ export default function IcelandGuide() {
               </div>
             ))}
 
-            <div style={{ marginTop: 24, padding: "14px 16px", background: "#1a1408", borderRadius: 10, border: "1px solid #3a2810" }}>
-              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#c09060", marginBottom: 6 }}>🏆 The Non-Negotiables</div>
-              <div style={{ fontSize: 12, color: "#a08060", lineHeight: 1.7 }}>
-                1. <strong>Brynja soft-serve in Akureyri</strong> — pilgrimage-worthy, Icelanders travel for this<br/>
-                2. <strong>Skúffukaka at any proper bakery</strong> — the national cake, every kid's new favorite<br/>
-                3. <strong>Braud & Co snúður in Reykjavik</strong> — the rainbow bakery, best cinnamon roll in the country<br/>
-                4. <strong>Nammi pick 'n mix on a Saturday</strong> — proper Icelandic kid tradition<br/>
-                5. <strong>Gullfoss rhubarb crumble</strong> — right on your Day 3 Golden Circle route
+            <div style={{ marginTop: 24, padding: "14px 16px", background: "#0a1820", borderRadius: 10, border: "1px solid #1a3040" }}>
+              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 6 }}>Iceland Dessert Strategy</div>
+              <div style={{ fontSize: 12, color: "#80a8b8", lineHeight: 1.7 }}>
+                Iceland is more of a dessert country than people realize — every petrol station has a bakery case, every supermarket has a candy wall, and every town has its ice cream institution. Your kids will eat more sweets here in 12 days than they probably do in a month at home, and that's fine. The quality is high, the portions are reasonable, and most desserts involve dairy so nutritionally it's a wash. Buy kleinur and skúffukaka at supermarkets for the car. Save bakery visits for mornings. End each major city day with ice cream.
               </div>
             </div>
           </div>
@@ -1613,7 +1759,7 @@ export default function IcelandGuide() {
                   return (
                     <div key={ii} onClick={() => toggle(k)} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 7, padding: "10px 12px", background: done ? "#080f18" : "#090f18", borderRadius: 7, border: "1px solid #1a2a30", cursor: "pointer" }}>
                       <div style={{ width: 16, height: 16, border: "1px solid #2a5060", borderRadius: 3, flexShrink: 0, marginTop: 1, background: done ? "#5aa8c4" : "none", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        {done && <span style={{ fontSize: 11, color: "#080f18" }}>✓</span>}
+                        {done && <span style={{ fontSize: 10, color: "#080f18" }}>✓</span>}
                       </div>
                       <div style={{ flex: 1 }}>
                         <div style={{ fontSize: 13, color: done ? "#2a5060" : "#90b8c8", textDecoration: done ? "line-through" : "none", lineHeight: 1.5 }}>{item.text}</div>
