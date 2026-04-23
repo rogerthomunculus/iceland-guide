@@ -507,36 +507,6 @@ const carCompanies = [
     url: "https://www.lotuscarrental.is/",
     priceRange: "$75–520/day",
   },
-  {
-    name: "MyCar Rental",
-    rating: "9.6", reviews: "493",
-    tag: "Also Highly Rated",
-    tagColor: "#4a9ab5",
-    fleet: "2023–2025 vehicles",
-    notes: "Highest-rated Icelandic company. Connected to Toyota's nationwide service network — if anything breaks on the Ring Road, you have backup. Free airport shuttle, smooth pickup.",
-    url: "https://www.mycar.is/",
-    priceRange: "$90–590/day",
-  },
-  {
-    name: "Lava Car Rental",
-    rating: "9.4", reviews: "2,000+",
-    tag: "Family Favorite",
-    tagColor: "#c08030",
-    fleet: "Brand new vehicles only",
-    notes: "Family-owned since 2016. No deposit at pickup. All insurance included as standard. Won Iceland's Leading Car Rental award 2023 and 2024. 5 min from Keflavik with free shuttle.",
-    url: "https://www.lavacarrental.is/",
-    priceRange: "$80–400/day",
-  },
-  {
-    name: "Blue Car Rental",
-    rating: "8.8", reviews: "1,000+",
-    tag: "Closest to Airport",
-    tagColor: "#8a6aa8",
-    fleet: "New fleet, no older models",
-    notes: "300m from KEF terminal. Transparent pricing, no hidden fees, no deposit. Discounted fuel at partner stations. Consistently smooth operations.",
-    url: "https://www.bluecarrental.is/",
-    priceRange: "$75–520/day",
-  },
 ];
 
 const insuranceItems = [
@@ -1405,7 +1375,7 @@ export default function IcelandGuide() {
             <p style={s.intro}>Everything you need to know before picking up your keys — your booking, insurance, rules, and apps.</p>
 
             {/* COMPANIES */}
-            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Booking + Alternatives</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental Booking</div>
             {carCompanies.map((c, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "14px 16px", marginBottom: 10 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 8, marginBottom: 10 }}>
@@ -1424,9 +1394,6 @@ export default function IcelandGuide() {
                 <div style={{ fontSize: 12, color: "#6a9aaa", lineHeight: 1.6 }}>{c.notes}</div>
               </div>
             ))}
-            <div style={{ padding: "10px 14px", background: "#0a1408", borderRadius: 8, border: "1px solid #1a3010", marginBottom: 22 }}>
-              <div style={{ fontSize: 12, color: "#508030", lineHeight: 1.6 }}>Avoid Hertz, Avis, and Europcar in Iceland — consistently more expensive than local operators for the same vehicle class.</div>
-            </div>
 
             {/* WHAT TO RENT */}
             <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental — Toyota RAV4 (Lotus)</div>
