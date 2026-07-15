@@ -356,6 +356,258 @@ const campGuides = {
   },
 };
 
+const looseEnds = {
+  next2Weeks: [
+    {
+      item: "Linda confirmed as additional driver on Lotus rental ✓ EMAILED",
+      detail: "Emailed lotus@lotuscarrental.is to add Linda. Awaiting confirmation. Without her on the contract, insurance would be void if she drives Day 8 (9+ hr drive).",
+    },
+    {
+      item: "Icelandair fare class verified — Economy Standard ✓ DONE",
+      detail: "All 4 travelers have 1 checked bag included (confirmed in Icelandair app). Booking BLYK5I.",
+    },
+    {
+      item: "REAL ID check for domestic Southwest legs",
+      detail: "MSY→BWI and BNA→MSY require REAL ID-compliant licenses (gold star) OR passports for adults. Kids fly on parent ID. Easiest fix: bring passports through TSA — they're already in your travel folder.",
+    },
+    {
+      item: "Credit card notifications — check each issuer's policy",
+      detail: "Chase no longer requires travel notifications (their fraud detection recognizes travel patterns automatically). Most major US banks are the same. But check the other 2 cards — some smaller issuers and some Capital One/Wells Fargo cards still want a travel notice. Takes 30 seconds in each card's app.",
+    },
+    {
+      item: "Verify 4-digit PIN on Chase Sapphire",
+      detail: "Call number on back of card or check Chase app. Required for unmanned Icelandic gas stations. US cards normally don't have this set.",
+    },
+    {
+      item: "Book remaining 3 tours",
+      detail: "Glacier walk Skaftafell (~$300), Jökulsárlón boat (~$200), Elding whale Reykjavik (~$230). Total ~$730. None time-critical but lock them in.",
+    },
+  ],
+  weeksOut: [
+    {
+      item: "ETIAS status check",
+      detail: "ETIAS for US travelers keeps getting pushed back. Check travel.state.gov in late June. If active by July, apply online (~€7, takes minutes) BEFORE flying. Iceland is in Schengen so it applies.",
+    },
+    {
+      item: "Pediatrician letter for kids' meds (if applicable)",
+      detail: "If Hailey or Lucas takes any prescription, get a brief letter describing condition + meds. Useful for any urgent care visit in Iceland. Confirm enough Rx supply for trip + buffer.",
+    },
+    {
+      item: "USPS mail hold (30 days max in advance)",
+      detail: "usps.com/holdmail — free, takes 1 minute. Set start Jul 15, end Jul 28.",
+    },
+    {
+      item: "Smart home / lights / neighbor notification",
+      detail: "Set lights on smart timer or schedule. Tell a trusted neighbor you'll be gone. Stop any deliveries.",
+    },
+    {
+      item: "Family check-in pattern",
+      detail: "Tell your families: 'We'll text once on arrival, once at midpoint, once on return.' Reduces worry between texts.",
+    },
+    {
+      item: "ICE (In Case of Emergency) contact in both phones",
+      detail: "Add a stateside contact (Hai's mom, sibling) marked ICE in both your phones. Most phones can show this on locked screen.",
+    },
+  ],
+  weekBefore: [
+    {
+      item: "Photograph everyone's face the morning of departure",
+      detail: "Airport-standard advice. If a child gets separated, you have a current photo showing exactly what they're wearing.",
+    },
+    {
+      item: "Pack complete kids' change of clothes in carry-on",
+      detail: "With BWI 3.5-hr layover, if checked bags are delayed in Reykjavik, you'll have a 6-year-old soaked from a waterfall on Day 1 with nothing dry.",
+    },
+    {
+      item: "Download offline content for Day 8 drive",
+      detail: "9+ hr drive day. Audiobooks (Audible: 'How to Train Your Dragon,' 'Saga of Erik the Viking'), kid shows, downloaded podcasts. Pre-load BEFORE leaving WiFi.",
+    },
+    {
+      item: "Charge power banks night before",
+      detail: "Long photo days drain phones. 10,000 mAh power banks for both Hai and Linda. Charge fully Jul 14.",
+    },
+    {
+      item: "Confirm carry-on size complies with both airlines",
+      detail: "Southwest and Icelandair have different size limits. The tighter rule applies — pack to whichever is smaller.",
+    },
+    {
+      item: "T-Mobile data roaming enabled",
+      detail: "Confirm in T-Mobile app: roaming ON, international plan active. Test with a friend abroad if possible.",
+    },
+  ],
+  toBuy: [
+    {
+      item: "European Type F power adapters ✓ ALREADY OWN",
+      detail: "You have 2 Type F adapters at home. Iceland uses Type F (European 2-pin), 230V. Most modern phone/laptop chargers handle 230V automatically. Pack them in carry-on so you can charge during the BWI layover and on arrival.",
+    },
+    {
+      item: "Portable power banks ✓ ALREADY OWN",
+      detail: "You have a few power banks at home. Bring at least 2 (one for Hai, one for Linda). Charge fully the night before departure (Jul 14).",
+    },
+    {
+      item: "Travel medical kit",
+      detail: "Children's Tylenol, Children's ibuprofen, Children's Benadryl, Sea-Bands or Bonine (Lucas, whale boat), Imodium, bandaids, Neosporin, sunscreen SPF 50, moleskin for blisters, eye drops. ~$80-100 from CVS or Amazon.",
+    },
+    {
+      item: "Travel folder (slim 2-pocket plastic, ~$5)",
+      detail: "For passports + boarding passes (front pocket) and confirmations + insurance + tickets (back pocket). Hai carries master, Linda carries duplicate.",
+    },
+    {
+      item: "Gallon Ziplock bags (1 box, ~$5)",
+      detail: "Drop a few in each kid's school backpack to keep phones, cameras, snacks dry at waterfalls. Cheap, effective, replaces a real waterproof daypack.",
+    },
+    {
+      item: "Adult waterproof rain jackets — REI Co-op Rainier ($110 each)",
+      detail: "Best price-to-quality. Fully waterproof, hooded, packable. Order 1 size up to layer fleece underneath. REI's 1-year return policy if sizing is off. Patagonia Torrentshell 3L ($180) is the upgrade if you want a forever jacket. NEEDED if you don't already own real waterproof shells.",
+    },
+    {
+      item: "Kids waterproof rain jackets — Columbia Glennaker ($40 each)",
+      detail: "Don't buy expensive adult-quality shells for kids — they'll outgrow them in a year. Columbia Glennaker (~$40), REI Co-op Kids Rainier (~$60), or Old Navy/Target rain jackets (~$25-30) all work fine. Just confirm 'fully waterproof' with sealed seams, not just 'water resistant.' NEEDED.",
+    },
+    {
+      item: "Kids waterproof hiking shoes — Merrell Moab 3 Kids Waterproof ($85 each)",
+      detail: "Real Gore-Tex membrane, hiking sole with grip for slippery wet rocks. Best all-purpose shoe for waterfalls + glacier + Reynisfjara. Order 1/2 size up for thicker Iceland socks. Alternatives: Keen Newport H2 (~$65, sandal-shoe hybrid) or Keen Targhee Low (~$80, more ankle support). NEEDED.",
+    },
+    {
+      item: "Kids fleece mid-layers (if not owned)",
+      detail: "Each kid needs a fleece pullover or zip-up to layer under the rain jacket. Old Navy, Target, or Decathlon ~$15-25. New Orleans wardrobe likely doesn't have these. Skip thermal base layers — overkill for July.",
+    },
+    {
+      item: "Quick-dry hiking pants for kids (optional)",
+      detail: "Jeans get heavy when wet. 1-2 pairs of quick-dry hiking pants per kid is nice but not essential. Decathlon/REI ~$25-35.",
+    },
+    {
+      item: "Microfiber towels (2-3, REI ~$15-20 each)",
+      detail: "Lighter and dry faster than regular towels. Useful at Blue Lagoon (towel rental ~$5/each, this saves it) and for car drying off after waterfalls.",
+    },
+    {
+      item: "Refillable water bottles (4)",
+      detail: "Iceland tap water is the best in the world. Bring or buy 4 reusable bottles. Avoids paying $4-5 per bottle of water at gas stations and museums.",
+    },
+    {
+      item: "Sunglasses for everyone",
+      detail: "July sun is intense at high latitude even when overcast. Confirm all 4 have working sunglasses before packing.",
+    },
+    {
+      item: "Snacks for the plane and Day 1",
+      detail: "Iceland snacks are fine but expensive. Bring granola bars, dried fruit, jerky for the kids' first 24 hrs while you settle in.",
+    },
+  ],
+};
+
+const printChecklist = {
+  mustPrint: [
+    {
+      item: "Icelandair flight tickets",
+      detail: "Booking BLYK5I · all 4 travelers · MSY→BWI→KEF outbound, KEF→BNA→MSY return. Print confirmation email + boarding passes day-of.",
+      source: "Gmail: 'Your Icelandair Ticket to Keflavik on 15 Jul 2026'",
+    },
+    {
+      item: "Lotus rental car confirmation",
+      detail: "Booking 2QFX7V · Toyota RAV4 · Pickup Jul 16 8:30am, drop-off Jul 27 2pm. They will ask for this at the counter.",
+      source: "Gmail: 'Car Rental Confirmation 2QFX7V - Lotus Car Rental'",
+    },
+    {
+      item: "Tin Leg insurance ID card + coverage letter",
+      detail: "Policy 53-TLG-FDD-6EB76 · Print the ID card showing emergency phone numbers. Keep one copy with Hai, one with Linda.",
+      source: "Gmail: 'Tin Leg Confirmation - Policy Number 53-TLG-FDD-6EB76' (attachment: Policy-53-TLG-FDD-6EB76-Documents.pdf)",
+    },
+    {
+      item: "All 4 hotel confirmations",
+      detail: "Reykjavik Residence (Jul 16-20), Hotel Jökulsárlón (Jul 20-23), Akureyri Log Cabin (Jul 23-25), Hotel Vest Mar (Jul 25-27). Some hotels in Iceland still ask for printed confirmation at check-in.",
+      source: "Booking.com or direct hotel emails",
+    },
+    {
+      item: "Blue Lagoon Comfort Package booking",
+      detail: "Jul 19, 3pm · 2 adults + 2 children. Strict timed entry — they scan a QR code that you can pull up on phone, but a printed copy is backup.",
+      source: "Gmail: Blue Lagoon confirmation email",
+    },
+    {
+      item: "North Sailing whale watching ticket",
+      detail: "Booking NOS-89947819 · Jul 24, 10am · Húsavík Original Whale Watching. Print the ticket-NOS-T128517658.pdf attachment.",
+      source: "Gmail: 'Booking: Fri 24.Jul '26 @ 10:00'",
+    },
+  ],
+  niceToBackup: [
+    {
+      item: "Tin Leg full policy certificate (48 pages)",
+      detail: "Don't print this — it's huge. Save the PDF to your phone and Linda's phone. Email a copy to yourself in a labeled folder.",
+      source: "Gmail attachment: Tin_Leg_Gold.pdf",
+    },
+    {
+      item: "All 4 passport photo pages",
+      detail: "Print scans of all 4 passports' photo pages. Keep one set with Hai, one set with Linda, separate from the actual passports. Critical if any passport is lost.",
+      source: "Scan at home",
+    },
+    {
+      item: "Driver's license (Hai)",
+      detail: "Print a scan as backup. US license is valid in Iceland — no IDP needed — but a copy is useful if the original is lost.",
+      source: "Scan at home",
+    },
+    {
+      item: "Credit cards — front and back scans",
+      detail: "Scan all 3 credit cards (front and back). Keep digital copies in a secure note. If any card is lost or stolen, you have the issuer phone number on the back.",
+      source: "Scan at home",
+    },
+    {
+      item: "Emergency contacts sheet",
+      detail: "One-page printout: Tin Leg emergency (844-927-9265 / +1 727-264-5657 collect), Lotus (+354 787 4444), US Embassy Reykjavik (+354 595 2200), Iceland emergency (112), all 4 hotel phone numbers, Hai's mom or another stateside contact.",
+      source: "Create yourself",
+    },
+  ],
+  toursBookedLater: [
+    {
+      item: "Glacier walk Skaftafell (when booked)",
+      detail: "Will be needed at meeting point on Day 7. Print confirmation when received.",
+      source: "icelandicmountainguides.is",
+    },
+    {
+      item: "Jökulsárlón amphibious boat tour (when booked)",
+      detail: "Will need confirmation at boat dock on Day 6.",
+      source: "icelagoon.is",
+    },
+    {
+      item: "Elding whale watching Reykjavik (when booked)",
+      detail: "Old Harbour terminal on Day 2.",
+      source: "elding.is",
+    },
+  ],
+  digitalOnly: [
+    {
+      item: "T-Mobile international roaming confirmed",
+      detail: "Verify in T-Mobile app before flight. Enable data roaming on both phones.",
+    },
+    {
+      item: "Lotus Assistance app",
+      detail: "Download to Hai's phone. Has booking info, roadside help, Iceland driving tips.",
+    },
+    {
+      item: "Google Maps offline area for Iceland",
+      detail: "Download the entire Iceland region for offline use BEFORE leaving. Critical for the rural drives.",
+    },
+    {
+      item: "Maps.me offline maps",
+      detail: "Backup to Google Maps. Better for hiking trails and remote spots.",
+    },
+    {
+      item: "Vedur (weather) app",
+      detail: "Iceland's official weather app. Critical for daily route decisions.",
+    },
+    {
+      item: "Safetravel.is alerts app",
+      detail: "Iceland's official travel safety service. Alerts for road closures, weather warnings, volcanic activity.",
+    },
+    {
+      item: "Tin Leg policy PDF in Google Drive",
+      detail: "Both PDFs (confirmation + full certificate) in a labeled folder. Share with Linda.",
+    },
+    {
+      item: "All booking PDFs in 'Iceland Trip' folder",
+      detail: "Google Drive folder accessible offline. Linda has access too.",
+    },
+  ],
+};
+
 const bookingPhases = [
   {
     label: "✅ Already Done", urgent: false, done: true,
@@ -1033,12 +1285,12 @@ export default function IcelandGuide() {
     page: { fontFamily: "Georgia, 'Times New Roman', serif", background: "#080f1c", minHeight: "100vh", color: "#d0e8f4" },
     header: { padding: "30px 20px 18px", borderBottom: "1px solid #1a3040" },
     inner: { maxWidth: 820, margin: "0 auto" },
-    eyebrow: { fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 6 },
+    eyebrow: { fontSize: 10, letterSpacing: 5, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 6 },
     h1: { margin: "0 0 4px", fontSize: 36, fontWeight: "normal", color: "#fff", letterSpacing: "-0.5px" },
     sub: { margin: "0 0 14px", color: "#3a5a6a", fontSize: 13 },
     pillRow: { display: "flex", gap: 8, flexWrap: "wrap" },
     tabBar: { background: "rgba(0,0,0,0.4)", borderBottom: "1px solid #1a3040", position: "sticky", top: 0, zIndex: 10 },
-    tabInner: { maxWidth: 820, margin: "0 auto", display: "flex", overflowX: "auto", WebkitOverflowScrolling: "touch" },
+    tabInner: { maxWidth: 820, margin: "0 auto", display: "flex" },
     body: { maxWidth: 820, margin: "0 auto", padding: "20px 16px 60px" },
     intro: { color: "#3a5a6a", fontSize: 13, margin: "0 0 16px", lineHeight: 1.7 },
   };
@@ -1064,9 +1316,9 @@ export default function IcelandGuide() {
       </div>
 
       <div style={s.tabBar}>
-        <div style={s.tabInner} className="tab-scroll">
+        <div style={s.tabInner}>
           {TABS.map((t, i) => (
-            <button key={t} onClick={() => setTab(i)} style={{ background: "none", border: "none", borderBottom: tab === i ? "2px solid #5aa8c4" : "2px solid transparent", color: tab === i ? "#5aa8c4" : "#2a5060", padding: "13px 14px", cursor: "pointer", fontSize: 13, fontFamily: "inherit", flexShrink: 0, whiteSpace: "nowrap", minHeight: 44 }}>
+            <button key={t} onClick={() => setTab(i)} style={{ background: "none", border: "none", borderBottom: tab === i ? "2px solid #5aa8c4" : "2px solid transparent", color: tab === i ? "#5aa8c4" : "#2a5060", padding: "12px 20px", cursor: "pointer", fontSize: 13, fontFamily: "inherit" }}>
               {t}
             </button>
           ))}
@@ -1090,7 +1342,7 @@ export default function IcelandGuide() {
               const isOpen = openCamp === ci;
               return (
                 <div key={ci} style={{ marginBottom: 10, borderRadius: 10, overflow: "hidden", border: "1px solid " + color + (isOpen ? "50" : "22") }}>
-                  <button onClick={() => { setOpenCamp(isOpen ? -1 : ci); setOpenDay(null); }} style={{ width: "100%", background: "#0d1e28", border: "none", padding: "15px 17px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 12, fontFamily: "inherit", color: "inherit", minHeight: 56 }}>
+                  <button onClick={() => { setOpenCamp(isOpen ? -1 : ci); setOpenDay(null); }} style={{ width: "100%", background: "#0d1e28", border: "none", padding: "15px 17px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 12, fontFamily: "inherit", color: "inherit" }}>
                     <span style={{ fontSize: 22 }}>{CAMP_ICONS[ci]}</span>
                     <div style={{ flex: 1 }}>
                       <div style={{ fontSize: 15, color: "#e8f4fa" }}>Base Camp {ci + 1}: {camp.name}</div>
@@ -1103,7 +1355,7 @@ export default function IcelandGuide() {
                     <div style={{ padding: "0 13px 13px" }}>
                       <div style={{ margin: "12px 0 10px", padding: "11px 13px", background: "#0a1820", borderRadius: 8, border: "1px solid #1a3040", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
                         <div>
-                          <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>Your Hotel</div>
+                          <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>Your Hotel</div>
                           <div style={{ fontSize: 14, color: "#d8f0f8" }}>{hotel.name}</div>
                           <div style={{ fontSize: 11, color: "#2a5060", marginTop: 2 }}>{"★ " + hotel.rating + " · " + hotel.reviews + " reviews · " + hotel.price}</div>
                           <div style={{ fontSize: 11, color: "#4a7080", marginTop: 3, fontStyle: "italic" }}>{hotel.highlight}</div>
@@ -1121,22 +1373,22 @@ export default function IcelandGuide() {
                           <div style={{ marginBottom: 14, padding: "13px 14px", background: "#080f18", borderRadius: 8, border: "1px solid " + color + "25" }}>
                             <div style={{ fontSize: 12, color: "#80a8b8", lineHeight: 1.6, fontStyle: "italic", marginBottom: 12 }}>{guide.summary}</div>
 
-                            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 7 }}>Also in the Area</div>
+                            <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 7 }}>Also in the Area</div>
                             {guide.extras.map((e, ei) => (
                               <div key={ei} style={{ marginBottom: 7, padding: "8px 10px", background: "#0a1820", borderRadius: 6, border: "1px solid #1a2a30" }}>
                                 <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3, flexWrap: "wrap" }}>
                                   <span style={{ fontSize: 12, color: "#d8f0f8" }}>{e.name}</span>
-                                  <span style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: 4, padding: "1px 7px", fontSize: 11, color: color }}>{e.priority}</span>
+                                  <span style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: 4, padding: "1px 7px", fontSize: 9, color: color }}>{e.priority}</span>
                                 </div>
                                 <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55 }}>{e.note}</div>
                               </div>
                             ))}
 
-                            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "13px 0 7px" }}>Where to Eat</div>
+                            <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "13px 0 7px" }}>Where to Eat</div>
                             {guide.food.map((f, fi) => (
                               <div key={fi} style={{ marginBottom: 7, padding: "8px 10px", background: "#0a1820", borderRadius: 6, border: "1px solid #1a2a30" }}>
                                 <div style={{ fontSize: 12, color: "#d8f0f8", marginBottom: 2 }}>{f.name}</div>
-                                <div style={{ fontSize: 11, color: "#3a6070", marginBottom: 3 }}>📍 {f.where}</div>
+                                <div style={{ fontSize: 10, color: "#3a6070", marginBottom: 3 }}>📍 {f.where}</div>
                                 <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55 }}>{f.note}</div>
                               </div>
                             ))}
@@ -1149,8 +1401,8 @@ export default function IcelandGuide() {
                         const isDayOpen = openDay === dk;
                         return (
                           <div key={di} style={{ marginBottom: 6, borderRadius: 7, overflow: "hidden", border: isDayOpen ? "1px solid " + color + "40" : "1px solid #1a2a30", background: isDayOpen ? "#0a1820" : "#090f18" }}>
-                            <button onClick={() => setOpenDay(isDayOpen ? null : dk)} style={{ width: "100%", background: "none", border: "none", padding: "12px 13px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 10, fontFamily: "inherit", color: "inherit", minHeight: 48 }}>
-                              <div style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: "50%", width: 26, height: 26, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: color, flexShrink: 0 }}>
+                            <button onClick={() => setOpenDay(isDayOpen ? null : dk)} style={{ width: "100%", background: "none", border: "none", padding: "10px 13px", cursor: "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 10, fontFamily: "inherit", color: "inherit" }}>
+                              <div style={{ background: "#0d2030", border: "1px solid " + color + "40", borderRadius: "50%", width: 26, height: 26, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, color: color, flexShrink: 0 }}>
                                 {"D" + day.n}
                               </div>
                               <div style={{ flex: 1 }}>
@@ -1164,7 +1416,7 @@ export default function IcelandGuide() {
                             {isDayOpen && (
                               <div style={{ padding: "0 13px 13px", borderTop: "1px solid #1a2a30" }}>
                                 <div style={{ fontSize: 11, color: "#2a5060", padding: "8px 0 9px", borderBottom: "1px solid #1a2a30" }}>{"🚗 " + day.drive}</div>
-                                <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "9px 0 6px" }}>Day Plan</div>
+                                <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, margin: "9px 0 6px" }}>Day Plan</div>
                                 {day.plan.map((p, pi) => (
                                   <div key={pi} style={{ display: "flex", gap: 7, marginBottom: 5, fontSize: 12, color: "#90b8c8", lineHeight: 1.55 }}>
                                     <span style={{ color: "#1a4050", flexShrink: 0 }}>→</span>
@@ -1173,14 +1425,14 @@ export default function IcelandGuide() {
                                 ))}
                                 {day.creatures.length > 0 && (
                                   <div style={{ margin: "10px 0 7px", padding: "9px 11px", background: "#0a1820", borderRadius: 6, border: "1px solid #1a3040" }}>
-                                    <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 5 }}>Wildlife Today</div>
+                                    <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 5 }}>Wildlife Today</div>
                                     {day.creatures.map((c, i) => (
                                       <div key={i} style={{ fontSize: 12, color: "#6a9aaa", marginBottom: 3 }}>{c}</div>
                                     ))}
                                   </div>
                                 )}
                                 <div style={{ marginTop: 8, padding: "9px 11px", background: "#0a1410", borderRadius: 6, borderLeft: "3px solid #705020" }}>
-                                  <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
+                                  <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
                                   <div style={{ fontSize: 11, color: "#806030", lineHeight: 1.6 }}>{day.tip}</div>
                                 </div>
                               </div>
@@ -1206,7 +1458,7 @@ export default function IcelandGuide() {
               {openDay === "final" && (
                 <div style={{ padding: "0 15px 15px", borderTop: "1px solid #302010" }}>
                   <div style={{ fontSize: 11, color: "#2a5060", padding: "8px 0 9px", borderBottom: "1px solid #1a2a30" }}>{"🚗 " + finalDay.drive}</div>
-                  <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#c09030", margin: "9px 0 6px" }}>Day Plan</div>
+                  <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#c09030", margin: "9px 0 6px" }}>Day Plan</div>
                   {finalDay.plan.map((p, i) => (
                     <div key={i} style={{ display: "flex", gap: 7, marginBottom: 5, fontSize: 12, color: "#90b8c8", lineHeight: 1.55 }}>
                       <span style={{ color: "#503010", flexShrink: 0 }}>→</span>
@@ -1219,7 +1471,7 @@ export default function IcelandGuide() {
                     ))}
                   </div>
                   <div style={{ padding: "9px 11px", background: "#0a1410", borderRadius: 6, borderLeft: "3px solid #705020" }}>
-                    <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
+                    <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#906020", marginBottom: 4 }}>Pro Tip</div>
                     <div style={{ fontSize: 11, color: "#806030", lineHeight: 1.6 }}>{finalDay.tip}</div>
                   </div>
                 </div>
@@ -1238,7 +1490,7 @@ export default function IcelandGuide() {
                 <div key={key} style={{ marginBottom: 12, background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "16px 16px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12, flexWrap: "wrap", marginBottom: 12 }}>
                     <div>
-                      <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>{CAMP_ICONS[i]} Base Camp {i + 1} · {h.dates}</div>
+                      <div style={{ fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color, marginBottom: 4 }}>{CAMP_ICONS[i]} Base Camp {i + 1} · {h.dates}</div>
                       <div style={{ fontSize: 16, color: "#d8f0f8" }}>{h.name}</div>
                       <div style={{ fontSize: 11, color: "#2a5060", marginTop: 3 }}>{"★ " + h.rating + " (" + h.reviews + " reviews) · " + h.price}</div>
                     </div>
@@ -1281,7 +1533,7 @@ export default function IcelandGuide() {
                 <div>
                   <div style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "18px 20px", marginBottom: 20, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
                     <div>
-                      <div style={{ fontSize: 11, letterSpacing: 4, textTransform: "uppercase", color: "#5aa8c4" }}>Estimated Total</div>
+                      <div style={{ fontSize: 10, letterSpacing: 4, textTransform: "uppercase", color: "#5aa8c4" }}>Estimated Total</div>
                       <div style={{ fontSize: 34, color: "#fff", marginTop: 4 }}>{"$" + total.toLocaleString()}</div>
                       <div style={{ fontSize: 11, color: "#2a5060", marginTop: 3 }}>Family of 4 · 12 days · July · All-in including flights</div>
                     </div>
@@ -1302,7 +1554,7 @@ export default function IcelandGuide() {
                         <div style={{ height: 5, background: "#0d1820", borderRadius: 3 }}>
                           <div style={{ height: "100%", width: pct + "%", background: "#1e6080", borderRadius: 3 }} />
                         </div>
-                        <div style={{ fontSize: 11, color: "#1a4050", marginTop: 2 }}>{pct + "% of total"}</div>
+                        <div style={{ fontSize: 10, color: "#1a4050", marginTop: 2 }}>{pct + "% of total"}</div>
                       </div>
                     );
                   })}
@@ -1310,7 +1562,7 @@ export default function IcelandGuide() {
               );
             })()}
             <div style={{ marginTop: 20, background: "#0a1408", borderRadius: 9, padding: "14px 16px", border: "1px solid #1a3010" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 10 }}>Save $800 to 1,500</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 10 }}>Save $800 to 1,500</div>
               {["Use accommodation kitchens for breakfast and lunch every day — saves $600 to 800 vs eating out every meal.", "Big grocery run at Bonus on Day 1. Cheapest supermarket in Iceland.", "Iceland's best stuff is free: every waterfall, every beach, every viewpoint, every roadside reindeer.", "Fill water bottles from the tap — Icelandic water is glacier-fed, never buy bottled.", "Return rental car with full tank — companies charge 2 to 3x market rate to fill it.", "Kids under 12 free at Myvatn Nature Baths — saves $76 right there."].map((tip, i) => (
                 <div key={i} style={{ display: "flex", gap: 8, marginBottom: 6, fontSize: 12, color: "#507030", lineHeight: 1.5 }}>
                   <span style={{ flexShrink: 0 }}>→</span><span>{tip}</span>
@@ -1339,7 +1591,7 @@ export default function IcelandGuide() {
               </div>
             ))}
             <div style={{ marginTop: 10, padding: "13px 14px", background: "#0a1408", borderRadius: 8, border: "1px solid #1a3010" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Free — Just Show Up</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Free — Just Show Up</div>
               {freeAttractions.map((f, i) => (
                 <div key={i} style={{ fontSize: 12, color: "#507030", marginBottom: 4, paddingLeft: 12, position: "relative" }}>
                   <span style={{ position: "absolute", left: 0 }}>·</span>{f}
@@ -1353,7 +1605,7 @@ export default function IcelandGuide() {
           <div>
             {Object.entries(packingList).map(([cat, items]) => (
               <div key={cat} style={{ marginBottom: 20 }}>
-                <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 9, paddingBottom: 5, borderBottom: "1px solid #1a2a30" }}>{cat}</div>
+                <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 9, paddingBottom: 5, borderBottom: "1px solid #1a2a30" }}>{cat}</div>
                 {items.map((item, i) => (
                   <div key={i} style={{ display: "flex", gap: 9, fontSize: 13, color: "#80a8b8", lineHeight: 1.5, marginBottom: 7 }}>
                     <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
@@ -1362,9 +1614,69 @@ export default function IcelandGuide() {
                 ))}
               </div>
             ))}
-            <div style={{ background: "#0a1408", borderRadius: 8, padding: "13px 14px", border: "1px solid #1a3010" }}>
+            <div style={{ background: "#0a1408", borderRadius: 8, padding: "13px 14px", border: "1px solid #1a3010", marginBottom: 24 }}>
               <div style={{ fontSize: 12, color: "#508030", fontStyle: "italic", lineHeight: 1.7 }}>
                 July averages 10 to 14C (50 to 57F). Feels cold on whale boats and glaciers regardless of sunshine. Layering is the system — you will strip and re-dress multiple times each day. The kids will be wet at every waterfall whether they want to be or not.
+              </div>
+            </div>
+
+            {/* PRINT CHECKLIST */}
+            <div style={{ fontSize: 14, color: "#d8f0f8", marginBottom: 4, marginTop: 8 }}>📄 Documents to Print + Bring</div>
+            <div style={{ fontSize: 11, color: "#5a7888", marginBottom: 18, lineHeight: 1.55 }}>
+              Iceland is largely paperless but redundancy is cheap insurance. Print the items below, put them in a labeled folder. Hai carries the originals; Linda carries copies of the same set in a separate bag.
+            </div>
+
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#b56a3a", marginBottom: 9, paddingBottom: 5, borderBottom: "1px solid #2a1a0c" }}>Must Print</div>
+            {printChecklist.mustPrint.map((doc, i) => (
+              <div key={i} style={{ marginBottom: 10, padding: "9px 11px", background: "#0a1820", borderRadius: 7, border: "1px solid #1a2a30" }}>
+                <div style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 4 }}>
+                  <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
+                  <span style={{ fontSize: 13, color: "#d8f0f8" }}>{doc.item}</span>
+                </div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55, marginLeft: 17, marginBottom: 4 }}>{doc.detail}</div>
+                <div style={{ fontSize: 10, color: "#3a6070", marginLeft: 17, fontStyle: "italic" }}>📍 {doc.source}</div>
+              </div>
+            ))}
+
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "20px 0 9px", paddingBottom: 5, borderBottom: "1px solid #1a2a30" }}>Smart Backups (highly recommended)</div>
+            {printChecklist.niceToBackup.map((doc, i) => (
+              <div key={i} style={{ marginBottom: 10, padding: "9px 11px", background: "#0a1820", borderRadius: 7, border: "1px solid #1a2a30" }}>
+                <div style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 4 }}>
+                  <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
+                  <span style={{ fontSize: 13, color: "#d8f0f8" }}>{doc.item}</span>
+                </div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55, marginLeft: 17, marginBottom: 4 }}>{doc.detail}</div>
+                <div style={{ fontSize: 10, color: "#3a6070", marginLeft: 17, fontStyle: "italic" }}>📍 {doc.source}</div>
+              </div>
+            ))}
+
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#c09060", margin: "20px 0 9px", paddingBottom: 5, borderBottom: "1px solid #2a200c" }}>Once You Book Remaining Tours</div>
+            {printChecklist.toursBookedLater.map((doc, i) => (
+              <div key={i} style={{ marginBottom: 10, padding: "9px 11px", background: "#0a1820", borderRadius: 7, border: "1px solid #1a2a30" }}>
+                <div style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 4 }}>
+                  <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
+                  <span style={{ fontSize: 13, color: "#d8f0f8" }}>{doc.item}</span>
+                </div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55, marginLeft: 17, marginBottom: 4 }}>{doc.detail}</div>
+                <div style={{ fontSize: 10, color: "#3a6070", marginLeft: 17, fontStyle: "italic" }}>📍 {doc.source}</div>
+              </div>
+            ))}
+
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#7a8aa0", margin: "20px 0 9px", paddingBottom: 5, borderBottom: "1px solid #1a2a30" }}>Digital Only (no print needed)</div>
+            {printChecklist.digitalOnly.map((doc, i) => (
+              <div key={i} style={{ marginBottom: 8, padding: "8px 11px", background: "#0a1820", borderRadius: 7, border: "1px solid #1a2a30" }}>
+                <div style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 3 }}>
+                  <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
+                  <span style={{ fontSize: 13, color: "#d8f0f8" }}>{doc.item}</span>
+                </div>
+                <div style={{ fontSize: 11, color: "#6a8a9a", lineHeight: 1.55, marginLeft: 17 }}>{doc.detail}</div>
+              </div>
+            ))}
+
+            <div style={{ marginTop: 22, padding: "13px 14px", background: "#1a1408", borderRadius: 9, border: "1px solid #3a2810" }}>
+              <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#c09060", marginBottom: 6 }}>📁 The Travel Folder System</div>
+              <div style={{ fontSize: 12, color: "#a08060", lineHeight: 1.7 }}>
+                Use a slim plastic folder with two compartments. Front pocket: passports + boarding passes (active travel docs). Back pocket: everything else (hotel confirmations, insurance, rental car, tour tickets). Hai keeps the master folder. Linda keeps a duplicate in her bag. Take photos of everything inside before leaving home — if both physical sets are lost, you still have phone backups.
               </div>
             </div>
           </div>
@@ -1375,14 +1687,14 @@ export default function IcelandGuide() {
             <p style={s.intro}>Everything you need to know before picking up your keys — your booking, insurance, rules, and apps.</p>
 
             {/* COMPANIES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental Booking</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental Booking</div>
             {carCompanies.map((c, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "14px 16px", marginBottom: 10 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 8, marginBottom: 10 }}>
                   <div>
                     <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3 }}>
                       <span style={{ fontSize: 15, color: "#d8f0f8" }}>{c.name}</span>
-                      <span style={{ background: "#0d2030", border: "1px solid " + c.tagColor + "40", borderRadius: 5, padding: "2px 8px", fontSize: 11, color: c.tagColor }}>{c.tag}</span>
+                      <span style={{ background: "#0d2030", border: "1px solid " + c.tagColor + "40", borderRadius: 5, padding: "2px 8px", fontSize: 10, color: c.tagColor }}>{c.tag}</span>
                     </div>
                     <div style={{ fontSize: 11, color: "#2a5060" }}>{"★ " + c.rating + " · " + c.reviews + " reviews · " + c.fleet}</div>
                   </div>
@@ -1396,7 +1708,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* WHAT TO RENT */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental — Toyota RAV4 (Lotus)</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Rental — Toyota RAV4 (Lotus)</div>
             <div style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, padding: "14px 16px", marginBottom: 22 }}>
               {[
                 ["Vehicle", "Toyota RAV4 2022-25 — 5-seat AWD SUV, automatic. Booking 2QFX7V. ~$2,775 total."],
@@ -1415,7 +1727,7 @@ export default function IcelandGuide() {
             </div>
 
             {/* INSURANCE */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Insurance Coverage</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Your Insurance Coverage</div>
             <div style={{ padding: "12px 14px", background: "#0d1a10", borderRadius: 9, border: "1px solid #2a4a30", marginBottom: 10 }}>
               <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", color: "#5a9068", marginBottom: 4 }}>✓ Lotus Platinum — Zero Excess on Everything</div>
               <div style={{ fontSize: 12, color: "#6a9878", lineHeight: 1.6 }}>
@@ -1424,7 +1736,7 @@ export default function IcelandGuide() {
             </div>
             {insuranceItems.map((ins, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 8, padding: "11px 14px", marginBottom: 7, display: "flex", gap: 12, alignItems: "flex-start" }}>
-                <span style={{ background: "#0d2030", border: "1px solid " + ins.color + "40", borderRadius: 5, padding: "3px 8px", fontSize: 11, color: ins.color, whiteSpace: "nowrap", flexShrink: 0, marginTop: 1 }}>{ins.verdict}</span>
+                <span style={{ background: "#0d2030", border: "1px solid " + ins.color + "40", borderRadius: 5, padding: "3px 8px", fontSize: 10, color: ins.color, whiteSpace: "nowrap", flexShrink: 0, marginTop: 1 }}>{ins.verdict}</span>
                 <div>
                   <div style={{ fontSize: 13, color: "#c0e0f0", marginBottom: 3 }}>{ins.name}</div>
                   <div style={{ fontSize: 11, color: "#507080", lineHeight: 1.6 }}>{ins.detail}</div>
@@ -1433,7 +1745,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SPEED LIMITS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Speed Limits</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Speed Limits</div>
             <div style={{ background: "#0a1820", border: "1px solid #1a3040", borderRadius: 10, overflow: "hidden", marginBottom: 22 }}>
               {speedLimits.map((s2, i) => (
                 <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px 14px", borderBottom: i < speedLimits.length - 1 ? "1px solid #1a2a30" : "none" }}>
@@ -1450,7 +1762,7 @@ export default function IcelandGuide() {
             </div>
 
             {/* DRIVING RULES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Rules + Things That Will Surprise You</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Rules + Things That Will Surprise You</div>
             <div style={{ display: "grid", gap: 7, marginBottom: 22 }}>
               {drivingRules.map((r, i) => (
                 <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 8, padding: "10px 13px", display: "flex", gap: 10, alignItems: "flex-start" }}>
@@ -1464,10 +1776,10 @@ export default function IcelandGuide() {
             </div>
 
             {/* APPS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Apps to Download Before You Fly</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 10 }}>Apps to Download Before You Fly</div>
             {apps.map((app, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 12px", background: "#0a1820", borderRadius: 8, border: "1px solid #1a2a30" }}>
-                <span style={{ background: app.essential ? "#0d2030" : "#080f18", border: "1px solid " + (app.essential ? "#5aa8c4" : "#1a2a30") + "40", borderRadius: 5, padding: "2px 7px", fontSize: 11, color: app.essential ? "#5aa8c4" : "#3a5060", whiteSpace: "nowrap", flexShrink: 0 }}>{app.essential ? "Essential" : "Backup"}</span>
+                <span style={{ background: app.essential ? "#0d2030" : "#080f18", border: "1px solid " + (app.essential ? "#5aa8c4" : "#1a2a30") + "40", borderRadius: 5, padding: "2px 7px", fontSize: 10, color: app.essential ? "#5aa8c4" : "#3a5060", whiteSpace: "nowrap", flexShrink: 0 }}>{app.essential ? "Essential" : "Backup"}</span>
                 <div style={{ flex: 1 }}>
                   <div style={{ fontSize: 13, color: "#c0e0f0", marginBottom: 2 }}>{app.name}</div>
                   <div style={{ fontSize: 11, color: "#507080", lineHeight: 1.5 }}>{app.use}</div>
@@ -1477,7 +1789,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* CAR SEAT RULES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Car Seats — Icelandic Law</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>Car Seats — Icelandic Law</div>
             <div style={{ padding: "14px 16px", background: "#1a1408", borderRadius: 9, border: "1px solid #3a2810", marginBottom: 12 }}>
               <div style={{ fontSize: 13, color: "#c0a058", lineHeight: 1.6, marginBottom: 10, fontWeight: 600 }}>
                 {carSeatRules.rule}
@@ -1497,7 +1809,7 @@ export default function IcelandGuide() {
             </div>
 
             {/* PICKUP CHECKLIST */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>At Lotus Pickup — Jul 16, 8:30am</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 10px" }}>At Lotus Pickup — Jul 16, 8:30am</div>
             {carPickupChecklist.map((item, i) => (
               <div key={i} style={{ display: "flex", gap: 9, fontSize: 13, color: "#80a8b8", lineHeight: 1.5, marginBottom: 7, padding: "8px 12px", background: "#0a1820", borderRadius: 7, border: "1px solid #1a2a30" }}>
                 <span style={{ color: "#1a3040", flexShrink: 0, marginTop: 2 }}>□</span>
@@ -1507,7 +1819,7 @@ export default function IcelandGuide() {
 
             {/* FUEL */}
             <div style={{ marginTop: 20, padding: "14px 16px", background: "#0a1408", borderRadius: 9, border: "1px solid #1a3010" }}>
-              <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Fuel</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#608030", marginBottom: 8 }}>Fuel</div>
               <div style={{ fontSize: 12, color: "#508030", lineHeight: 1.7 }}>
                 Fuel costs roughly $9.50 to $10.50 per US gallon — about double US prices. Fill up whenever your tank drops below half. Gaps between stations can be 200 km in the East Fjords. Most stations accept credit cards including unmanned self-service ones. Return the car with a full tank — rental companies charge 2 to 3x market rate to refuel it themselves.
               </div>
@@ -1520,12 +1832,12 @@ export default function IcelandGuide() {
             <p style={s.intro}>The food you must eat, the moments you must not rush past, the things worth buying, and the tourist traps to skip.</p>
 
             {/* FOOD */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 12 }}>Food — What to Eat in Iceland</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", marginBottom: 12 }}>Food — What to Eat in Iceland</div>
             {cantMiss.food.map((f, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 9, padding: "13px 15px", marginBottom: 8 }}>
                 <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 10, marginBottom: 6 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    {f.mustTry && <span style={{ background: "#0d2030", border: "1px solid #5aa8c4", borderRadius: 5, padding: "2px 7px", fontSize: 11, color: "#5aa8c4", flexShrink: 0 }}>Must Try</span>}
+                    {f.mustTry && <span style={{ background: "#0d2030", border: "1px solid #5aa8c4", borderRadius: 5, padding: "2px 7px", fontSize: 9, color: "#5aa8c4", flexShrink: 0 }}>Must Try</span>}
                     <span style={{ fontSize: 14, color: "#d8f0f8" }}>{f.name}</span>
                   </div>
                   <span style={{ fontSize: 12, color: "#5aa8c4", whiteSpace: "nowrap", flexShrink: 0 }}>{f.price}</span>
@@ -1536,11 +1848,11 @@ export default function IcelandGuide() {
             ))}
 
             {/* EXPERIENCES */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Experiences — Do Not Rush Past These</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Experiences — Do Not Rush Past These</div>
             {cantMiss.experiences.map((e, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 9, padding: "13px 15px", marginBottom: 8 }}>
                 <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 6 }}>
-                  <span style={{ background: "#0d2030", border: "1px solid #8a6aa8", borderRadius: 5, padding: "2px 7px", fontSize: 11, color: "#8a6aa8", flexShrink: 0, marginTop: 1 }}>{e.type}</span>
+                  <span style={{ background: "#0d2030", border: "1px solid #8a6aa8", borderRadius: 5, padding: "2px 7px", fontSize: 9, color: "#8a6aa8", flexShrink: 0, marginTop: 1 }}>{e.type}</span>
                   <span style={{ fontSize: 14, color: "#d8f0f8" }}>{e.name}</span>
                 </div>
                 <div style={{ fontSize: 12, color: "#6a9aaa", lineHeight: 1.6 }}>{e.detail}</div>
@@ -1548,7 +1860,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* HIDDEN GEMS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Easy Wins — Things Most Tourists Miss</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Easy Wins — Things Most Tourists Miss</div>
             {cantMiss.dontMiss.map((d, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 13px", background: "#0a1820", borderRadius: 8, border: "1px solid #1a2a30" }}>
                 <span style={{ color: "#b56a3a", flexShrink: 0, marginTop: 2 }}>→</span>
@@ -1560,7 +1872,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SOUVENIRS — BUY */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Souvenirs — What to Buy</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Souvenirs — What to Buy</div>
             {cantMiss.souvenirsBuy.map((sv, i) => (
               <div key={i} style={{ background: "#0a1820", border: "1px solid #1a2a30", borderRadius: 9, padding: "13px 15px", marginBottom: 8 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 10, marginBottom: 5 }}>
@@ -1573,7 +1885,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SOUVENIRS — AVOID */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#b56a3a", margin: "22px 0 12px" }}>Souvenirs — What to Avoid</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#b56a3a", margin: "22px 0 12px" }}>Souvenirs — What to Avoid</div>
             {cantMiss.souvenirAvoid.map((sv, i) => (
               <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 8, padding: "10px 13px", background: "#120808", borderRadius: 8, border: "1px solid #2a1010" }}>
                 <span style={{ color: "#b05040", flexShrink: 0, marginTop: 2 }}>✕</span>
@@ -1585,7 +1897,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* STILL TO DO */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Trip Status</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Trip Status</div>
             {[
               { item: "Flights booked — $3,898", detail: "MSY → BWI → KEF, departs Jul 15 11:50am, arrives KEF Jul 16 6:25am. KEF → BNA → MSY, departs Jul 27 5:10pm, arrives MSY Jul 28 12:20am. Booking ref BLYK5I.", done: true, urgent: false },
               { item: "All 4 hotels booked — $6,371", detail: "Reykjavik Residence (4 nights), Hotel Jökulsárlón (3 nights), Akureyri Log Cabin (2 nights), Hotel Vest Mar (2 nights).", done: true, urgent: false },
@@ -1635,7 +1947,7 @@ export default function IcelandGuide() {
             </div>
 
             {/* CLASSIC ICELANDIC DESSERTS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "14px 0 12px" }}>Classic Icelandic Desserts</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "14px 0 12px" }}>Classic Icelandic Desserts</div>
             {desserts.classics.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1646,7 +1958,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* ICE CREAM */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Ice Cream — Iceland's Real Obsession</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Ice Cream — Iceland's Real Obsession</div>
             <div style={{ fontSize: 12, color: "#8aa0b0", lineHeight: 1.6, marginBottom: 12, fontStyle: "italic" }}>
               Icelanders eat ice cream year-round — even in winter. Every town has its shrine. These are the ones to actually hit.
             </div>
@@ -1660,7 +1972,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* HOT DRINKS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Hot Chocolate + Warm Drinks</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Hot Chocolate + Warm Drinks</div>
             {desserts.hotDrinks.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1671,7 +1983,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* CHOCOLATE */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Chocolate</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Chocolate</div>
             {desserts.chocolate.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1682,7 +1994,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* CANDY */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Candy & Nammi</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Candy & Nammi</div>
             {desserts.candy.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1693,7 +2005,7 @@ export default function IcelandGuide() {
             ))}
 
             {/* SPECIAL TREATS */}
-            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Specific Spots to Hit</div>
+            <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#5aa8c4", margin: "22px 0 12px" }}>Specific Spots to Hit</div>
             {desserts.specialTreats.map((d, i) => (
               <div key={i} style={{ padding: "12px 13px", background: "#0a1820", borderRadius: 9, border: "1px solid #1a2a30", marginBottom: 10 }}>
                 <div style={{ fontSize: 14, color: "#c0e0f0", marginBottom: 6 }}>{d.emoji} {d.name}</div>
@@ -1726,7 +2038,7 @@ export default function IcelandGuide() {
                   return (
                     <div key={ii} onClick={() => toggle(k)} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 7, padding: "10px 12px", background: done ? "#080f18" : "#090f18", borderRadius: 7, border: "1px solid #1a2a30", cursor: "pointer" }}>
                       <div style={{ width: 16, height: 16, border: "1px solid #2a5060", borderRadius: 3, flexShrink: 0, marginTop: 1, background: done ? "#5aa8c4" : "none", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        {done && <span style={{ fontSize: 11, color: "#080f18" }}>✓</span>}
+                        {done && <span style={{ fontSize: 10, color: "#080f18" }}>✓</span>}
                       </div>
                       <div style={{ flex: 1 }}>
                         <div style={{ fontSize: 13, color: done ? "#2a5060" : "#90b8c8", textDecoration: done ? "line-through" : "none", lineHeight: 1.5 }}>{item.text}</div>
@@ -1740,6 +2052,65 @@ export default function IcelandGuide() {
                 })}
               </div>
             ))}
+
+            {/* LOOSE ENDS */}
+            <div style={{ fontSize: 16, color: "#d8f0f8", marginTop: 28, marginBottom: 6 }}>🧵 Loose Ends — Pre-Trip Tasks</div>
+            <div style={{ fontSize: 11, color: "#5a7888", marginBottom: 16, lineHeight: 1.55 }}>
+              The small things that derail travel days. Worked top to bottom — start with Next 2 Weeks, end with the Week Before.
+            </div>
+
+            {[
+              { key: "next2Weeks", label: "🔴 Next 2 Weeks", color: "#d06050", bg: "#200808", border: "#601010" },
+              { key: "weeksOut", label: "📅 4-6 Weeks Out", color: "#c09060", bg: "#1a1408", border: "#3a2810" },
+              { key: "weekBefore", label: "📆 Week Before Departure", color: "#5aa8c4", bg: "#0a1820", border: "#1a3040" },
+            ].map((section, si) => (
+              <div key={section.key} style={{ marginBottom: 20 }}>
+                <div style={{ display: "inline-block", background: section.bg, border: "1px solid " + section.border, borderRadius: 6, padding: "3px 12px", fontSize: 11, color: section.color, marginBottom: 9 }}>
+                  {section.label}
+                </div>
+                {looseEnds[section.key].map((item, ii) => {
+                  const k = "loose-" + si + "-" + ii;
+                  const done = !!checked[k];
+                  return (
+                    <div key={ii} onClick={() => toggle(k)} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 7, padding: "10px 12px", background: "#090f18", borderRadius: 7, border: "1px solid #1a2a30", cursor: "pointer" }}>
+                      <div style={{ width: 16, height: 16, border: "1px solid #2a5060", borderRadius: 3, flexShrink: 0, marginTop: 1, background: done ? "#5aa8c4" : "none", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        {done && <span style={{ fontSize: 10, color: "#080f18" }}>✓</span>}
+                      </div>
+                      <div style={{ flex: 1 }}>
+                        <div style={{ fontSize: 13, color: done ? "#2a5060" : "#90b8c8", textDecoration: done ? "line-through" : "none", lineHeight: 1.5 }}>{item.item}</div>
+                        <div style={{ fontSize: 11, color: "#2a4050", marginTop: 3, lineHeight: 1.55 }}>{item.detail}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ))}
+
+            {/* TO BUY */}
+            <div style={{ fontSize: 16, color: "#d8f0f8", marginTop: 28, marginBottom: 6 }}>🛒 Things to Buy Soon</div>
+            <div style={{ fontSize: 11, color: "#5a7888", marginBottom: 16, lineHeight: 1.55 }}>
+              Items marked NEEDED are essential for the trip. Order from Amazon for fastest delivery. Total budget for new gear: roughly $400-700 depending on what you already own.
+            </div>
+
+            {looseEnds.toBuy.map((item, ii) => {
+              const k = "buy-" + ii;
+              const done = !!checked[k];
+              const needed = item.detail.includes("NEEDED");
+              return (
+                <div key={ii} onClick={() => toggle(k)} style={{ display: "flex", gap: 10, alignItems: "flex-start", marginBottom: 7, padding: "10px 12px", background: "#090f18", borderRadius: 7, border: "1px solid " + (needed ? "#3a2010" : "#1a2a30"), cursor: "pointer" }}>
+                  <div style={{ width: 16, height: 16, border: "1px solid #2a5060", borderRadius: 3, flexShrink: 0, marginTop: 1, background: done ? "#5aa8c4" : "none", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    {done && <span style={{ fontSize: 10, color: "#080f18" }}>✓</span>}
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+                      <span style={{ fontSize: 13, color: done ? "#2a5060" : "#90b8c8", textDecoration: done ? "line-through" : "none", lineHeight: 1.5 }}>{item.item}</span>
+                      {needed && <span style={{ fontSize: 9, color: "#c08060", border: "1px solid #3a2010", borderRadius: 3, padding: "1px 6px" }}>NEEDED</span>}
+                    </div>
+                    <div style={{ fontSize: 11, color: "#2a4050", marginTop: 3, lineHeight: 1.55 }}>{item.detail.replace(" NEEDED.", "").replace(" NEEDED", "")}</div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         )}
 
